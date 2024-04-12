@@ -32,10 +32,11 @@ Each day, the business receives an alert containing detailed information about t
 
 ## Contributors
 - Neeyati Mehta
-- Sameer Patel
+- Kritika Koirala
 - Jerry Caleb
 - Zaid Shaikh
-- Kritika Koirala
+- Sameer Patel
+
 
 
 
