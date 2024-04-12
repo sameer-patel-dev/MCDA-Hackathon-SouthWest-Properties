@@ -9,7 +9,7 @@ SW Estate 360 is a centralized platform designed to transform the way rental for
 - AWS S3
 - AWS EC2
 
-## Features 
+## Product Features 
 
 ### Automated Data Collection
   - API Scraping
@@ -33,6 +33,38 @@ SW Estate 360 is a centralized platform designed to transform the way rental for
 
 ### Builder Upcoming Projects
   - Daily Mail Alerts
+
+
+
+
+## Feature's UI
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/b812cfbd-c295-4a15-83be-114fd8651937)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/a021889f-2cc4-4cef-b648-a2afa28a0cf6)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/e776231b-21c9-40cb-ae4f-7ecd04ca3b85)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/1fa0a542-79e5-40a9-9bc0-e5efac5fead3)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/ede5f452-3bce-434b-a060-6f68d0189e0d)
+
+
+
+
+
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/43282f55-a82e-4cbd-91ad-3bb32d865973)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/5cfbf1ca-2396-46bf-a203-b69dcaa76aa9)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/83e0ec2b-099c-42a5-b833-99de9824e8bd)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/f1855aaf-e960-4f24-ac16-7f5950f23b8e)
+
+
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/b2b63847-fd05-45fb-be5b-0d6b9228d41b)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/1654e603-7515-42d2-8023-7628fbb36d62)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/d119ac42-69c9-4fdf-ac9a-83a3ae17aac5)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/67b794bd-c62c-4650-8641-58811e4130c3)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/4d0ddff2-6aae-4d2b-a141-cc1c33bb777f)
+
+
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/198a40ff-34ee-4a6c-b8a3-bd3c85f211fb)
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/64d3a3fd-e883-4ce8-8e1c-6ab931bc4404)
+
+
 
 
 
