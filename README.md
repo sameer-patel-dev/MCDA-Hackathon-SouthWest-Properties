@@ -5,7 +5,7 @@ SW Estate 360 is a centralized platform designed to transform the way rental for
 - ReactJS
 - Flask
 - Tableau
-- MySQL
+- AWS RDS MySQL
 - AWS S3
 - AWS EC2
 
