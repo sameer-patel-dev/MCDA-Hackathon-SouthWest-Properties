@@ -9,26 +9,32 @@ SW Estate 360 is a centralized platform designed to transform the way rental for
 - AWS S3
 - AWS EC2
 
-## Features
-### Automated Scraper and Crawler
-- API Scraper
-- Web Scraper
-- Web Crawler
-### Realtime Insightful Dashboard
-- Overview Dashboard
-  <img width="462" alt="image" src="https://github.com/neeyatimehta/southwest-hackathon/assets/80911327/ef136b40-cac7-412f-895c-3e07abb4fd36">
-- Listing Dashboard
-  <img width="462" alt="image" src="https://github.com/neeyatimehta/southwest-hackathon/assets/80911327/7431f204-00a2-46c9-b44b-e69dfcb54160">
-- Competitive Analysis Dashboard
-  <img width="462" alt="image" src="https://github.com/neeyatimehta/southwest-hackathon/assets/80911327/bcbe435f-bbd5-498a-a8a9-c42efb1d6139">
-- Parking Dashboard
-  <img width="462" alt="image" src="https://github.com/neeyatimehta/southwest-hackathon/assets/80911327/7f3d010e-6131-48e3-bfaf-4cf70232ffbc">
-- Upcoming Projects Dashboard
-  <img width="462" alt="image" src="https://github.com/neeyatimehta/southwest-hackathon/assets/80911327/70b99d73-9092-426f-96ae-ea9357f4107d">
+## Features 
+
+### Automated Data Collection
+  - API Scraping
+  - Web Scraping
+  - Web Crawling
+     
+### Real-Time Dashboards
+  - Overview Dashboard
+  - Listings Dashboard
+  - Competitor Analysis Dashboard
+  - Parking Dashboard
+  - Upcoming Project Dashboard
+        
 ### Insightful Rental Forecast
-- 
-### Upcoming Project Alert
-Each day, the business receives an alert containing detailed information about the upcoming projects from various builders.
+  - Fine-Tuned XGBoost Model
+
+### In-House Developed APIs
+  - Walk Score Metric Calculation
+  - Transit Score Metric Calculation
+  - Bike Score Metric Calculation
+
+### Builder Upcoming Projects
+  - Daily Mail Alerts
+
+
 
 ## Contributors
 - Neeyati Mehta
