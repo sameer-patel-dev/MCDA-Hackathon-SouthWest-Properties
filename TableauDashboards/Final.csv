@@ -1,0 +1,622 @@
+,Rent,Bedrooms,Bathrooms,Parking,Size,Seller Name,Latitude,Longitude,Address,Parking Cost,Heat,Water,Hydro,Balcony,Yard,Laundry (In Unit),Laundry (In Building),Dishwasher,Fridge / Freezer,bathroom_p5,bedroom_den,bachelor_studio,major_region,minor_region,Furnished_Yes,Air Conditioning_Yes,Seller_Professional,walkScore,transitScore,bikeScore,Cleaned Seller Name
+0,1829,1,1,0,722,www.metcap.com,44.68643,-63.58052,"35 Leaman Drive, Dartmouth, NS, B3A 2K6",1.0,1,1,0,0,0,0,1,0,0,0,0,0,Dartmouth,Burnside,False,False,True,54,49,43,Metcap
+1,1741,1,1,0,607,www.metcap.com,44.68558,-63.58379,"10 Crystal Drive, Dartmouth, NS, B3A 4G6",2.0,1,1,0,0,0,0,1,0,1,0,0,0,Dartmouth,Burnside,False,False,True,52,50,40,Metcap
+2,1646,0,1,0,700,www.metcap.com,44.68558,-63.58379,"10 Crystal Drive, Dartmouth, NS, B3A 4G6",2.0,1,1,0,0,0,0,1,0,1,0,0,1,Dartmouth,Burnside,False,False,True,52,50,40,Metcap
+3,1599,0,1,0,603,www.metcap.com,44.68643,-63.58052,"35 Leaman Drive, Dartmouth, NS, B3A 2K6",1.0,1,1,0,0,0,0,1,0,0,0,0,1,Dartmouth,Burnside,False,False,True,54,49,43,Metcap
+4,2549,2,1,0,1129,www.metcap.com,44.65689,-63.64872,"221 Glenforest Drive, Halifax, NS, B3M 1J3",2.0,0,0,0,0,0,1,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,True,70,51,47,Metcap
+5,1699,0,1,0,429,www.metcap.com,44.68524,-63.58192,"65 Primrose Street, Dartmouth, NS, B3A 4C5",1.0,1,1,0,0,0,0,1,1,1,0,0,1,Dartmouth,Burnside,False,False,True,60,50,41,Metcap
+6,1829,1,1,0,1047,www.metcap.com,44.68524,-63.58192,"65 Primrose Street, Dartmouth, NS, B3A 4C5",1.0,1,1,0,0,0,0,1,1,1,0,0,0,Dartmouth,Burnside,False,False,True,60,50,41,Metcap
+7,2500,1,1,1,1200,,44.65378,-63.59629,"Clifton St, Halifax, NS B3K",0.0,1,1,1,1,1,1,0,0,0,0,0,0,Halifax Peninsula,NorthEnd,True,True,False,96,69,92,Owner
+8,2300,2,1,1,1050,,44.64386,-63.61678,"Philip Street, Halifax, NS",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,88,62,55,Owner
+9,2950,2,2,0,1045,,44.65242,-63.58617,"5560 Cunard Street, Halifax, NS",1.0,0,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,98,72,89,Owner
+10,2300,2,2,1,1300,,44.64851,-63.65652,"35 Bently Drive, Halifax, NS",0.0,1,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,41,42,39,Owner
+11,2125,1,1,0,600,,44.64267,-63.57595,"Queen Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,99,67,62,Owner
+12,3025,2,2,0,1350,,44.63459,-63.57843,"Tower Road, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,77,53,59,Owner
+13,1995,1,1,0,600,,44.64153,-63.5763,"Birmingham Street, Halifax, NS",1.0,0,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,10,72,74,Owner
+14,2095,2,1,0,928,www.metcap.com,44.77075,-63.69642,"54 Paige Plaza, Lower Sackville, NS, B4E 0J6",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Sackville,Lower Sackville,False,False,True,59,47,26,Metcap
+15,2700,3,1,0,900,,44.65515,-63.58836,"Halifax, NS B3K 3B9",125.0,1,1,0,0,1,0,1,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,70,87,Not Given
+16,2250,1,1,0,1000,,44.63943,-63.5781,"Halifax, NS B3J 2K8",175.0,1,1,1,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,67,Not Given
+17,1800,1,1,0,652,www.arcmanagement.ca,44.62768,-63.5835,"Halifax, NS B3H 4K3",,1,1,1,0,1,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,54,51,53,Arcmanagement
+18,1750,1,1,0,652,www.arcmanagement.ca,44.62768,-63.5835,"Halifax, NS B3H 4K3",1.0,1,1,1,1,1,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,54,51,53,Arcmanagement
+19,1700,2,1,0,700,,44.68329,-63.54435,"Dartmouth, NS B2X 2X4",50.0,1,1,0,0,0,0,1,0,1,0,0,0,Dartmouth,Dartmouth Downtown,False,False,True,71,46,51,Not Given
+20,1850,2,1,1,800,twin-city.lws1.com,44.67059,-63.48869,"10 Cumberland Drive, Dartmouth, NS, B2V 2C7",0.0,0,1,0,1,0,1,0,1,1,0,0,0,Dartmouth,Cole Harbour,False,True,True,69,38,41,Twin City
+21,1799,1,1,0,725,www.metcap.com,44.68823,-63.58749,"35 Highfield Park Drive, Dartmouth, NS, B3A 4V4",2.0,0,0,0,0,0,0,1,0,0,0,0,0,Dartmouth,Burnside,False,False,True,61,49,42,Metcap
+22,2195,1,1,0,740,,44.64272,-63.57688,"Birmingham Street, Halifax, NS",1.0,1,1,0,0,0,1,0,1,1,1,0,0,Halifax Peninsula,Downtown,False,True,False,10,72,74,Owner
+23,1839,2,1,0,732,www.metcap.com,44.68823,-63.58749,"35 Highfield Park Drive, Dartmouth, NS, B3A 4V4",2.0,0,0,0,0,0,0,1,0,0,0,0,0,Dartmouth,Burnside,False,False,True,61,49,42,Metcap
+24,1829,1,1,0,734,www.metcap.com,44.68821,-63.58332,"3 Farthington Place, Dartmouth, NS, B3A 2K3",2.0,0,0,0,0,0,0,1,0,0,0,0,0,Dartmouth,Burnside,False,False,True,61,49,33,Metcap
+25,2099,2,1,0,800,www.northpointhfx.com,44.66105,-63.62041,"3693 Windsor Street, Halifax, NS, B3K 5G7",1.0,1,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,True,77,60,54,Northpointhfx
+26,1450,0,1,0,411,,44.65389,-63.58637,"Gottingen Street, Halifax, NS",1.0,1,1,0,0,0,1,0,1,1,0,0,1,Halifax Peninsula,Downtown,False,True,False,96,70,87,Owner
+27,2599,2,1,0,800,www.northpointhfx.com,44.63595,-63.5771,"5713 Victoria Rd, Halifax, NS, B3H 2Y3",1.0,1,1,0,1,0,0,1,0,1,1,0,0,Halifax Peninsula,SouthEnd,False,False,True,93,64,67,Northpointhfx
+28,1549,0,1,0,450,www.northpointhfx.com,44.63595,-63.58646,"6060 South Street, Halifax, NS, B3H 1T1",2.0,1,1,1,0,0,0,1,0,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,True,88,65,79,Northpointhfx
+29,2149,1,1,0,500,www.northpointhfx.com,44.63595,-63.58646,"6060 South Street, Halifax, NS, B3H 1T1",2.0,1,1,0,0,0,1,0,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,88,65,79,Northpointhfx
+30,2199,1,1,0,500,www.northpointhfx.com,44.63408,-63.57646,"5726 Inglis St, Halifax, NS, B3H 1K4",1.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,True,True,90,62,68,Northpointhfx
+31,1999,1,1,0,550,www.northpointhfx.com,44.63594,-63.58628,"6056 South Street, Halifax, NS, B3H 1T1",2.0,1,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,91,62,61,Northpointhfx
+32,2509,2,1,0,750,www.northpointhfx.com,44.63595,-63.5771,"5713 Victoria Rd, Halifax, NS, B3H 2Y3",1.0,1,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,93,64,67,Northpointhfx
+33,2999,2,2,0,1000,www.northpointhfx.com,44.63499,-63.57602,"1027 South Park Street, Halifax, NS, B3H 2W2",2.0,0,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,True,True,93,64,65,Northpointhfx
+34,1829,1,1,0,600,www.northpointhfx.com,44.66512,-63.61401,"6140 Lady Hammond Road, Halifax, NS, B3K 2R5",2.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,True,88,55,47,Northpointhfx
+35,2599,2,1,0,800,www.northpointhfx.com,44.64532,-63.60535,"2100 Poplar Street, Halifax, NS, B3L 2Y7",1.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,WestEnd,False,False,True,89,63,69,Northpointhfx
+36,1949,1,1,0,600,www.northpointhfx.com,44.63439,-63.57502,"5670 Inglis Street, Halifax, NS, B3H 1K3",2.0,1,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,88,61,67,Northpointhfx
+37,2255,1,1,0,720,,44.64353,-63.57578,"Queen Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,99,67,62,Owner
+38,2500,2,2,0,1367,,44.69829,-63.69871,"419 Kearney Lake Road, Bedford, NS",100.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,True,True,29,30,49,Not Given
+39,2210,2,2,0,1179,www.hazelviewproperties.com,44.64771,-63.65449,"16 Bently Drive, Halifax, NS, B3S 0G9",1.0,1,1,0,1,0,1,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,True,39,41,31,Hazelviewproperties
+40,2495,2,2,1,1196,,44.63187,-63.63255,"Walter Havill Drive, Halifax, NS",0.0,1,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Armdale,False,True,False,32,41,47,Owner
+41,1895,1,1,0,790,,44.72522,-63.74884,"Appaloosa Run, Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+42,2585,2,2,0,1285,www.skylineliving.ca,44.70006,-63.60854,"39 Seapoint Rd., Dartmouth, NS, B3B 0K2",1.0,1,0,0,0,0,0,0,1,0,0,0,0,Dartmouth,Burnside,False,True,True,42,47,40,Skylineliving
+43,2096,2,1,1,1200,bayers1-universalgroup.securecafe.com,44.65563,-63.62416,"6969 Bayers Road, Halifax, NS, B3L 4P3",0.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,True,66,60,73,Universal Group
+44,1650,1,1,0,500,,44.66992,-63.56283,"63 Prince Albert Road, Dartmouth, NS",1.0,0,1,0,1,0,1,0,1,1,0,0,0,Dartmouth,Dartmouth Downtown,False,False,False,90,62,80,Owner
+45,2895,3,2,0,1518,www.444rent.com,44.6421,-63.57059,"5157 Morris Street, Halifax, NS, B3J 1A9",1.0,0,1,0,0,0,0,0,0,0,1,0,0,Halifax Peninsula,SouthEnd,False,False,True,96,67,63,444rent
+46,1995,1,1,0,478,towerapartments.ca,44.63523,-63.57877,"1078 Tower Road, Halifax, NS, B3H 2Y5",1.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,87,65,69,Towerapartments
+47,2145,1,1,0,689,vertusuites.com,44.64361,-63.57736,"1530 Birmingham Street, Halifax, NS, B3J 0B5",180.0,1,1,0,0,0,1,0,0,1,0,1,0,Halifax Peninsula,Downtown,False,False,True,10,72,75,Vertusuites
+48,2195,1,1,0,788,vertusuites.com,44.64361,-63.57736,"1530 Birmingham Street, Halifax, NS, B3J 0B5",180.0,1,1,0,0,0,1,0,1,1,0,1,0,Halifax Peninsula,Downtown,False,False,True,10,72,75,Vertusuites
+49,2595,2,1,0,1012,www.waterfordsuites.com,44.64301,-63.57018,"1343 Hollis Street, Halifax, NS, B3J 1T8",1.0,1,1,0,0,0,1,0,1,1,1,0,0,Halifax Peninsula,Downtown,False,False,True,97,72,61,Waterfordsuites
+50,2395,2,1,0,936,west22living.com,44.65015,-63.62388,"7037 Mumford Rd, Halifax, NS, B3L 2J1",1.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,WestEnd,False,False,True,80,63,74,West22living
+51,2195,1,1,0,528,thegeorgeresidence.com,44.64601,-63.59049,"6016 Pepperell Street, Halifax, NS, B3H 2N8",1.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,68,84,Thegeorgeresidence
+52,1795,1,1,0,538,www.444rent.com,44.65072,-63.59572,"2473 Windsor Street, Halifax, NS, B3K 5B9",1.0,1,1,1,0,0,0,0,0,0,0,1,0,Halifax Peninsula,WestEnd,False,False,True,96,68,88,444rent
+53,2725,2,1,0,890,www.capreit.ca,44.64964,-63.58068,"1920 Brunswick Street, Halifax, NS, B3J 0C5",,0,0,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,98,73,64,Capreit
+54,1949,1,1,0,550,www.northpointhfx.com,44.63595,-63.5771,"5713 Victoria Road, Halifax, NS, B3H 2Y3",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,93,64,67,Northpointhfx
+55,1829,1,1,0,694,www.metcap.com,44.68558,-63.58379,"10 Crystal Drive, Dartmouth, NS, B3A 4G6",2.0,1,1,0,0,0,0,1,0,1,0,0,0,Dartmouth,Burnside,False,False,True,52,50,40,Metcap
+56,1649,0,1,0,431,www.metcap.com,44.68643,-63.58052,"35 Leaman Drive, Dartmouth, NS, B3A 2K6",1.0,1,1,0,0,0,0,1,0,0,0,0,1,Dartmouth,Burnside,False,False,True,54,49,43,Metcap
+57,1829,1,1,0,723,www.metcap.com,44.68643,-63.58052,"35 Leaman Drive, Dartmouth, NS, B3A 2K6",1.0,1,1,0,0,0,0,1,0,0,0,0,0,Dartmouth,Burnside,False,False,True,54,49,43,Metcap
+58,2095,2,1,0,861,www.metcap.com,44.77075,-63.69642,"54 Paige Plaza, Lower Sackville, NS, B4E 0J6",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Sackville,Lower Sackville,False,False,True,59,47,26,Metcap
+59,1599,0,1,0,494,www.metcap.com,44.68558,-63.58379,"10 Crystal Drive, Dartmouth, NS, B3A 4G6",2.0,1,1,0,0,0,0,1,0,1,0,0,1,Dartmouth,Burnside,False,False,True,52,50,40,Metcap
+60,1495,1,1,0,600,,44.64715,-63.59952,"6296 Allan Street, Halifax, NS",70.0,0,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,96,65,75,Owner
+61,1525,0,1,0,575,,44.63729,-63.57149,"5266 Green Street, Halifax, NS",150.0,1,1,1,0,1,0,1,0,1,0,0,1,Halifax Peninsula,SouthEnd,False,True,False,89,64,58,Owner
+62,1895,1,1,1,700,,44.65771,-63.63437,"Supreme Court, Halifax, NS",0.0,1,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,True,False,87,58,71,Owner
+63,2025,1,1,0,600,killamreit.com,44.64371,-63.56977,"5121 Bishop Street, Halifax, NS, B3J 0E5",2.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,True,97,72,61,Killamreit
+64,2695,2,2,0,976,killamreit.com,44.64371,-63.56977,"5121 Bishop Street, Halifax, NS, B3J 0E5",2.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,True,97,72,61,Killamreit
+65,1695,1,1,1,700,,44.66206,-63.60365,"3210 Agricola Street, Halifax, NS",0.0,0,1,0,1,0,1,0,0,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,95,61,77,Owner
+66,1295,2,1,1,750,,44.66969,-63.54986,"Dartmouth, NS B2Y 3C3",0.0,1,1,1,0,1,0,1,0,0,0,0,0,Dartmouth,Dartmouth Downtown,False,False,False,60,49,39,Owner
+67,2500,2,2,0,1292,www.horizoncourt.ca,44.68942,-63.5637,"7 Horizon Court, Dartmouth, NS, B3A 4R2",2.0,0,0,0,1,0,0,1,1,1,0,1,0,Dartmouth,Burnside,False,False,True,57,46,51,Horizoncourt
+68,1845,2,1,1,950,,44.65953,-63.63608,"88 Evans Ave, Halifax, NS B3M 1C6",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,86,56,56,Owner
+69,3100,3,1,0,1000,,44.64009,-63.58503,"Carlton Street, Halifax, NS",150.0,1,1,1,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,93,66,80,Owner
+70,1865,2,1,1,900,,44.65789,-63.65473,"Halifax, NS B3M 3L9",0.0,1,1,0,0,0,0,1,1,0,0,0,0,Mainland Halifax,Clayton Park,False,False,True,72,53,48,Not Given
+71,2975,2,2,0,880,www.hazelviewproperties.com,44.66449,-63.59473,"3075 Devonshire Avenue, Halifax, NS, B3K 0H5",1.0,0,0,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,True,91,64,54,Hazelviewproperties
+72,1679,2,1,0,894,www.metcap.com,44.68397,-63.58743,"133 Pinecrest Drive, Dartmouth, NS, B3A 2J7",2.0,1,1,0,0,0,0,1,0,1,0,0,0,Dartmouth,Burnside,False,False,True,71,50,45,Metcap
+73,2765,2,2,0,1249,www.skylineliving.ca,44.70899,-63.69813,"120 Tilbury Avenue, Bedford, NS, B4B 1A1",1.0,0,0,0,0,0,0,0,1,0,0,0,0,Bedford,Bedford Basin,False,True,True,6,29,19,Skylineliving
+74,2745,2,2,0,1249,www.skylineliving.ca,44.70899,-63.69813,"120 Tilbury Avenue, Bedford, NS, B4B 1A1",,0,0,0,0,0,0,0,1,0,0,0,0,Bedford,Bedford Basin,False,True,True,6,29,19,Skylineliving
+75,2650,2,2,1,1650,,44.7113,-63.70191,"487 Broad St, Bedford, NS B4B 0Z1",0.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,True,False,7,29,41,Owner
+76,2700,3,1,1,800,,44.65046,-63.60229,"Seaforth Street, Halifax, NS",0.0,1,1,0,0,1,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,90,66,76,Owner
+77,1950,1,1,0,741,www.capreit.ca,44.64917,-63.57983,"2001 Brunswick Street, Halifax, NS, B3J 3L8",1.0,0,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,97,73,64,Capreit
+78,2600,2,2,0,1494,www.horizoncourt.ca,44.68898,-63.56287,"10 Horizon Court, Dartmouth, NS, B3A 0A4",2.0,0,0,0,1,0,0,1,1,1,0,1,0,Dartmouth,Burnside,False,False,True,53,45,56,Horizoncourt
+79,1800,0,1,1,600,,44.64308,-63.59094,"6089 Jubilee Road, Halifax, NS",0.0,1,1,1,0,0,1,0,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,True,False,92,66,77,Owner
+80,2725,2,2,0,1270,www.bluebasingroup.ca,44.67902,-63.55067,"307 Prince Albert Road, Dartmouth, NS, B2Y 1N3",1.0,0,1,0,0,0,0,0,0,0,0,0,0,Dartmouth,Dartmouth Downtown,False,False,True,71,46,48,Bluebasingroup
+81,2175,2,1,0,1016,www.bluebasingroup.ca,44.67902,-63.55067,"307 Prince Albert Road, Dartmouth, NS, B2Y 1N3",1.0,0,1,0,0,0,0,0,0,0,0,0,0,Dartmouth,Dartmouth Downtown,False,False,True,71,46,48,Bluebasingroup
+82,1550,0,1,0,400,www.arcmanagement.ca,44.63884,-63.57167,"Halifax, NS B3H 4K2",1.0,1,1,1,0,1,0,1,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,True,95,65,54,Arcmanagement
+83,1800,1,1,1,855,,44.67611,-63.66146,"155 Wentworth Drive, Halifax, NS",0.0,1,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,True,False,54,46,38,Owner
+84,1675,0,1,0,417,www.capreit.ca,44.6559,-63.58508,"2334 Longard Plaza, Halifax, NS, B3K 5K6",1.0,1,1,0,1,0,0,1,0,1,0,0,1,Halifax Peninsula,Downtown,False,False,True,95,71,76,Capreit
+85,1450,0,1,0,450,,44.63561,-63.57567,"5681 Rhuland St, Halifax, NS B3H 4J6",1.0,0,1,0,0,0,0,1,0,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,False,93,64,65,Owner
+86,1799,1,1,0,550,www.northpointhfx.com,44.63595,-63.5771,"5713 Victoria Road, Halifax, NS, B3H 2Y3",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,93,64,67,Northpointhfx
+87,1799,1,1,0,600,www.northpointhfx.com,44.63439,-63.57502,"5670 Inglis Street, Halifax, NS, B3H 1K3",2.0,1,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,88,61,67,Northpointhfx
+88,1799,1,1,0,550,www.northpointhfx.com,44.63594,-63.58628,"6056 South Street, Halifax, NS, B3H 1T1",2.0,1,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,91,62,61,Northpointhfx
+89,2149,1,1,0,500,www.northpointhfx.com,44.63408,-63.57646,"5726 Inglis St, Halifax, NS, B3H 1K4",1.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,True,True,90,62,68,Northpointhfx
+90,2900,3,1,1,1000,,44.65495,-63.60559,"Liverpool Street, Halifax, NS",0.0,0,1,0,1,1,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,False,False,84,65,70,Owner
+91,2100,2,2,0,1344,,44.7653,-63.67669,"Pinehill Drive, Lower Sackville, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Sackville,Lower Sackville,False,True,True,57,41,24,Not Given
+92,2350,2,1,0,913,,44.64561,-63.57528,"1619 Market Street, Halifax, NS, B3J 1K8",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,True,10,74,74,Not Given
+93,2100,2,1,0,884,,44.64561,-63.57528,"1619 Market Street, Halifax, NS, B3J 1K8",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,True,10,74,74,Not Given
+94,1850,1,1,0,930,,44.67041,-63.66646,"Halifax, NS B3M 4J4",1.0,1,1,1,0,1,0,1,1,1,0,0,0,Mainland Halifax,Clayton Park,True,True,False,70,51,41,Owner
+95,1875,1,1,0,675,,44.64561,-63.57528,"1619 Market Street, Halifax, NS, B3J 1K8",1.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,True,10,74,74,Not Given
+96,2155,1,1,0,600,,44.64267,-63.57595,"Queen Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,99,67,62,Owner
+97,2250,1,1,0,900,,44.65197,-63.58389,"Gottingen Street, Halifax, NS",1.0,0,1,0,1,0,1,0,0,0,0,0,0,Halifax Peninsula,Downtown,True,False,False,96,70,87,Owner
+98,1350,1,1,1,680,,44.66226,-63.63187,"27 Evans Avenue, Halifax, NS",0.0,1,1,0,0,0,0,1,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,73,57,44,Owner
+99,2400,3,1,1,1250,,44.63518,-63.6316,"11 Quarry Rd, Halifax, NS B3N 1X1",0.0,1,1,1,0,0,1,0,0,1,0,0,0,Mainland Halifax,Armdale,True,True,False,40,43,51,Owner
+100,2050,2,1,0,500,,44.60127,-63.60785,"2 McIntosh St, Halifax, NS, B3R 1G8",2.0,1,1,0,0,1,0,1,1,1,0,0,0,Mainland Halifax,Spryfield,False,False,True,44,38,13,Not Given
+101,1699,1,1,0,400,,44.60739,-63.61431,"432 Herring Cove Road, Halifax, NS, B3R 1W4",100.0,0,1,0,0,1,1,0,1,1,0,0,0,Mainland Halifax,Spryfield,False,True,True,69,41,31,Not Given
+102,2200,2,1,0,650,,44.60739,-63.61431,"432 Herring Cove Road, Halifax, NS, B3R 1W4",100.0,0,1,0,1,1,1,0,1,1,0,0,0,Mainland Halifax,Spryfield,False,True,True,69,41,31,Not Given
+103,2395,2,2,0,995,,44.65579,-63.59882,"2735 Clifton Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,66,82,Owner
+104,2700,2,2,0,1500,,44.64096,-63.58758,"6000 Bliss Street, Halifax, NS",1.0,1,1,1,0,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,True,False,False,87,65,75,Owner
+105,2400,2,2,1,1740,,44.71188,-63.70238,"Broad Street, Bedford, NS",0.0,0,1,0,1,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,True,True,False,15,28,33,Owner
+106,1899,1,1,0,800,,44.63407,-63.57643,"Inglis St, Halifax, B3H 1K4",1.0,0,1,0,0,0,1,0,1,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,88,63,70,Owner
+107,2800,1,1,1,1200,,44.63834,-63.57043,"5222 Kent St, Halifax, NS B3H 1P6",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,True,True,False,94,65,61,Owner
+108,1995,1,1,0,1010,,44.72471,-63.74775,"Appaloosa Run, Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,1,1,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+109,2500,3,1,1,1000,,44.65233,-63.60937,"Liverpool St, Halifax, NS B3L 1Y4, Canada",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,WestEnd,False,False,False,84,65,70,Owner
+110,2200,2,1,1,800,,44.62336,-63.61431,"39 Towerview Drive, Halifax, NS",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Mainland Halifax,Armdale,False,False,True,56,42,24,Not Given
+111,1750,1,1,0,600,,44.65119,-63.58265,"Falkland St, Halifax, B3K 1A3",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,Downtown,False,True,False,97,72,73,Owner
+112,2695,2,2,0,1382,www.polycorp.ca,44.67331,-63.60902,"3807 Mont Blanc Terrace, Halifax, NS, B3K 6R9",1.0,1,1,0,1,0,1,0,1,1,0,1,0,Halifax Peninsula,NorthEnd,False,False,True,70,48,38,Polycorp
+113,1550,0,1,0,575,,44.63729,-63.57149,"5266 Green Street, Halifax, NS",150.0,1,1,1,0,0,0,1,0,1,0,0,1,Halifax Peninsula,SouthEnd,False,True,False,89,64,58,Owner
+114,1495,1,1,0,600,,44.64715,-63.59952,"Allan Street, Halifax, NS",65.0,0,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,97,66,77,Owner
+115,2095,1,1,0,900,,44.65949,-63.59471,"5511 Bloomfield Street, Halifax, NS",160.0,1,1,0,1,0,0,0,0,0,0,1,0,Halifax Peninsula,NorthEnd,False,True,False,97,67,79,Owner
+116,1849,1,1,0,900,,44.64228,-63.59769,"Halifax, NS B3H 2K5",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,96,64,68,Owner
+117,1760,1,1,0,600,,44.64228,-63.59769,"Halifax, NS B3H 2K5",1.0,1,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,96,64,68,Owner
+118,1995,1,1,0,620,www.capreit.ca,44.65188,-63.58021,"2077 Brunswick Street, Halifax, NS, B3K 5T8",1.0,0,1,0,0,0,1,1,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,73,68,Capreit
+119,2200,1,1,0,800,,44.67508,-63.5656,"Dartmouth, NS B3A 2V1",1.0,1,1,1,1,1,1,0,0,0,0,0,0,Dartmouth,Dartmouth Downtown,True,False,False,68,61,63,Owner
+120,2400,2,1,1,950,,44.63566,-63.57774,"Victoria Rd, Halifax, NS",0.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,92,63,67,Owner
+121,2100,2,1,0,1200,,44.60271,-63.61507,"Auburn Ave, Halifax, NS B3R 1K4",,1,1,1,0,1,0,1,1,0,0,0,0,Mainland Halifax,Spryfield,False,False,False,53,39,29,Owner
+122,2100,2,1,1,1100,,44.64475,-63.53904,"Dartmouth, NS B2W 1B1",0.0,0,1,0,1,1,1,0,1,1,0,0,0,Dartmouth,Wooside,False,False,False,30,38,31,Owner
+123,2395,2,1,1,1000,,44.68931,-63.69216,"Kearney Lake Rd, Halifax, NS, B3M 3H7",0.0,1,1,0,0,0,0,1,1,0,0,0,0,Bedford,Bedford Basin,False,False,False,38,30,32,Owner
+124,1895,1,1,0,659,www.capreit.ca,44.64917,-63.57983,"1991 Brunswick Street, Halifax, NS, B3J 3L8",1.0,0,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,95,73,64,Capreit
+125,2545,2,1,0,807,www.capreit.ca,44.6559,-63.58508,"2334 Longard Plaza, Halifax, NS, B3K 5K6",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,95,71,76,Capreit
+126,1970,1,1,0,660,www.capreit.ca,44.63511,-63.57645,"1030 South Park Street, Halifax, NS, B3J 2K9",1.0,0,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,69,Capreit
+127,2540,2,1,0,807,www.capreit.ca,44.6559,-63.58508,"2334 Longard Plaza, Halifax, NS, B3K 5K6",,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,95,71,76,Capreit
+128,1750,0,1,0,507,www.capreit.ca,44.64878,-63.59128,"2074 Robie Street, Halifax, NS, B3K 5L3",1.0,0,1,0,1,0,0,1,1,1,0,0,1,Halifax Peninsula,Downtown,False,False,True,96,69,92,Capreit
+129,2735,2,1,0,950,www.capreit.ca,44.63511,-63.57645,"1030 South Park Street, Halifax, NS, B3J 2K9",1.0,0,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,69,Capreit
+130,1795,1,1,0,650,,44.67373,-63.61475,"Kencrest Avenue, Halifax, NS",150.0,0,1,0,1,0,1,0,0,0,0,0,0,Halifax Peninsula,NorthEnd,False,False,False,65,47,36,Owner
+131,2080,1,1,0,720,,44.65081,-63.57838,"Halifax, NS B3J 3J7",1.0,0,0,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,Downtown,False,False,False,97,73,64,Owner
+132,2245,1,1,0,740,,44.64272,-63.57688,"Birmingham Street, Halifax, NS",1.0,1,1,0,0,0,1,0,1,1,1,0,0,Halifax Peninsula,Downtown,False,True,False,10,72,74,Owner
+133,1799,2,1,0,750,www.sterlinghalifax.com,44.64564,-63.5918,"6071 Shirley Street, Halifax, NS",95.0,1,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,97,67,83,Sterlinghalifax
+134,1500,1,1,0,599,,44.64009,-63.58503,"Carlton Street, Halifax, NS",,1,1,1,1,0,0,0,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,93,66,80,Owner
+135,1600,1,1,0,599,,44.64009,-63.58503,"Carlton Street, Halifax, NS",1.0,1,1,1,1,0,0,0,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,93,66,80,Owner
+136,2200,2,2,1,1000,,44.65574,-63.63923,"Adelaide Avenue, Halifax, NS",0.0,0,1,0,1,0,1,0,1,1,0,1,0,Mainland Halifax,Clayton Park,False,True,False,81,53,45,Owner
+137,1495,0,1,0,400,,44.64054,-63.57398,"1263 Queen Street, Halifax, NS",135.0,1,1,0,0,0,0,1,0,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,True,99,67,59,Not Given
+138,3000,3,1,0,500,,44.71842,-63.7079,"Hazelton Hill, Bedford, NS B4B",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Bedford,Hammonds Plains,False,False,False,22,30,40,Owner
+139,2125,1,1,0,564,thegeorgeresidence.com,44.64601,-63.59049,"6016 Pepperell Street, Halifax, NS, B3H 2N8",1.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,68,84,Thegeorgeresidence
+140,1895,1,1,0,995,,44.72362,-63.74914,"Appaloosa Run, Hammonds Plains, NS",75.0,1,1,0,1,0,1,0,1,1,1,0,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+141,2595,2,2,0,1033,west22living.com,44.65015,-63.62388,"7037 Mumford Rd, Halifax, NS, B3L 2J1",1.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,WestEnd,False,False,True,80,63,74,West22living
+142,1850,1,1,0,600,,44.63707,-63.58027,"Wellington Street, Halifax, NS",1.0,1,1,0,0,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,87,65,71,Owner
+143,1829,1,1,0,900,,44.64228,-63.59769,"Halifax, NS B3H 2K5",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,96,64,68,Owner
+144,1795,2,1,1,1000,,44.67163,-63.66469,"Langbrae Dr, Halifax, NS B3M 4H3, Canada",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,70,51,41,Owner
+145,1899,1,1,0,900,,44.63407,-63.57643,"Inglis St, Halifax, B3H 1K4",1.0,0,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,88,63,70,Owner
+146,1829,1,1,0,673,www.metcap.com,44.68524,-63.58192,"65 Primrose Street, Dartmouth, NS, B3A 4C5",1.0,1,1,0,0,0,0,1,1,1,0,0,0,Dartmouth,Burnside,False,False,True,60,50,41,Metcap
+147,1699,0,1,0,538,www.metcap.com,44.68524,-63.58192,"65 Primrose Street, Dartmouth, NS, B3A 4C5",1.0,1,1,0,0,0,0,1,1,1,0,0,1,Dartmouth,Burnside,False,False,True,60,50,41,Metcap
+148,1829,1,1,0,739,www.metcap.com,44.68821,-63.58332,"3 Farthington Place, Dartmouth, NS, B3A 2K3",2.0,0,0,0,0,0,0,1,0,0,0,0,0,Dartmouth,Burnside,False,False,True,61,49,33,Metcap
+149,2481,2,1,0,981,www.metcap.com,44.65635,-63.65017,"200 Willet Street, Halifax, NS, B3M 3C5",2.0,0,0,0,0,0,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,True,70,51,41,Metcap
+150,2008,1,1,0,747,www.metcap.com,44.65635,-63.65017,"200 Willet Street, Halifax, NS, B3M 3C5",2.0,0,0,0,0,0,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,True,70,51,41,Metcap
+151,2499,2,2,0,1154,www.metcap.com,44.69917,-63.66665,"22 BEDROS LANE, Bedford, NS, B3M 4W9",2.0,0,0,0,0,0,0,1,0,1,0,0,0,Bedford,Bedford Basin,False,False,True,56,38,25,Metcap
+152,1799,1,1,0,675,www.metcap.com,44.68823,-63.58749,"35 Highfield Park Drive, Dartmouth, NS, B3A 4V4",2.0,0,0,0,0,0,0,1,0,0,0,0,0,Dartmouth,Burnside,False,False,True,61,49,42,Metcap
+153,2238,1,1,0,650,www.metcap.com,44.70004,-63.66558,"40 Bedros Lane, Bedford, NS, B3M 4X1",2.0,0,0,0,1,0,0,1,0,1,0,0,0,Bedford,Bedford Basin,False,False,True,43,38,26,Metcap
+154,2579,2,2,0,1161,www.metcap.com,44.70004,-63.66558,"40 Bedros Lane, Bedford, NS, B3M 4X1",2.0,0,0,0,1,0,0,1,0,1,0,0,0,Bedford,Bedford Basin,False,False,True,43,38,26,Metcap
+155,2075,1,1,0,729,,44.65328,-63.58564,"Cunard Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,1,0,Halifax Peninsula,Downtown,False,True,False,97,70,95,Owner
+156,2275,2,2,1,1300,,44.64851,-63.65652,"35 Bently Drive, Halifax, NS",0.0,1,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,41,42,39,Owner
+157,2250,2,1,1,680,,44.66177,-63.63011,"Main Ave, Halifax, NS B3M 1A2",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,WestEnd,False,False,False,81,53,41,Owner
+158,1595,1,1,1,600,,44.65845,-63.64199,"Fiske Street, Halifax, NS",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Mainland Halifax,Clayton Park,False,False,True,82,54,45,Not Given
+159,2075,1,1,0,510,,44.66003,-63.59633,"Bilby Street, Halifax, NS",175.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,67,80,Owner
+160,1960,1,1,0,827,www.skylineliving.ca,44.70899,-63.69813,"120 Tilbury Avenue, Bedford, NS, B4B 1A1",1.0,0,0,0,0,0,0,0,1,0,0,0,0,Bedford,Bedford Basin,False,True,True,6,29,19,Skylineliving
+161,2340,1,1,0,1005,www.skylineliving.ca,44.70899,-63.69813,"120 Tilbury Avenue, Bedford, NS, B4B 1A1",1.0,0,0,0,0,0,0,0,1,0,0,0,0,Bedford,Bedford Basin,False,True,True,6,29,19,Skylineliving
+162,2810,2,2,0,1505,www.skylineliving.ca,44.70899,-63.69813,"120 Tilbury Avenue, Bedford, NS, B4B 1A1",1.0,0,0,0,0,0,0,0,1,0,0,0,0,Bedford,Bedford Basin,False,True,True,6,29,19,Skylineliving
+163,1248,1,1,0,827,www.skylineliving.ca,44.70899,-63.69813,"120 Tilbury Avenue, Bedford, NS, B4B 1A1",1.0,0,0,0,0,0,0,0,1,0,0,0,0,Bedford,Bedford Basin,False,True,True,6,29,19,Skylineliving
+164,2110,2,2,0,945,www.skylineliving.ca,44.65388,-63.625,"3330 Barnstead Lane, Halifax, NS, B3L 0B1",1.0,1,1,0,0,0,0,0,1,0,0,0,0,Halifax Peninsula,WestEnd,False,False,True,83,62,73,Skylineliving
+165,2385,2,2,0,1284,www.skylineliving.ca,44.6548,-63.53322,"79 Holtwood Court, Dartmouth, NS, B2W 0M9",1.0,1,0,0,0,0,0,0,1,0,0,0,0,Dartmouth,Wooside,False,True,True,41,29,55,Skylineliving
+166,2245,2,2,0,1210,www.skylineliving.ca,44.65375,-63.53456,"80 Holtwood Court, Dartmouth, NS, B2W 1G1",1.0,1,0,0,0,0,0,0,1,0,0,0,0,Dartmouth,Wooside,False,True,True,36,33,54,Skylineliving
+167,1600,2,1,1,999,,44.62643,-63.57502,"Halifax, NS B3H 2X3",0.0,1,1,1,0,1,1,0,1,1,1,0,0,Halifax Peninsula,SouthEnd,True,True,False,59,45,63,Owner
+168,2495,2,2,0,1400,,44.72362,-63.74914,"Appaloosa Run, Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+169,1845,2,1,1,1100,,44.78071,-63.68057,"Kipling Drive, Lower Sackville, NS",0.0,0,1,0,0,1,1,0,1,1,0,0,0,Sackville,Lower Sackville,False,False,False,50,36,27,Owner
+170,1863,1,1,0,531,,44.657,-63.59605,"2710 Agricola St, Halifax, NS B3K 0J7",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,67,83,Owner
+171,1995,1,1,0,531,,44.657,-63.59605,"2710 Agricola St, Halifax, NS B3K 0J7",,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,67,83,Owner
+172,2195,1,1,0,530,vertusuites.com,44.64361,-63.57736,"1530 Birmingham Street, Halifax, NS, B3J 0B5",180.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,10,72,75,Vertusuites
+173,2100,2,1,1,1200,,44.64475,-63.53904,"Dartmouth, NS B2W 1B1",0.0,0,1,0,1,1,1,0,1,1,0,0,0,Dartmouth,Wooside,False,False,False,30,38,31,Owner
+174,1995,1,1,1,583,templetonproperties.rhenti.com,44.63874,-63.59693,"1585 Oxford Street, Halifax, NS, B3H 3Z3",0.0,0,1,0,0,0,0,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,84,62,69,Templetonproperties
+175,1850,1,1,1,475,templetonproperties.rhenti.com,44.6384,-63.59656,"1545 Oxford Street, Halifax, NS, B3H 3Z3",0.0,0,1,0,0,0,0,0,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,84,62,69,Templetonproperties
+176,2900,2,2,1,1050,templetonproperties.rhenti.com,44.63813,-63.57591,"5633 Fenwick Street, Halifax, NS, B3H 4M2",0.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,True,True,97,66,66,Templetonproperties
+177,1995,0,1,1,500,templetonproperties.rhenti.com,44.63813,-63.57591,"5633 Fenwick Street, Halifax, NS, B3H 4M2",0.0,0,1,0,1,0,1,0,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,True,True,97,66,66,Templetonproperties
+178,2600,2,1,1,800,templetonproperties.rhenti.com,44.63813,-63.57591,"5633 Fenwick Street, Halifax, NS, B3H 4M2",0.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,True,True,97,66,66,Templetonproperties
+179,2450,1,1,1,800,templetonproperties.rhenti.com,44.63813,-63.57591,"5633 Fenwick Street, Halifax, NS, B3H 4M2",0.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,True,True,97,66,66,Templetonproperties
+180,3070,3,1,0,1053,www.capreit.ca,44.6559,-63.58508,"2334 Longard Plaza, Halifax, NS, B3K 5K6",-1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,95,71,76,Capreit
+181,2500,3,1,1,1900,,44.62976,-63.62663,"Withrod Drive, Halifax, NS",0.0,0,0,0,1,1,1,0,1,1,1,0,0,Mainland Halifax,Armdale,False,True,True,41,44,33,Not Given
+182,2095,1,1,0,1250,www.templetonproperties.ca,44.65147,-63.65379,"333 Main Avenue, Halifax, NS, B3S 0B6",-2.0,1,1,0,1,0,1,0,1,1,0,1,0,Mainland Halifax,Clayton Park,False,False,True,44,43,31,Templetonproperties
+183,1595,1,1,0,520,www.444rent.com,44.64264,-63.57147,"1343 Barrington Street, Halifax, NS, B3J 1Y9",-1.0,1,1,0,0,0,0,1,0,0,0,0,0,Halifax Peninsula,Downtown,False,False,True,98,72,65,444rent
+184,3250,2,2,1,1400,,44.64392,-63.56946,"Lower Water Street, Halifax, NS",0.0,1,1,0,1,0,1,0,0,0,0,0,0,Halifax Peninsula,Downtown,False,False,True,97,72,61,Not Given
+185,2195,1,1,0,676,thegeorgeresidence.com,44.64601,-63.59049,"6016 Pepperell Street, Halifax, NS, B3H 2N8",-1.0,0,0,0,0,0,1,0,1,1,0,1,0,Halifax Peninsula,Downtown,False,False,True,96,68,84,Thegeorgeresidence
+186,2250,1,1,0,790,flynnflats.com,44.64331,-63.57052,"1363 Hollis Street, Halifax, NS, B3J 1T8",160.0,0,0,0,0,0,1,0,1,1,1,1,0,Halifax Peninsula,Downtown,False,False,True,97,72,63,Flynnflats
+187,1795,1,1,0,409,444rent.com,44.64135,-63.56978,"1254 Hollis Street, Halifax, NS, B3J 1T6",-1.0,1,1,0,0,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,96,67,63,444rent
+188,2430,2,2,1,998,,44.64135,-63.58126,"5770 Spring Garden Rd, Halifax, NS B3H 4J8",0.0,0,1,0,1,1,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,True,False,99,67,75,Owner
+189,2395,2,1,0,1100,,44.70672,-63.66589,"Millview Avenue, Bedford, NS",-1.0,0,1,0,1,1,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,True,False,53,37,18,Owner
+190,2350,2,1,0,850,,44.65071,-63.60731,"Halifax, NS B3L 1V7",-1.0,0,1,0,0,0,1,0,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,85,65,71,Owner
+191,2400,2,1,1,1120,,44.67101,-63.66389,"Halifax, NS B3M 3W5",0.0,0,1,0,1,0,1,0,0,0,1,1,0,Mainland Halifax,Clayton Park,False,False,False,68,50,40,Owner
+192,2495,2,2,0,1385,,44.72362,-63.74914,"Appaloosa Run, Hammonds Plains, NS",125.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+193,1600,1,1,0,800,,44.66107,-63.63145,"37 Main Ave, Halifax, NS B3M 1A2",-1.0,0,0,0,0,0,0,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,False,82,57,56,Owner
+194,1449,1,1,0,900,,44.6459,-63.5732134,"1585 Barrington St, Halifax, NS B3J 1Z8",1.0,0,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,99,73,65,Owner
+195,2635,2,1,0,830,www.capreit.ca,44.64103165,-63.57958667,"1333 South Park Street, Halifax, NS, B3J 2K9",1.0,0,1,0,1,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,67,Capreit
+196,1880,0,1,0,500,www.capreit.ca,44.63530235,-63.57682805,"1030 South Park Street, Halifax, NS, B3J 2K9",1.0,0,1,0,1,0,0,1,0,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,True,99,67,69,Capreit
+197,2655,2,1,0,1005,www.capreit.ca,44.64159,-63.58123,"5770 Spring Garden Road, Halifax, NS, B3H 4J8",,0,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,75,Capreit
+198,2630,2,1,0,1005,www.capreit.ca,44.6412687,-63.58115585,"5770 Spring Garden Road, Halifax, NS, B3H 4J8",1.0,0,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,75,Capreit
+199,1985,1,1,0,900,www.capreit.ca,44.69644,-63.66276,"40 Charlotte Lane, Halifax, NS, B3M 4M2",,1,1,0,1,0,1,1,1,1,0,0,0,Bedford,Bedford Basin,False,False,True,1,39,18,Capreit
+200,1895,1,1,0,780,www.capreit.ca,44.6668671,-63.66081929,"81 Radcliffe Drive, Halifax, NS, B3M 4L4",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,True,70,55,39,Capreit
+201,1970,1,1,0,900,www.capreit.ca,44.69564025,-63.66362616,"40 Charlotte Lane, Halifax, NS, B3M 4M2",1.0,1,1,0,1,0,1,1,1,1,0,0,0,Bedford,Bedford Basin,False,False,True,1,39,18,Capreit
+202,2295,2,1,0,1470,www.capreit.ca,44.69564025,-63.66362616,"40 Charlotte Lane, Halifax, NS, B3M 4M2",1.0,1,1,0,1,0,1,1,1,1,0,0,0,Bedford,Bedford Basin,False,False,True,1,39,18,Capreit
+203,2385,2,1,0,1470,www.capreit.ca,44.69644,-63.66276,"40 Charlotte Lane, Halifax, NS, B3M 4M2",,1,1,0,1,0,1,1,1,1,0,0,0,Bedford,Bedford Basin,False,False,True,1,39,18,Capreit
+204,2025,1,1,0,667,hillsidesuites.com,44.63994995,-63.57190629,"5251 South Street, Halifax, NS, B3J 4B2",160.0,0,0,0,0,0,1,0,1,1,0,1,0,Halifax Peninsula,SouthEnd,False,False,True,98,74,67,Hillsidesuites
+205,2195,1,1,0,761,thegeorgeresidence.com,44.646277,-63.5904728,"6016 Pepperell Street, Halifax, NS, B3H 2N8",1.0,0,0,0,0,0,1,0,1,1,0,1,0,Halifax Peninsula,Downtown,False,False,True,96,68,84,Thegeorgeresidence
+206,2795,2,2,0,1356,west22living.com,44.65013635,-63.62396976,"7037 Mumford Rd, Halifax, NS, B3L 2J1",1.0,0,0,0,0,0,1,0,1,1,0,1,0,Halifax Peninsula,WestEnd,False,False,True,80,63,74,West22living
+207,1590,1,1,1,600,,44.6415989,-63.6271499,"16 Keating Road, Halifax, NS",0.0,0,1,0,1,1,1,0,0,1,0,0,0,Mainland Halifax,Armdale,False,True,False,66,56,59,Owner
+208,1599,1,1,0,500,,44.6802117,-63.5844766,"252 Victoria Road, Dartmouth, NS, B3A 1X1",50.0,1,1,0,0,0,0,1,1,1,0,0,0,Dartmouth,Burnside,False,False,True,73,54,53,Not Given
+209,1450,0,1,0,400,,44.6802117,-63.5844766,"252 Victoria Road, Dartmouth, NS, B3A 1X1",50.0,0,1,0,0,1,0,1,1,1,0,0,1,Dartmouth,Burnside,False,False,True,73,54,53,Not Given
+210,1749,1,1,0,600,,44.6801882,-63.58744736,"69 Farrell St, Dartmouth, NS, B3A 4B3",2.0,1,1,0,0,1,0,1,1,1,0,0,0,Dartmouth,Burnside,False,False,True,70,52,51,Not Given
+211,2100,2,1,0,650,,44.60739645,-63.61430699,"432 Herring Cove Road, Halifax, NS, B3R 1W4",100.0,0,1,0,1,1,1,0,1,1,0,0,0,Mainland Halifax,Spryfield,False,True,True,69,41,31,Not Given
+212,1895,1,1,0,594,,44.6625028,-63.5986608,"Gottingen Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,96,70,87,Owner
+213,2600,2,1,0,840,www.templetonproperties.ca,44.6380516,-63.5755447,"5633 Fenwick St., Halifax, NS, B3H 1R1",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,97,66,66,Templetonproperties
+214,2075,2,1,1,950,,44.6333366,-63.62952201,"36 Kelly St, Halifax, NS B3N 1W2",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Mainland Halifax,Armdale,False,True,False,38,44,51,Owner
+215,2295,2,2,0,1225,,44.7252049,-63.7483418,"Appaloosa Run, Hammonds Plains, NS",125.0,1,1,0,1,0,1,0,1,1,0,0,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+216,1196,1,1,0,900,,44.64177504,-63.59916197,"Halifax, NS B3H 3Z6",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,92,63,69,Owner
+217,1850,1,1,1,742,www.elkproperty.com,44.71179066,-63.67899716,"91 Nelson's Landing, Bedford, NS, B4A 3X4",0.0,0,0,0,1,0,1,0,1,0,0,0,0,Bedford,Bedford Basin,False,False,True,63,34,27,Elkproperty
+218,1800,2,1,1,800,,44.6822608,-63.58751735,"4 Brule Street, Dartmouth, NS",0.0,1,1,0,0,1,0,1,0,1,0,0,0,Dartmouth,Burnside,False,False,False,73,51,47,Owner
+219,1749,1,1,0,550,www.northpointhfx.com,44.6359593,-63.57713101,"5713 Victoria Road, Halifax, NS, B3H 2Y3",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,93,64,67,Northpointhfx
+220,1799,1,1,0,600,www.northpointhfx.com,44.6651075,-63.61406597,"6140 Lady Hammond Road, Halifax, NS, B3K 2R5",2.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,True,88,55,47,Northpointhfx
+221,3099,2,2,0,1000,www.northpointhfx.com,44.63403255,-63.57655306,"5726 Inglis St, Halifax, NS, B3H 1K4",1.0,1,1,0,0,0,1,0,1,1,1,0,0,Halifax Peninsula,SouthEnd,False,True,True,90,62,68,Northpointhfx
+222,2599,2,1,0,900,www.northpointhfx.com,44.6359422,-63.58631755,"6056 South Street, Halifax, NS, B3H 1T1",2.0,1,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,91,62,61,Northpointhfx
+223,2449,2,1,0,800,www.northpointhfx.com,44.6359593,-63.57713101,"5713 Victoria Rd, Halifax, NS, B3H 2Y3",1.0,1,1,0,1,0,0,1,0,1,1,0,0,Halifax Peninsula,SouthEnd,False,False,True,93,64,67,Northpointhfx
+224,1845,1,2,1,1100,,44.7794374,-63.6792912,"Kipling Drive, Lower Sackville, NS",0.0,0,1,0,0,1,1,0,1,1,0,0,0,Sackville,Lower Sackville,False,False,False,50,36,27,Owner
+225,2100,2,2,1,1100,,44.766615,-63.68486427,"24 Sackville Cross Road, Lower Sackville, NS",0.0,1,1,0,1,0,1,0,1,1,0,0,0,Sackville,Lower Sackville,False,True,True,74,44,25,Not Given
+226,2195,2,2,0,1260,,44.7252049,-63.7483418,"Appaloosa Run, Hammonds Plains, NS",75.0,1,1,0,1,0,1,0,1,1,0,0,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+227,2300,2,1,1,1000,,44.6733333,-63.6128827,"Kencrest Avenue, Halifax, NS",0.0,1,1,0,0,0,1,0,0,0,0,0,0,Halifax Peninsula,NorthEnd,False,False,False,65,47,36,Owner
+228,2450,2,2,0,1200,www.horizoncourt.ca,44.6901999,-63.56280306,"11 Horizon Court, Dartmouth, NS, B3A 4X5",2.0,0,0,0,0,0,1,0,1,1,0,1,0,Dartmouth,Burnside,False,False,True,43,44,48,Horizoncourt
+229,2250,2,1,0,1000,,44.6386554,-63.5706108,"5221 Kent Street, Halifax, NS",100.0,1,1,0,0,1,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,94,65,61,Owner
+230,2985,3,2,0,1533,www.skylineliving.ca,44.7089938,-63.6981306,"120 Tilbury Avenue, Bedford, NS, B4B 1A1",1.0,0,0,0,0,0,0,0,1,0,0,0,0,Bedford,Bedford Basin,False,True,True,6,29,19,Skylineliving
+231,2200,1,1,0,700,www.capreit.ca,44.64965625,-63.57908638,"1920 Brunswick Street, Halifax, NS, B3J 0C5",,0,0,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,98,73,64,Capreit
+232,2220,1,1,0,634,www.capreit.ca,44.64965625,-63.57908638,"1920 Brunswick Street, Halifax, NS, B3J 0C5",1.0,0,0,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,98,73,64,Capreit
+233,2080,1,1,0,743,www.capreit.ca,44.6412687,-63.58115585,"5770 Spring Garden Road, Halifax, NS, B3H 4J8",1.0,0,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,75,Capreit
+234,2100,1,1,0,743,www.capreit.ca,44.64159,-63.58123,"5770 Spring Garden Road, Halifax, NS, B3H 4J8",,0,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,75,Capreit
+235,2110,1,1,0,614,www.capreit.ca,44.64103165,-63.57958667,"1333 South Park Street, Halifax, NS, B3J 2K9",,0,1,0,1,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,67,Capreit
+236,2250,3,1,1,1500,,44.67376847,-63.64634397,"Halifax, NS B3M 2J8",0.0,1,1,0,0,1,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,True,55,48,25,Not Given
+237,1780,0,1,0,500,www.capreit.ca,44.63511,-63.57645,"1030 South Park Street, Halifax, NS, B3J 2K9",,0,1,0,1,0,0,1,0,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,True,99,67,69,Capreit
+238,2695,2,1,0,830,www.capreit.ca,44.64039,-63.57867,"1333 South Park Street, Halifax, NS, B3J 2K9",,0,1,0,1,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,67,Capreit
+239,2640,2,1,0,830,www.capreit.ca,44.64039,-63.57867,"1333 South Park Street, Halifax, NS, B3J 2K9",,0,1,0,1,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,67,Capreit
+240,1695,2,1,1,1000,,44.6713553,-63.670042,"25 Montgomery Court, Halifax, NS, B3M 4L9",0.0,1,1,0,1,0,0,1,1,1,0,1,0,Mainland Halifax,Clayton Park,False,False,True,59,45,32,Not Given
+241,2000,1,1,0,1062,www.horizoncourt.ca,44.6890137,-63.56292835,"10 Horizon Court, Dartmouth, NS, B3A 0A4",2.0,0,0,0,1,0,0,1,1,1,1,1,0,Dartmouth,Burnside,False,False,True,53,45,56,Horizoncourt
+242,1860,1,1,0,800,,44.64235626,-63.59768921,"Halifax, NS B3H 2K5",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,96,64,68,Owner
+243,2700,2,2,0,905,www.templetonproperties.ca,44.6375649,-63.5753605,"5601 Fenwick St., Halifax, NS, B3H 1R1",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,96,66,63,Templetonproperties
+244,1700,1,1,0,652,www.arcmanagement.ca,44.627253,-63.58370533,"Halifax, NS B3H 4K3",1.0,1,1,1,1,1,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,54,51,53,Arcmanagement
+245,1995,1,1,0,450,www.templetonproperties.ca,44.6380516,-63.5755447,"5633 Fenwick St., Halifax, NS, B3H 1R1",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,97,66,66,Templetonproperties
+246,1525,1,1,1,800,,44.67660465,-63.64938687,"238 Bedford Highway, Halifax, NS, B3M 2K3",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Mainland Halifax,Clayton Park,False,False,True,57,46,25,Not Given
+247,2900,2,1,0,1090,www.templetonproperties.ca,44.6380516,-63.5755447,"5633 Fenwick St., Halifax, NS, B3H 1R1",1.0,0,0,0,0,0,0,0,0,0,1,0,0,Halifax Peninsula,SouthEnd,False,False,True,97,66,66,Templetonproperties
+248,2500,2,2,0,674,www.rosnomanagement.ca,44.6598299,-63.5965716,"5550 Bilby Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,True,97,67,77,Rosnomanagement
+249,1495,3,1,1,850,,44.6806244,-63.55218224,"15 Lakeview Point Road, Dartmouth, NS",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Dartmouth,Dartmouth Downtown,False,False,False,64,45,81,Owner
+250,1250,2,1,0,600,,44.6392367,-63.5782403,"South Park Street, Halifax, NS",1.0,1,1,1,0,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,True,False,False,99,67,69,Owner
+251,2300,2,1,1,900,,44.6607592,-63.6315154,"Main Avenue, Halifax, NS",0.0,0,0,1,0,1,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,True,False,81,53,41,Owner
+252,1950,2,1,0,944,www.horizoncourt.ca,44.6849359,-63.5543925,"1-11 Brookdale Court, Dartmouth, NS, B3A 4P7",2.0,0,0,0,1,0,1,0,1,1,0,0,0,Dartmouth,Dartmouth Downtown,False,False,True,53,46,66,Horizoncourt
+253,2095,2,1,0,900,,44.7076046,-63.666767,"Millview Avenue, Bedford, NS",75.0,0,1,0,0,0,1,0,1,1,0,0,0,Bedford,Bedford Basin,False,True,False,53,37,18,Owner
+254,2165,1,1,0,1005,www.skylineliving.ca,44.7089938,-63.6981306,"120 Tilbury Avenue, Bedford, NS, B4B 1A1",1.0,0,0,0,0,0,0,0,1,0,0,0,0,Bedford,Bedford Basin,False,True,True,6,29,19,Skylineliving
+255,1425,0,1,0,400,www.arcmanagement.ca,44.63905776,-63.57183796,"Halifax, NS B3H 4K2",1.0,1,1,1,0,1,0,1,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,True,95,65,54,Arcmanagement
+256,2200,2,1,1,1000,,44.6733333,-63.6128827,"Kencrest Avenue, Halifax, NS",0.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,False,False,65,47,36,Owner
+257,1750,2,1,0,600,,44.665329,-63.61604107,"Halifax, NS B3K 2S1",1.0,1,1,1,0,0,0,0,0,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,84,57,51,Owner
+258,1375,1,1,0,600,,44.6662101,-63.6369698,"Bayview Rd, Halifax, NS B3M",1.0,1,1,1,0,0,0,0,0,0,0,0,0,Mainland Halifax,Clayton Park,True,True,False,46,52,17,Owner
+259,2000,2,1,1,625,,44.6368926,-63.62944938,"Halifax, NS B3N 1H3",0.0,0,0,0,1,1,0,0,0,0,0,0,0,Mainland Halifax,Armdale,False,True,False,40,49,38,Owner
+260,2569,2,2,0,1161,www.metcap.com,44.6998165,-63.6656001,"40 Bedros Lane, Bedford, NS, B3M 4X1",2.0,0,0,0,1,0,0,1,0,1,0,0,0,Bedford,Bedford Basin,False,False,True,43,38,26,Metcap
+261,2461,2,1,0,981,www.metcap.com,44.6564418,-63.6502561,"200 Willet Street, Halifax, NS, B3M 3C5",2.0,0,0,0,0,0,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,True,70,51,41,Metcap
+262,2199,2,1,1,1200,bayers1-universalgroup.securecafe.com,44.655507,-63.62425972,"6969 Bayers Road, Halifax, NS, B3L 4P3",0.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,True,66,60,73,Universal Group
+263,1850,1,1,1,1200,,44.638117,-63.5716494,"Kent St, Halifax, NS B3H",0.0,1,1,1,1,1,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,True,True,False,95,65,54,Owner
+264,1100,2,1,1,600,,44.6152562,-63.6153301,"Herring Cove Road, Halifax, NS",0.0,0,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Spryfield,True,True,False,9,26,28,Owner
+265,1725,1,1,0,700,,44.6567855,-63.6320172,"Dutch Village Road, Halifax, NS",1.0,0,1,0,0,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,87,58,73,Owner
+266,2400,2,1,1,800,,44.6514737,-63.6023162,"Summit Street, Halifax, NS",0.0,0,1,0,1,1,1,0,0,0,0,0,0,Halifax Peninsula,WestEnd,False,True,True,89,66,76,Not Given
+267,2695,2,1,0,850,,44.7076046,-63.666767,"Millview Avenue, Bedford, NS",75.0,0,1,0,0,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,True,False,53,37,18,Owner
+268,1550,0,1,0,575,,44.6373997,-63.5721108,"Green Street, Halifax, NS",150.0,1,1,1,0,0,0,1,0,1,0,0,1,Halifax Peninsula,SouthEnd,False,True,False,89,64,54,Owner
+269,1995,2,1,0,1100,,44.6468235,-63.6006998,"6376 Allan Street, Halifax, NS",65.0,1,1,0,1,0,0,1,0,1,0,1,0,Halifax Peninsula,WestEnd,False,False,False,96,65,75,Owner
+270,2200,2,1,0,1000,,44.6363666,-63.5745181,"Victoria Road, Halifax, NS",80.0,0,1,0,1,0,1,0,1,1,0,1,0,Halifax Peninsula,SouthEnd,False,True,False,92,63,67,Owner
+271,2400,2,1,0,1000,,44.6458781,-63.5981133,"Yale Street, Halifax, NS",50.0,1,1,0,1,0,1,0,0,1,1,1,0,Halifax Peninsula,WestEnd,False,False,False,97,65,75,Owner
+272,2100,2,1,1,1200,,44.6449727,-63.54325656,"Dartmouth, NS B2W 1A1",0.0,0,1,0,1,1,1,0,1,1,0,0,0,Dartmouth,Wooside,False,False,False,34,40,34,Owner
+273,2295,2,2,0,1300,,44.7252049,-63.7483418,"Appaloosa Run, Hammonds Plains, NS",125.0,1,1,0,1,0,1,0,1,1,0,0,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+274,2395,2,2,0,1400,,44.72493709,-63.74785038,"183 Appaloosa Run, Upper Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Hammonds Plains,False,True,False,13,13,28,Owner
+275,1975,0,1,0,675,,44.644791,-63.5750508,"1619 Market St, Halifax, NS B3J 2C9",1.0,0,1,0,0,0,0,0,0,0,0,0,1,Halifax Peninsula,Downtown,False,True,False,10,74,74,Owner
+276,2550,3,2,1,900,,44.6527718,-63.6411007,"Frederick Avenue, Halifax, NS",0.0,0,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,75,51,38,Owner
+277,1650,1,1,1,700,,44.6527718,-63.6411007,"Frederick Avenue, Halifax, NS",0.0,0,1,0,0,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,75,51,38,Owner
+278,2199,1,1,0,650,www.metcap.com,44.6998165,-63.6656001,"40 Bedros Lane, Bedford, NS, B3M 4X1",2.0,0,0,0,1,0,0,1,0,1,0,0,0,Bedford,Bedford Basin,False,False,True,43,38,26,Metcap
+279,2018,1,1,0,747,www.metcap.com,44.6564418,-63.6502561,"200 Willet Street, Halifax, NS, B3M 3C5",2.0,0,0,0,0,0,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,True,70,51,41,Metcap
+280,2150,2,1,0,815,,44.6625028,-63.5986608,"Gottingen Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,96,70,87,Owner
+281,1895,1,1,0,539,,44.6625028,-63.5986608,"Gottingen Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,96,70,87,Owner
+282,1595,1,1,0,700,,44.6382448,-63.576334,"5650 South Street, Halifax, NS",135.0,0,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,97,66,66,Not Given
+283,1650,1,1,1,600,,44.6582188,-63.6419702,"Fiske Street, Halifax, NS",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Mainland Halifax,Clayton Park,False,False,True,82,54,45,Not Given
+284,1400,1,1,1,600,www.broadwayproperties.ca,44.6785126,-63.5487257,"Dartmouth, NS B2Y 3H7",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Dartmouth,Dartmouth Downtown,False,False,True,68,47,45,Broadwayproperties
+285,1800,1,1,1,800,,44.6368086,-63.5705386,"Smith Street, Halifax, NS",0.0,0,1,0,1,0,1,0,0,1,0,0,0,Halifax Peninsula,SouthEnd,True,False,False,92,63,60,Owner
+286,2000,2,2,1,1000,,44.7607257,-63.6699492,"249 Sackville Drive, Lower Sackville, NS",0.0,1,1,0,1,0,1,0,1,1,0,0,0,Sackville,Lower Sackville,False,True,False,59,41,25,Owner
+287,1599,1,1,0,550,www.northpointhfx.com,44.63594848,-63.57709914,"5713 Victoria Road, Halifax, NS, B3H 2Y3",,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,93,64,67,Northpointhfx
+288,2300,2,1,1,1005,,44.6450958,-63.6178613,"Philip Street, Halifax, NS",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,88,62,55,Owner
+289,1495,1,1,1,900,,44.65739785,-63.65555034,"20 Westridge Dr, Halifax, NS B3M 3K8",0.0,1,1,1,0,0,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,False,69,54,46,Owner
+290,1700,1,1,1,720,,44.7607257,-63.6699492,"249 Sackville Drive, Lower Sackville, NS",0.0,1,1,0,1,0,1,0,1,1,0,0,0,Sackville,Lower Sackville,False,True,False,59,41,25,Owner
+291,1650,2,1,1,500,,44.65506649230769,-63.63520075,"Halifax, NS B3N 2K6",0.0,0,1,0,1,1,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,True,False,84,56,63,Owner
+292,2195,2,2,0,1300,,44.7252049,-63.7483418,"Appaloosa Run, Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+293,1995,1,1,0,840,,44.6595131,-63.5947171,"5511 Bloomfield Street, Halifax, NS",160.0,1,1,0,1,0,1,0,1,1,0,1,0,Halifax Peninsula,NorthEnd,False,True,False,97,67,79,Owner
+294,2195,1,1,0,638,www.templetonproperties.ca,44.6376565,-63.5752872,"5623 Fenwick Street, Halifax, NS, B3H 1R1",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,96,66,63,Templetonproperties
+295,1300,2,2,1,1300,,44.7683472,-63.6355166,"Stone Mount Drive, Lower Sackville, NS",0.0,0,1,0,1,0,0,1,1,1,0,0,0,Bedford,Bedford Basin,True,True,False,8,24,13,Owner
+296,2595,2,2,0,1338,www.waterfordsuites.com,44.6429159,-63.5703358,"1343 Hollis Street, Halifax, NS, B3J 1T8",1.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,97,72,61,Waterfordsuites
+297,1700,1,1,1,900,,44.64380825,-63.59532391,"1856 Walnut St, Halifax, NS B3H 3S7",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,96,66,75,Owner
+298,1675,1,1,1,900,,44.64380442,-63.59531551,"1856 Walnut St, Halifax, NS B3H 3S7",,1,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,0,0,0,Owner
+299,1095,2,1,0,967,,44.64155375,-63.58495029,"5885 Spring Garden Road, Halifax, NS",1.0,1,1,0,1,1,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,93,66,80,Owner
+300,2655,2,2,0,950,,44.6556847,-63.5988028,"2735 Clifton Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,False,False,97,66,82,Owner
+301,1890,1,1,0,660,,44.63592665,-63.57712215,"Halifax, NS B3H 2Y3",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,93,64,67,Owner
+302,3300,3,2,1,1574,,44.7003206,-63.6617855,"644 Bedford Highway, Halifax, NS",0.0,1,1,0,1,0,0,1,1,1,0,1,0,Bedford,Bedford Basin,False,True,True,56,38,30,Not Given
+303,2250,2,1,0,1000,,44.6323492,-63.5941501,"Halifax, NS B3H 1P5",100.0,1,1,0,0,1,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,69,58,65,Owner
+304,2760,2,2,0,1505,www.skylineliving.ca,44.7089938,-63.6981306,"120 Tilbury Avenue, Bedford, NS, B4B 1A1",1.0,0,0,0,0,0,0,0,1,0,0,0,0,Bedford,Bedford Basin,False,True,True,6,29,19,Skylineliving
+305,2800,2,2,0,1367,,44.6990584,-63.69940796,"419 Kearney Lake Road, Bedford, NS",100.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,True,True,29,30,49,Not Given
+306,1785,2,1,1,680,,44.65862035,-63.59945415,"5834 Macara Street, Halifax, NS",0.0,1,1,0,0,0,0,1,0,0,0,0,0,Halifax Peninsula,NorthEnd,False,False,True,98,65,79,Not Given
+307,1400,0,1,1,600,,44.65116463,-63.595225,B3K4V6,0.0,0,0,0,0,0,0,0,0,0,0,0,1,Halifax Peninsula,WestEnd,False,False,False,96,68,88,Owner
+308,1545,0,1,0,603,www.metcap.com,44.68706525,-63.58056554,"35 Leaman Drive, Dartmouth, NS, B3A 2K6",1.0,1,1,0,0,0,0,1,0,0,0,0,1,Dartmouth,Burnside,False,False,True,54,49,43,Metcap
+309,1530,2,1,1,800,,44.647225,-63.5903179,"Robie St, Halifax, NS B3K 4R8",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,Downtown,False,False,False,80,62,73,Owner
+310,2850,2,2,0,850,,44.6380516,-63.5755447,"5633 Fenwick Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,1,0,Halifax Peninsula,SouthEnd,True,False,False,97,66,66,Owner
+311,1995,0,1,0,450,www.templetonproperties.ca,44.6380516,-63.5755447,"5633 Fenwick St., Halifax, NS, B3H 1R1",1.0,1,1,0,1,0,1,0,1,0,0,0,1,Halifax Peninsula,SouthEnd,False,False,True,97,66,66,Templetonproperties
+312,1250,0,1,0,500,,44.6337041,-63.57745182,"5760 Inglis Street, Halifax, NS",1.0,1,1,0,1,0,0,1,0,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,False,89,62,69,Owner
+313,2100,1,1,1,600,,44.657,-63.59605,"2710 Agricola Street, Halifax, NS",,1,1,1,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,True,True,False,97,67,83,Owner
+314,2300,1,1,1,600,,44.657032,-63.5959942,"2710 Agricola Street, Halifax, NS",0.0,1,1,1,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,True,True,False,97,67,83,Owner
+315,2450,1,1,0,736,,44.643897671428576,-63.61801616,"Halifax, NS B3L 1N1",1.0,0,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,WestEnd,False,True,False,84,61,59,Owner
+316,2028,1,1,0,747,www.metcap.com,44.65635,-63.65017,"200 Willet Street, Halifax, NS, B3M 3C5",,0,0,0,0,0,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,True,70,51,41,Metcap
+317,2471,2,1,0,981,www.metcap.com,44.65635,-63.65017,"200 Willet Street, Halifax, NS, B3M 3C5",,0,0,0,0,0,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,True,70,51,41,Metcap
+318,1794,1,1,0,1047,www.metcap.com,44.6855422,-63.58271864,"65 Primrose Street, Dartmouth, NS, B3A 4C5",,1,1,0,0,0,0,1,1,1,0,0,0,Dartmouth,Burnside,False,False,True,60,50,41,Metcap
+319,2795,2,2,0,976,killamreit.com,44.64372135,-63.57006351,"5121 Bishop Street, Halifax, NS, B3J 0E5",2.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,True,97,72,61,Killamreit
+320,1500,1,1,1,600,,44.650319,-63.5959872,"Chebucto Road, Halifax, NS",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,WestEnd,False,False,False,83,63,71,Owner
+321,1500,1,1,1,1616,,44.6717524,-63.518409,"NS-207, Dartmouth, NS, B2X2T3",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Dartmouth,Cole Harbour,False,False,False,78,48,76,Owner
+322,3200,3,2,1,1200,,44.64482765,-63.61219876,"2470 Quinn St, Halifax, NS B3L 3E7",0.0,1,1,0,0,0,1,0,1,1,0,1,0,Halifax Peninsula,WestEnd,False,False,False,82,61,68,Owner
+323,1245,2,2,1,1600,,44.6380516,-63.5755447,"5633 Fenwick St, Halifax, NS B3H 4M2",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,True,True,False,97,66,66,Owner
+324,2532,2,2,0,1154,www.metcap.com,44.69917,-63.66665,"22 BEDROS LANE, Bedford, NS, B3M 4W9",,0,0,0,0,0,0,1,0,1,0,0,0,Bedford,Bedford Basin,False,False,True,56,38,25,Metcap
+325,2522,2,2,0,1154,www.metcap.com,44.6991201,-63.6666221,"22 BEDROS LANE, Bedford, NS, B3M 4W9",2.0,0,0,0,0,0,0,1,0,1,0,0,0,Bedford,Bedford Basin,False,False,True,56,38,25,Metcap
+326,1760,1,1,0,700,,44.64235626428572,-63.59768921,"Halifax, NS B3H 2K5",1.0,1,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,96,64,68,Owner
+327,1995,2,1,0,1000,,44.6567855,-63.6320172,"Dutch Village Road, Halifax, NS",99.0,0,1,0,0,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,87,58,73,Owner
+328,1800,1,1,0,500,,44.65116151,-63.58290251,"Halifax, NS B3K 1A3",1.0,1,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,97,72,73,Owner
+329,1995,2,1,0,843,theloftsatgreenvale.com,44.669074300000005,-63.56464271,"19 Irishtown Road, Dartmouth, NS, B2Y 0B7",1.0,1,1,0,0,0,1,0,1,1,0,1,0,Dartmouth,Dartmouth Downtown,False,False,True,94,65,78,Theloftsatgreenvale
+330,1125,0,1,0,750,,44.6358399,-63.57887297,"1104 Tower Road, Halifax, NS",100.0,1,1,0,0,0,0,1,0,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,False,87,65,69,Owner
+331,2395,1,1,0,1000,,44.63950371,-63.57804141,"Halifax, NS B3J 2K8",175.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,67,Not Given
+332,2450,1,1,0,500,www.templetonproperties.ca,44.6380516,-63.5755447,"5633 Fenwick St., Halifax, NS, B3H 1R1",2.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,True,True,97,66,66,Templetonproperties
+333,1795,2,1,0,700,,44.68344483333333,-63.5443189,"Dartmouth, NS B2X 2X4",50.0,1,1,1,0,0,0,1,0,1,0,0,0,Dartmouth,Dartmouth Downtown,False,False,True,71,46,51,Not Given
+334,2200,2,1,0,1000,,44.63621694,-63.57602234,"Halifax, NS B3H 1M9",150.0,1,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,93,64,65,Not Given
+335,2900,2,2,1,800,templetonproperties.rhenti.com,44.6380516,-63.5755447,"5633 Fenwick Street, Halifax, NS, B3H 4M2",0.0,0,0,0,1,0,1,0,1,1,1,0,0,Halifax Peninsula,SouthEnd,False,True,True,97,66,66,Templetonproperties
+336,2100,0,1,1,500,templetonproperties.rhenti.com,44.6380516,-63.5755447,"5633 Fenwick Street, Halifax, NS, B3H 4M2",0.0,0,0,0,1,0,1,0,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,True,True,97,66,66,Templetonproperties
+337,2100,1,1,0,790,,44.6539721,-63.6104523,"6433 Young Street, Halifax, NS",1.0,1,1,1,0,0,1,0,1,1,0,0,0,Halifax Peninsula,WestEnd,False,True,False,84,65,67,Owner
+338,2295,2,2,0,1260,,44.7252049,-63.7483418,"Appaloosa Run, Hammonds Plains, NS",75.0,1,1,0,1,0,1,0,1,1,0,0,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+339,2600,2,1,1,1100,,44.653213,-63.5959028,"6107 Willow Street, Halifax, NS",0.0,1,1,1,0,1,0,0,0,0,0,0,0,Halifax Peninsula,NorthEnd,False,False,False,96,69,92,Owner
+340,1750,0,1,0,460,,44.6390609,-63.5718388,"Tobin Street, Halifax, NS",1.0,1,1,1,1,0,0,1,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,False,95,65,54,Owner
+341,2450,2,2,0,1300,,44.6514021,-63.65377401,"Halifax, NS B3S 0B6",,1,1,1,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,44,43,31,Owner
+342,2600,2,2,0,1300,,44.6514021,-63.65377401,"Halifax, NS B3S 0B6",,1,1,1,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,44,43,31,Owner
+343,2500,2,1,1,900,,44.651023,-63.5934267,"2315 Clifton Street, Halifax, NS, B3K 4T9",0.0,1,1,1,0,0,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,True,False,True,96,69,92,Not Given
+344,2500,2,1,1,950,,44.670911700000005,-63.58658043,"7 Jamieson Street, Dartmouth, NS",0.0,1,1,1,0,0,0,1,0,0,0,0,0,Dartmouth,Dartmouth Downtown,True,False,False,78,62,64,Owner
+345,2900,2,1,0,1100,www.templetonproperties.ca,44.6380516,-63.5755447,"5633 Fenwick St., Halifax, NS, B3H 1R1",2.0,1,1,0,1,0,1,0,1,1,1,0,0,Halifax Peninsula,SouthEnd,False,False,True,97,66,66,Templetonproperties
+346,2600,2,1,0,750,www.templetonproperties.ca,44.6380516,-63.5755447,"5633 Fenwick St., Halifax, NS, B3H 1R1",2.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,97,66,66,Templetonproperties
+347,2995,2,2,0,1350,,44.6288627,-63.5770898,"Tower Road, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,77,53,59,Owner
+348,2295,2,2,0,1385,,44.7252049,-63.7483418,"Appaloosa Run, Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+349,1995,1,1,0,1117,,44.7003455,-63.6089219,"48 Seapoint Rd, Dartmouth, NS B3B 1B7",1.0,0,0,0,1,0,1,0,1,1,0,0,0,Dartmouth,Burnside,False,True,False,42,47,40,Owner
+350,1935,1,1,0,820,www.hazelviewproperties.com,44.665034950000006,-63.67377188,"26 Carrington PL, Halifax, NS, B3S 1J8",1.0,1,1,0,1,0,1,0,0,1,0,0,0,Mainland Halifax,Clayton Park,False,False,True,56,50,17,Hazelviewproperties
+351,1949,2,1,0,900,,44.65243,-63.6078,"6416 London St, Halifax, NS B3L 1X4",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,WestEnd,False,False,False,85,66,73,Owner
+352,2500,1,1,1,1200,,44.638117,-63.5716494,"Kent St, Halifax, NS B3H",0.0,1,1,1,0,0,1,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,True,True,False,95,65,54,Owner
+353,1600,0,1,0,800,,44.66549053,-63.61050368,"Duffus St, Halifax, B3K 2R4",1.0,0,0,0,0,0,0,0,0,0,0,0,1,Halifax Peninsula,NorthEnd,True,True,False,85,51,65,Owner
+354,2210,1,1,0,768,www.capreit.ca,44.6491742,-63.5776897,"1881 Brunswick Street, Halifax, NS, B3J 3L8",1.0,1,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,99,73,63,Capreit
+355,1895,1,1,0,1000,,44.7252049,-63.7483418,"Appaloosa Run, Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,1,1,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+356,1795,1,1,1,1000,,44.65776205,-63.63365338,"52 Supreme Ct, Halifax, NS B3N 2L4",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,True,False,87,58,71,Owner
+357,2345,2,2,1,1250,,44.6989677,-63.6618873,"Halifax, NS B3M 0A1",0.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,False,False,56,38,28,Owner
+358,1710,1,1,0,700,,44.63987,-63.57299,"Halifax, NS B3J 2E7",75.0,1,1,1,0,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,98,67,56,Owner
+359,1995,2,1,0,899,,44.65901,-63.63176,"Dutch Village Road, Halifax, NS",99.0,0,1,0,0,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,87,58,73,Owner
+360,1860,2,1,1,850,,44.766,-63.68521,"52 Seawood Avenue, Lower Sackville, NS",0.0,0,1,0,1,1,1,0,1,1,0,0,0,Sackville,Lower Sackville,False,True,False,74,44,25,Owner
+361,2950,2,1,1,1000,,44.63897,-63.59433,"Halifax, NS B3H 2B1",0.0,1,1,1,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,True,True,False,80,63,70,Owner
+362,2200,1,1,1,650,,44.63528,-63.57,"960 Barrington St, Halifax, B3H 2P7",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,90,61,63,Owner
+363,2800,2,2,0,1120,,44.64042,-63.56967,"1212 Hollis St, Halifax, NS B3J 1A2",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,True,False,93,65,64,Owner
+364,2695,2,2,0,1601,www.avonhurstgardens.com,44.68821,-63.56537,"5 Horizon Court, Dartmouth, NS, B3A 0C4",1.0,1,1,0,0,0,1,0,1,1,0,1,0,Dartmouth,Burnside,False,False,True,61,47,42,Avonhurstgardens
+365,2095,1,1,0,615,flynnflats.com,44.64331,-63.57052,"1363 Hollis Street, Halifax, NS, B3J 1T8",160.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,97,72,61,Flynnflats
+366,1995,1,1,0,936,www.444rent.com,44.6421,-63.57059,"5157 Morris Street, Halifax, NS, B3J 1A9",1.0,0,1,0,0,0,1,0,1,1,1,0,0,Halifax Peninsula,SouthEnd,False,False,True,96,67,63,444rent
+367,2195,1,1,0,990,west22living.com,44.65015,-63.62388,"7037 Mumford Rd, Halifax, NS, B3L 2J1",1.0,0,0,0,0,0,1,0,1,1,0,1,0,Halifax Peninsula,WestEnd,False,False,True,80,63,74,West22living
+368,1995,1,1,0,608,thegeorgeresidence.com,44.64601,-63.59049,"6016 Pepperell Street, Halifax, NS, B3H 2N8",1.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,68,84,Thegeorgeresidence
+369,2500,2,1,1,989,,44.66851,-63.54759,"Dartmouth, NS B2Y 3C7",0.0,1,1,0,1,0,1,0,0,1,0,0,0,Dartmouth,Dartmouth Downtown,True,False,False,64,48,48,Owner
+370,1400,1,1,1,1505,,44.70994,-63.69949,"Tilbury Ave, Bedford, NS B4B",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Bedford,Bedford Basin,False,True,False,8,29,21,Owner
+371,2695,2,2,0,1100,,44.65579,-63.59882,"Clifton Street, Halifax, NS",,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,96,69,92,Owner
+372,2530,2,2,1,1610,,44.7059236,-63.618124,"Windmill Rd, Dartmouth, NS, B3B 1B7",0.0,0,0,0,0,0,0,0,0,0,0,1,0,Dartmouth,Burnside,False,True,False,44,47,40,Owner
+373,2295,3,1,0,1452,www.lakecrestestates.ca,44.6632766,-63.52104994,"31 Russell Lake Drive, Dartmouth, NS, B2W 6J3",1.0,1,1,0,0,0,1,0,1,1,1,0,0,Dartmouth,Cole Harbour,False,False,True,30,33,38,Lakecrestestates
+374,2100,1,1,0,562,www.templetonproperties.ca,44.6370558,-63.5796629,"5778 South St., Halifax, NS, B3H 4N5",1.0,1,0,0,1,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,94,66,70,Templetonproperties
+375,2695,2,2,0,1100,,44.6556847,-63.5988028,"2735 Clifton Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,0,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,66,82,Owner
+376,2250,1,1,0,768,www.capreit.ca,44.64917,-63.57983,"1881 Brunswick Street, Halifax, NS, B3J 3L8",,1,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,99,73,63,Capreit
+377,2295,1,1,0,720,,44.65453,-63.59057,"5665 Roberts Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,1,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,69,94,Owner
+378,1975,1,1,0,667,www.capreit.ca,44.6559,-63.58508,"2334 Longard Plaza, Halifax, NS, B3K 5K6",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,95,71,76,Capreit
+379,1500,0,1,0,600,,44.6515,-63.59307,"2424 Robie Street, Halifax, NS",1.0,1,1,1,0,1,1,0,0,1,0,0,1,Halifax Peninsula,NorthEnd,False,False,False,97,70,96,Owner
+380,2455,2,2,0,1300,,44.65944,-63.60115,"5870 Demone St, Halifax, NS B3K 4P6",75.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,64,78,Owner
+381,3100,2,2,0,1045,,44.65242,-63.58617,"5560 Cunard Street, Halifax, NS",1.0,0,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,98,72,89,Owner
+382,2300,1,1,0,825,,44.65242,-63.58617,"Cunard Street, Halifax, NS",1.0,0,1,0,0,0,1,0,0,0,0,0,0,Halifax Peninsula,Downtown,False,True,False,97,70,95,Owner
+383,1500,2,1,1,750,,44.76585,-63.68392,"74 Seawood Avenue, Lower Sackville, NS",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Sackville,Lower Sackville,False,False,False,67,44,21,Owner
+384,1600,1,1,1,700,,44.62855,-63.62837,"32 Tamarack Dr, Halifax, NS B3N 3G9",0.0,1,1,0,0,0,0,1,1,1,0,0,0,Mainland Halifax,Armdale,False,False,False,31,42,36,Owner
+385,2600,2,2,0,840,www.templetonproperties.ca,44.6380516,-63.5755447,"5633 Fenwick St., Halifax, NS, B3H 1R1",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,97,66,66,Templetonproperties
+386,1495,2,1,1,600,,44.66494171,-63.55456848,"Dartmouth, NS B2Y 3P9",0.0,0,1,0,0,0,0,0,0,1,0,0,0,Dartmouth,Dartmouth Downtown,False,False,False,75,48,57,Owner
+387,1850,1,1,0,600,www.upmi.ca,44.6673605,-63.5661516,"22-24 Dundas Street, Dartmouth, NS, B2Y 4L2",2.0,0,0,0,1,0,0,1,1,1,0,0,0,Dartmouth,Dartmouth Downtown,False,False,True,94,64,74,Upmi
+388,3295,2,2,0,1313,thegeorgeresidence.com,44.64601,-63.59049,"6016 Pepperell Street, Halifax, NS, B3H 2N8",1.0,0,0,0,0,0,1,0,1,1,1,1,0,Halifax Peninsula,Downtown,False,False,True,96,68,84,Thegeorgeresidence
+389,1475,0,1,0,400,www.arcmanagement.ca,44.63884,-63.57167,"Halifax, NS B3H 4K2",1.0,1,1,1,0,1,0,1,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,True,95,65,54,Arcmanagement
+390,1595,1,1,0,700,,44.64051245,-63.57409284,"1263 Queen Street, Halifax, NS",135.0,0,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,59,Not Given
+391,2300,2,1,1,800,,44.6607592,-63.6315154,"Main Avenue, Halifax, NS",0.0,0,1,0,0,1,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,True,False,81,53,41,Owner
+392,2100,2,1,1,800,,44.6607592,-63.6315154,"Main Avenue, Halifax, NS",0.0,0,1,0,0,1,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,True,False,81,53,41,Owner
+393,1800,1,1,1,1000,,44.63852451666667,-63.58662088,"Halifax, NS B3H 4R2",0.0,1,1,1,1,0,1,0,0,0,0,1,0,Halifax Peninsula,SouthEnd,False,True,False,93,65,78,Owner
+394,1400,0,1,0,500,,44.6453,-63.57258,"Halifax, NS B3J 1J4",,1,1,1,1,0,0,1,0,1,0,0,1,Halifax Peninsula,Downtown,True,False,False,99,73,65,Owner
+395,1500,0,1,1,500,,44.6688321,-63.6095551,"Leaman Street, Halifax, NS",0.0,1,1,1,1,0,1,0,0,1,0,0,1,Halifax Peninsula,NorthEnd,True,False,False,86,51,64,Owner
+396,1800,2,1,1,698,,44.6405124,-63.5740928,"Halifax, NS B3J 3L4",0.0,0,1,0,1,0,1,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,True,True,False,99,67,59,Owner
+397,1850,2,1,1,1000,,44.6395993,-63.5701976,"252–264 Pleasant St, Halifax, B2Y 3S1",0.0,0,0,0,0,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,64,44,63,Owner
+398,2625,2,2,0,1149,,44.64794125,-63.6046683,"2600 Beech Street, Halifax, NS",160.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,WestEnd,False,True,False,91,64,66,Owner
+399,2195,2,1,1,1050,,44.66991983,-63.48985156,"Cumberland Drive, Dartmouth, NS",0.0,0,1,0,1,0,1,0,1,1,0,0,0,Dartmouth,Cole Harbour,False,False,False,67,42,51,Owner
+400,1150,1,1,1,750,,44.69715478888889,-63.55078126,"Dartmouth, NS B2X 2J1",0.0,1,1,0,1,0,0,1,0,1,0,0,0,Dartmouth,Burnside,False,False,False,56,34,47,Owner
+401,1650,2,1,1,760,,44.6641411,-63.53615895,"Dartmouth, NS B2Y 4B4",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Dartmouth,Dartmouth Downtown,False,False,False,43,41,39,Owner
+402,2095,2,1,1,1050,,44.6618076,-63.659446,"Caxton Close, Halifax, NS",0.0,1,1,0,1,0,0,1,0,0,1,0,0,Mainland Halifax,Clayton Park,False,False,False,76,55,44,Owner
+403,1425,1,1,1,800,,44.66055,-63.66046,"Halifax, NS B3M 4L5",,1,1,0,1,0,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,False,74,55,43,Owner
+404,1595,1,1,0,470,,44.6403754,-63.5869067,"5958 Spring Garden Rd, Halifax, NS, B3H 1Y7",1.0,1,1,0,0,0,0,0,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,92,66,77,Not Given
+405,1499,1,1,0,650,www.metcap.com,44.6810465,-63.58556757,"7 Jackson Road, Dartmouth, NS, B3A 4A4",2.0,0,0,0,0,0,0,1,0,1,0,0,0,Dartmouth,Burnside,False,False,True,73,54,53,Metcap
+406,1220,1,1,0,450,,44.65423,-63.60459,"Edinburgh Street, Halifax, NS",,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,NorthEnd,False,False,False,85,66,70,Owner
+407,1450,1,1,1,800,,44.6608776,-63.6607175,"Halifax, NS B3M 4L5",0.0,1,1,0,1,0,1,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,False,74,55,43,Owner
+408,2030,0,1,0,507,www.capreit.ca,44.64965625,-63.57908638,"1920 Brunswick Street, Halifax, NS, B3J 0C5",1.0,0,0,0,1,0,1,0,1,1,0,0,1,Halifax Peninsula,Downtown,False,False,True,98,73,64,Capreit
+409,2045,1,1,1,660,,44.63530235,-63.57682805,"1030 South Park St, Halifax, NS B3H 2W3",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,True,False,93,64,67,Owner
+410,1350,1,1,1,1033,,44.6544427,-63.5907197,"5665 Roberts St, Halifax, NS B3K 1J5",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,69,94,Owner
+411,2700,3,1,1,1500,,44.672641,-63.6483029,"111 Melody Drive, Halifax, NS",0.0,1,1,1,0,1,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,True,57,50,22,Not Given
+412,2805,2,1,0,1378,www.capreit.ca,44.66833,-63.56666,"101 Ochterloney St, Dartmouth, NS, B2Y 1C6",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Dartmouth,Dartmouth Downtown,False,True,True,94,66,77,Capreit
+413,2845,2,1,0,1378,www.capreit.ca,44.66833,-63.56666,"101 Ochterloney St, Dartmouth, NS, B2Y 1C6",,1,1,0,1,0,1,0,1,1,0,0,0,Dartmouth,Dartmouth Downtown,False,True,True,94,66,77,Capreit
+414,1860,1,1,0,500,,44.629,-63.57132,"5651 Ogilvie Street, Halifax, NS",75.0,1,1,0,0,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,47,48,61,Owner
+415,1350,0,1,0,420,,44.63561,-63.57567,"5681 Rhuland St, Halifax, NS B3H 4J6",1.0,0,1,0,0,0,0,1,0,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,False,93,64,65,Owner
+416,1800,2,1,1,850,,44.56726,-63.55839,"Herring Cove, NS B3V 1H2",0.0,1,1,1,0,1,1,0,0,1,0,0,0,Mainland Halifax,Spryfield,False,False,False,0,0,0,Owner
+417,2100,2,1,1,850,,44.64249,-63.61479,"Churchill Drive, Halifax, NS",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,82,60,46,Owner
+418,1350,2,1,1,1200,,44.77128,-63.69621,"Touchstone Ct, Lower Sackville, NS B4E 2P4",0.0,0,0,0,0,0,0,0,0,0,0,1,0,Sackville,Lower Sackville,False,True,False,75,47,30,Owner
+419,1375,2,1,1,1200,,44.77128,-63.69621,"Touchstone Ct, Lower Sackville, NS B4E 2P4",,0,0,0,0,0,0,0,0,0,0,1,0,Sackville,Lower Sackville,False,True,False,75,47,30,Owner
+420,2500,1,1,1,1280,,44.65378,-63.59629,"Clifton St, Halifax, NS B3K",0.0,1,1,1,1,1,1,1,0,0,0,0,0,Halifax Peninsula,NorthEnd,True,True,False,96,69,92,Owner
+421,1350,1,1,1,766,,44.7734627,-63.6884186,"Lower Sackville, NS B4C 1N2",0.0,1,1,1,0,0,0,1,0,1,0,0,0,Sackville,Lower Sackville,False,False,False,62,42,24,Owner
+422,2095,2,2,1,1350,,44.65127209,-63.66395113,"Halifax, NS B3S 1P4",0.0,1,1,0,1,0,1,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,False,64,53,42,Owner
+423,1725,1,1,0,539,,44.65389,-63.58637,"Gottingen Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,96,70,87,Owner
+424,1950,1,2,1,1210,,44.702,-63.66178,"Bedford Highway, Halifax, NS",0.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,True,False,56,49,24,Owner
+425,1995,2,1,0,1000,,44.70672,-63.66589,"Millview Avenue, Bedford, NS",1.0,0,1,0,1,1,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,True,False,53,37,18,Owner
+426,1500,2,1,1,900,,44.66211,-63.63078,"18 Evans Ave, Halifax, NS B3M 1C2",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,False,77,57,51,Owner
+427,2100,2,2,0,1200,,44.69366,-63.6616,"Bedford Highway, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Bedford,Bedford Basin,False,False,False,56,49,24,Owner
+428,2595,2,2,0,1115,,44.64272,-63.57688,"Birmingham Street, Halifax, NS",1.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,10,72,74,Owner
+429,3095,2,2,0,950,,44.64353,-63.57578,"Queen Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,99,67,62,Owner
+430,1900,1,1,1,521,,44.6389,-63.58989,"Seymour Street, Halifax, NS",0.0,1,1,1,1,0,1,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,True,True,False,90,65,81,Owner
+431,1650,1,1,0,650,,44.65333,-63.58634,"Halifax, NS B3K 3R8",75.0,0,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,False,97,71,82,Owner
+432,2100,2,1,0,750,,44.65333,-63.58634,"Halifax, NS B3K 3R8",1.0,0,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,False,97,71,82,Owner
+433,2023,1,1,0,747,www.metcap.com,44.65635,-63.65017,"200 Willet Street, Halifax, NS, B3M 3C5",,0,0,0,0,0,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,True,70,51,41,Metcap
+434,2290,1,1,1,920,,44.67041,-63.66646,"Halifax, NS B3M 4J4",0.0,1,1,1,0,1,0,1,1,1,0,0,0,Mainland Halifax,Clayton Park,True,True,False,70,51,41,Owner
+435,3000,3,1,1,1200,,44.64047,-63.62771,"159 Crown Dr, Halifax, B3N 1L2",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Mainland Halifax,Armdale,False,False,False,59,54,57,Owner
+436,1250,2,1,0,1200,,44.66466,-63.66107,"Barkton Ln, Halifax, NS B3M",,1,1,1,1,0,1,1,1,1,1,0,0,Mainland Halifax,Clayton Park,False,True,True,0,0,0,Not Given
+437,1800,2,1,1,400,,44.6724431,-63.4826308,"Cole Harbour Rd, Cole Harbour, NS, B2W 6J9",0.0,0,0,0,0,0,0,0,0,0,1,1,0,Dartmouth,Cole Harbour,False,True,False,5,15,14,Owner
+438,2950,1,1,1,960,,44.6526135,-63.585534,"2254 Sequoia Lane, Halifax, NS",0.0,1,1,1,0,1,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,True,False,False,98,72,84,Owner
+439,1350,0,1,0,980,,44.67280035,-63.5661125,"55 Dahlia Street, Dartmouth, NS",1.0,1,1,1,0,0,0,1,0,0,0,0,1,Dartmouth,Dartmouth Downtown,True,False,False,78,63,71,Owner
+440,1728,1,1,1,680,,44.65776205,-63.63365338,"Supreme Court, Halifax, NS",0.0,1,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,True,False,87,58,71,Owner
+441,1950,1,1,0,470,www.templetonproperties.ca,44.63835265,-63.5965965,"1545 Oxford St., Halifax, NS, B3H 3Z3",1.0,1,0,0,0,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,84,62,69,Templetonproperties
+442,1850,1,1,0,470,www.templetonproperties.ca,44.63835265,-63.5965965,"1545 Oxford St., Halifax, NS, B3H 3Z3",1.0,1,0,0,0,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,84,62,69,Templetonproperties
+443,1750,1,1,1,1100,,44.64689247,-63.61722717,"Halifax, NS B3L 2H7",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,WestEnd,False,False,True,90,63,58,Not Given
+444,1200,2,1,0,672,,44.6289805,-63.57143265,"5651 Ogilvie St, Halifax, B3H 1B9",1.0,1,1,1,0,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,True,False,False,47,48,61,Owner
+445,2695,2,2,1,1671,,44.6989938,-63.69763384,"1000 Larry Uteck Blvd, Bedford, NS",0.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,True,False,26,31,40,Owner
+446,2150,2,1,0,771,,44.7759916,-63.6954104,"Sackville Drive, Lower Sackville, NS",1.0,0,1,0,1,0,1,0,0,0,0,0,0,Sackville,Lower Sackville,False,True,False,44,41,11,Owner
+447,2895,3,2,1,1500,,44.61168,-63.61505,"Pine Grove Drive, Halifax, NS",,0,1,0,1,1,1,0,1,1,1,1,0,Mainland Halifax,Spryfield,False,False,False,70,42,43,Owner
+448,1675,1,1,1,800,,44.64381,-63.59534,"1856 Walnut St, Halifax, NS B3H 3S7",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,96,66,75,Owner
+449,1800,1,1,1,900,,44.6367,-63.57028,"Smith Street, Halifax, NS",0.0,0,1,0,1,0,1,0,0,1,0,0,0,Halifax Peninsula,SouthEnd,True,False,False,92,63,60,Owner
+450,1023,2,1,1,800,,44.63132,-63.57508,"Atlantic St, 哈利法克斯, B3H2V7",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,True,False,False,81,59,65,Owner
+451,1700,1,1,0,800,,44.76105,-63.67076,"275 Sackville Drive, Lower Sackville, NS",1.0,1,1,0,1,0,1,1,0,1,0,0,0,Sackville,Lower Sackville,False,True,False,53,41,25,Owner
+452,2650,2,2,1,1650,,44.7113,-63.70191,"Broad St, Bedford, NS B4B 0Z1",0.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,True,False,15,28,33,Owner
+453,2400,1,1,1,1200,,44.63812,-63.57167,"Kent St, Halifax, NS B3H",0.0,0,0,0,0,0,0,0,0,0,1,0,0,Halifax Peninsula,SouthEnd,True,True,False,95,65,54,Owner
+454,2395,2,1,0,1000,,44.63677,-63.57523,"Lucknow Street, Halifax, NS",130.0,0,1,0,0,0,1,0,1,1,1,0,0,Halifax Peninsula,SouthEnd,False,True,True,92,63,67,Not Given
+455,2695,2,2,0,1055,west22living.com,44.65015,-63.62388,"7037 Mumford Rd, Halifax, NS, B3L 2J1",1.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,WestEnd,False,False,True,80,63,74,West22living
+456,2095,2,1,0,869,hillsidesuites.com,44.63993,-63.57187,"5251 South Street, Halifax, NS, B3J 4B2",,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,98,74,67,Hillsidesuites
+457,2200,1,1,1,920,,44.67041,-63.66646,"Halifax, NS B3M 4J4",,1,1,1,0,1,0,1,1,1,0,0,0,Mainland Halifax,Clayton Park,True,True,False,70,51,41,Owner
+458,1775,1,1,0,772,,44.671097,-63.5015518,"1101 Cole Harbour Road, Dartmouth, NS",25.0,1,1,0,1,1,1,0,0,0,0,0,0,Dartmouth,Cole Harbour,False,False,False,69,38,46,Owner
+459,1750,1,1,1,470,,44.63733309,-63.57113139,"Halifax, NS B3H 1N7",0.0,1,1,1,0,1,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,True,False,False,89,64,58,Owner
+460,1750,0,1,1,450,,44.6390609,-63.5718388,"Tobin Street, Halifax, NS",0.0,1,1,1,1,0,0,1,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,False,95,65,54,Owner
+461,1875,1,1,0,741,,44.6655787,-63.59601539,"3150 Barrington St, Halifax, NS B3K 0C6",1.0,0,0,0,0,0,0,0,0,0,0,1,0,Halifax Peninsula,NorthEnd,False,False,False,83,52,54,Owner
+462,1400,1,1,1,800,,44.6707947,-63.5510147,"Lakefront Road, Dartmouth, NS",0.0,1,1,1,0,1,1,0,0,1,0,1,0,Dartmouth,Dartmouth Downtown,True,False,False,56,49,47,Owner
+463,2525,2,1,0,1338,www.capreit.ca,44.70162,-63.69171,"76 Armenia Drive, Bedford, NS, B4A 0J9",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Bedford,Bedford Basin,True,True,True,50,31,49,Capreit
+464,1895,1,1,0,635,,44.65389,-63.58637,"Gottingen Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,96,70,87,Owner
+465,2400,2,1,0,550,,44.62737,-63.57251,"Young Ave, Halifax, NS B3H 2V3",1.0,0,0,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,73,52,54,Owner
+466,1700,1,1,0,800,,44.76074,-63.67008,"249 Sackville Drive, Lower Sackville, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Sackville,Lower Sackville,False,True,False,59,41,25,Owner
+467,2295,2,2,0,1399,,44.72504,-63.74912,"Appaloosa Run, Upper Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+468,1350,1,1,0,500,,44.65715,-63.59571,"2709 Agricola St, Halifax, NS B3K 4C7",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,67,86,Owner
+469,1795,1,1,1,750,,44.65771,-63.63437,"Supreme Court, Halifax, NS",0.0,1,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,True,False,87,58,71,Owner
+470,1975,1,1,0,705,,44.65514,-63.60094,"Gladstone Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,0,0,0,Owner
+471,2395,2,2,1,1450,,44.70697,-63.69734,"Ledgegate Lane, Bedford, NS",0.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,True,False,20,30,41,Owner
+472,2515,2,2,1,1610,,44.7059236,-63.618124,"Windmill Rd, Dartmouth, NS, B3B 1B7",0.0,0,0,0,0,0,0,0,0,0,0,1,0,Dartmouth,Burnside,False,True,False,44,47,40,Owner
+473,1100,1,1,0,1000,,44.6487803,-63.603143,"North St, Halifax, NS, B3M 2B3",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,WestEnd,False,False,False,45,45,23,Owner
+474,1750,1,1,0,650,,44.64172186,-63.57921774,"Halifax, NS B3J 2L1",1.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,True,True,False,10,67,71,Owner
+475,2495,2,2,1,1000,,44.65589225,-63.59963973,"6100 Almon St, Halifax, NS B3K 1T8",0.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,66,80,Owner
+476,2250,2,1,1,1200,www.upmi.ca,44.6514806,-63.58974963,"5813 Cunard Street, Halifax, NS, B3K 1E1",0.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,True,97,71,95,Upmi
+477,2695,2,2,0,990,,44.65579,-63.59882,"Clifton Street, Halifax, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,96,69,92,Owner
+478,1400,1,2,1,1500,,44.70994,-63.69949,"Tilbury Ave, Bedford, NS B4B",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Bedford,Bedford Basin,False,True,False,8,29,21,Owner
+479,2200,2,1,0,650,,44.60888,-63.6157,"Halifax, NS B3R 1W4",100.0,0,1,0,1,1,1,0,1,1,0,0,0,Mainland Halifax,Spryfield,False,True,False,70,41,43,Owner
+480,3000,2,2,1,711,,44.64758,-63.57277,"Halifax, NS, B3K3W8",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,Downtown,False,True,False,97,68,89,Owner
+481,2295,2,1,0,850,www.capreit.ca,44.6526515,-63.5808535,"2077 Brunswick Street, Halifax, NS, B3K 5T8",1.0,0,1,0,0,0,1,1,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,73,68,Capreit
+482,1980,1,1,0,667,www.capreit.ca,44.6553915,-63.584646,"2334 Longard Plaza, Halifax, NS, B3K 5K6",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,95,71,76,Capreit
+483,1795,2,1,1,850,,44.61267493,-63.6232378,"Halifax, NS B3R 1R3",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Mainland Halifax,Spryfield,False,False,False,57,41,33,Owner
+484,2945,2,2,1,500,,44.6616327,-63.5992423,"5548 Kaye St, Halifax, NS B3K 1Y5",0.0,0,0,0,1,0,1,0,0,0,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,65,76,Owner
+485,1850,1,1,1,1000,,44.69367,-63.66258,"556 Bedford Hwy, Halifax, B3M 4X7",0.0,1,1,0,0,0,0,0,0,0,0,0,0,Bedford,Bedford Basin,False,False,False,2,40,25,Owner
+486,1850,1,1,1,920,,44.67041,-63.66646,"Halifax, NS B3M 4J4",0.0,1,1,1,0,1,0,1,1,1,0,0,0,Mainland Halifax,Clayton Park,True,True,False,70,51,41,Owner
+487,2650,2,2,1,1500,,44.66094725,-63.5983357,"3051 Isleville St, Halifax, B3K 1X7",0.0,0,1,0,1,0,1,0,0,0,0,0,0,Halifax Peninsula,NorthEnd,True,True,False,97,65,72,Owner
+488,2400,2,1,1,850,,44.6507159,-63.5862635,"2075 North Park Street, Halifax, NS",0.0,0,1,0,1,0,0,0,0,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,97,72,93,Owner
+489,1125,1,1,0,600,,44.64437609,-63.59693865,"Halifax, NS B3H 2N3",1.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,97,65,70,Owner
+490,2200,1,1,1,680,,44.6352037,-63.5699691,"960 Barrington St, Halifax, B3H 2P7",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,90,61,63,Owner
+491,1095,2,1,0,968,,44.64155375,-63.58495029,"5885 Spring Garden Road, Halifax, NS",1.0,1,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,93,66,80,Owner
+492,2350,1,1,1,600,,44.64067,-63.58957,"Henry Street, Halifax, NS",0.0,1,1,1,0,1,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,True,False,89,65,77,Owner
+493,1795,1,1,1,600,,44.71876,-63.67328,"Shore Ave, Bedford, NS",0.0,0,1,0,1,0,0,1,1,1,0,0,0,Bedford,Bedford Basin,False,False,False,72,34,51,Owner
+494,2995,3,1,0,900,,44.65515,-63.58836,"Halifax, NS B3K 3B9",125.0,1,1,0,0,1,0,1,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,70,87,Not Given
+495,2795,2,2,1,1800,,44.69907,-63.6975,"Larry Uteck Blvd, Bedford, NS",0.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,False,True,False,23,18,29,Owner
+496,1795,1,2,0,1096,,44.66001,-63.59835,"5663 Macara Street, Halifax, NS",70.0,0,1,0,0,0,0,1,0,1,0,0,0,Halifax Peninsula,NorthEnd,False,False,False,98,66,76,Owner
+497,2095,1,1,0,900,,44.65949,-63.59471,"Bloomfield Street, Halifax, NS",160.0,1,1,0,1,1,1,0,1,1,0,1,0,Halifax Peninsula,NorthEnd,False,True,False,97,67,83,Owner
+498,1800,0,1,0,508,,44.6534,-63.59098,"2440 Agricola Street, Halifax, NS",1.0,0,1,0,1,0,1,0,1,1,0,0,1,Halifax Peninsula,NorthEnd,False,True,False,97,71,94,Owner
+499,1675,1,1,0,775,,44.66107,-63.63145,"37 Main Ave, Halifax, NS B3M 1A2",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,False,82,57,56,Owner
+500,2000,1,1,1,780,,44.67045,-63.56256,"Dartmouth, NS B2Y 1M1",0.0,0,0,0,0,0,1,0,1,1,0,0,0,Dartmouth,Dartmouth Downtown,False,True,False,90,62,80,Owner
+501,1995,1,1,0,1000,,44.72522,-63.74884,"Appaloosa Run, Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,1,1,0,Bedford,Hammonds Plains,False,True,False,0,0,0,Owner
+502,1725,1,1,0,800,,44.66066,-63.63038,"Mcfatridge Road, Halifax, NS",1.0,0,1,0,0,0,1,0,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,79,58,64,Owner
+503,2650,2,2,1,1600,,44.7113,-63.70191,"487 Broad St, Bedford, NS B4B 0Z1",0.0,1,1,0,1,0,1,0,0,0,0,1,0,Bedford,Bedford Basin,False,True,False,7,29,41,Owner
+504,1600,1,1,0,750,,44.63371,-63.57734,"5760 Inglis Street, Halifax, NS",1.0,1,1,0,0,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,89,62,69,Owner
+505,2700,3,1,1,800,,44.65046,-63.60229,"6061 Seaforth Street, Halifax, NS",0.0,1,1,0,0,1,0,1,0,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,93,66,82,Owner
+506,2395,2,1,1,900,,44.6812943,-63.666253,"Kearney Lake Rd, Halifax, NS, B3M 3H7",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,38,30,32,Owner
+507,2500,2,2,0,830,,44.6357626,-63.57970249,"Halifax, NS B3H 3A1",1.0,0,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,87,65,69,Owner
+508,1800,1,1,0,800,,44.59188,-63.59869,"Chambers Court, Halifax, NS",-1.0,1,1,1,0,0,1,0,0,0,0,0,0,Mainland Halifax,Spryfield,False,True,False,10,36,24,Owner
+509,1850,1,1,1,800,,44.64514,-63.59485,"Halifax, NS B3H 2N9",0.0,1,1,1,0,1,1,0,0,0,0,0,0,Halifax Peninsula,WestEnd,False,False,False,96,66,75,Owner
+510,1450,2,1,1,650,,44.65971,-63.63483,"Halifax, NS B3M 2N4",0.0,1,1,0,1,0,0,1,0,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,86,57,62,Owner
+511,1895,1,1,1,799,,44.65771,-63.63437,"Supreme Court, Halifax, NS",0.0,1,1,0,1,0,1,0,1,1,0,1,0,Mainland Halifax,Clayton Park,False,True,False,87,58,71,Owner
+512,1890,1,1,1,500,,44.65301,-63.61637,"Connaught Avenue, Halifax, NS",0.0,1,1,0,1,1,1,0,0,0,0,0,0,Halifax Peninsula,WestEnd,False,False,False,85,65,71,Owner
+513,2650,2,2,1,1300,,44.63938,-63.62892,"Crown Drive, Halifax, NS",0.0,0,1,0,1,0,1,0,0,0,0,1,0,Mainland Halifax,Armdale,False,False,False,54,49,52,Owner
+514,1795,1,1,0,601,twin-city.lws1.com,44.65469,-63.60461,"6265 London Street, Halifax, NS, B3L 1X1",-1.0,1,1,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,NorthEnd,False,False,True,92,64,80,Twin City
+515,1800,1,1,0,500,,44.64047,-63.57684,"Morris St, Halifax, NS B3J 1C4",-1.0,1,1,1,0,0,0,0,1,1,0,1,0,Halifax Peninsula,SouthEnd,False,False,False,99,67,61,Owner
+516,1180,2,1,1,1000,,44.66697,-63.57539,"Dartmouth, NS B3A 1B7",0.0,1,1,1,1,0,1,0,1,1,0,0,0,Dartmouth,Dartmouth Downtown,True,True,False,83,66,69,Owner
+517,1600,2,1,1,500,,44.74434,-63.65114,"Riverview Crescent, Bedford, NS",0.0,1,1,1,1,0,0,1,0,0,0,0,0,Bedford,Bedford Basin,False,True,False,45,38,34,Owner
+518,2695,2,2,0,1108,hillsidesuites.com,44.63993,-63.57187,"5251 South Street, Halifax, NS, B3J 4B2",160.0,1,1,0,0,0,1,0,1,1,0,1,0,Halifax Peninsula,SouthEnd,False,False,True,98,74,67,Hillsidesuites
+519,2100,0,1,0,500,www.templetonproperties.ca,44.6380516,-63.5755447,"5633 Fenwick St, Halifax, NS, B3H 1R1",1.0,1,1,0,1,0,1,0,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,True,97,66,66,Templetonproperties
+520,2260,2,1,1,600,,44.6732516,-63.5694232,"Thistle Street, Dartmouth, NS",0.0,1,1,1,1,0,1,0,0,1,0,0,0,Dartmouth,Dartmouth Downtown,True,False,False,77,65,62,Owner
+521,2590,2,1,0,789,www.capreit.ca,44.64965625,-63.57908638,"1920 Brunswick Street, Halifax, NS, B3J 0C5",1.0,0,0,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,98,73,64,Capreit
+522,2995,2,2,0,820,southwest.ca,44.64375615,-63.57992373,"1581 South Park Street, Halifax, NS",1.0,0,0,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,True,10,71,77,Southwest
+523,1728,1,1,1,500,,44.65406445,-63.60165896,"2759 Windsor St, Halifax, NS B3K 5E3",0.0,1,1,1,0,0,1,0,1,0,0,0,0,Halifax Peninsula,NorthEnd,False,False,False,93,66,79,Owner
+524,2200,2,1,0,900,,44.6556843,-63.6198142,"3367 Federal Ave, Halifax, B3L 3X5",1.0,0,0,0,0,0,0,0,0,0,0,1,0,Halifax Peninsula,WestEnd,False,True,False,78,60,65,Owner
+525,1950,1,1,0,751,www.capreit.ca,44.6502916,-63.57801692,"2001 Brunswick Street, Halifax, NS, B3J 3L8",1.0,0,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,97,73,64,Capreit
+526,1695,1,1,0,700,,44.65260295,-63.63110143,"3315 Westerwald Street, Halifax, NS",1.0,1,1,0,0,0,0,1,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,82,61,72,Owner
+527,1895,1,1,1,1100,,44.67124,-63.66455,"Langbrae Drive, Halifax, NS",,1,1,0,1,0,0,1,1,1,0,1,0,Mainland Halifax,Clayton Park,False,False,False,70,51,41,Owner
+528,1495,1,1,1,1100,,44.6701064,-63.6655223,"Langbrae Drive, Halifax, NS",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,70,51,41,Owner
+529,2295,1,1,0,848,,44.64483621,-63.59865955,"Halifax, NS B3L 1A5",1.0,0,0,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,WestEnd,False,True,False,97,64,67,Owner
+530,2075,1,1,0,500,,44.658992,-63.5978962,"Bilby Street, Halifax, NS",175.0,1,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,67,80,Owner
+531,1650,2,1,1,650,,44.7059236,-63.618124,"Windmill Rd, Dartmouth, NS B3A 1C7",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Dartmouth,Burnside,False,False,False,44,47,40,Owner
+532,1700,1,1,0,850,,44.7759916,-63.6954104,"Sackville Drive, Lower Sackville, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Sackville,Lower Sackville,False,True,False,44,41,11,Owner
+533,1805,0,1,0,491,www.capreit.ca,44.6412687,-63.58115585,"5770 Spring Garden Road, Halifax, NS, B3H 4J8",1.0,0,1,0,1,0,0,1,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,True,99,67,75,Capreit
+534,1820,0,1,0,491,www.capreit.ca,44.64159,-63.58123,"5770 Spring Garden Road, Halifax, NS, B3H 4J8",,0,1,0,1,0,0,1,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,True,99,67,75,Capreit
+535,1444,0,1,0,700,,44.6389343,-63.5714677,"5252 Tobin St, Halifax, B3H 4K2",1.0,1,1,1,1,0,0,1,1,1,0,0,1,Halifax Peninsula,SouthEnd,False,False,False,95,65,55,Owner
+536,1850,2,1,0,850,,44.64992063,-63.59481262,"Halifax, NS B3K 5B7",1.0,1,1,0,1,0,0,0,1,1,0,0,0,Halifax Peninsula,WestEnd,False,False,False,96,68,88,Owner
+537,2250,2,1,1,1150,,44.6037063,-63.6008925,"Alabaster Way, Halifax, NS",0.0,0,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Spryfield,False,True,False,11,35,18,Owner
+538,2450,2,1,0,750,,44.6542427,-63.5907158,"Roberts Street, Halifax, NS",1.0,0,0,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,71,94,Owner
+539,1875,1,1,1,650,,44.68095,-63.69468,"Halifax, NS B3M",,1,1,1,0,1,1,0,0,1,0,0,0,Bedford,Bedford Basin,False,False,False,2,23,19,Owner
+540,2000,1,1,0,500,,44.6422684,-63.5692606,"Morris St, Halifax, NS B3J 1C4",1.0,1,1,1,0,0,0,0,1,1,0,1,0,Halifax Peninsula,SouthEnd,False,False,False,99,67,61,Owner
+541,2295,3,2,0,1396,www.lakecrestestates.ca,44.6632766,-63.52104994,"31 Russell Lake Drive, Dartmouth, NS, B2W 6J3",1.0,1,1,0,0,0,1,0,1,1,0,0,0,Dartmouth,Cole Harbour,False,False,True,30,33,38,Lakecrestestates
+542,2050,1,1,0,690,,44.6394185,-63.59101405,"1521 Lemarchant Street, Halifax, NS",1.0,1,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,89,65,77,Not Given
+543,2505,1,2,0,880,www.hazelviewproperties.com,44.6644649,-63.59477327,"3075 Devonshire Avenue, Halifax, NS, B3K 0H5",1.0,0,0,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,True,91,64,54,Hazelviewproperties
+544,1995,3,1,1,1158,,44.66118784,-63.55371044,"Dartmouth, NS B2Y 3N5",0.0,0,0,0,1,1,1,0,1,0,0,0,0,Dartmouth,Dartmouth Downtown,False,False,False,72,47,52,Owner
+545,2250,2,1,1,650,,44.6492555,-63.5973169,"Duncan Street, Halifax, NS",0.0,1,1,0,0,1,1,0,0,0,0,0,0,Halifax Peninsula,WestEnd,False,False,False,96,67,83,Owner
+546,2095,2,1,0,1100,,44.6476563,-63.5981392,"Allan Street, Halifax, NS",65.0,1,1,0,1,0,0,1,0,1,0,1,0,Halifax Peninsula,WestEnd,False,False,False,97,66,77,Owner
+547,2500,2,2,0,919,,44.65163615,-63.58075959,"5426 Portland Pl, Halifax, NS B3K 1A1",175.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,Downtown,False,True,False,96,73,66,Owner
+548,2635,2,1,0,968,www.capreit.ca,44.63530235,-63.57682805,"1030 South Park Street, Halifax, NS, B3J 2K9",1.0,0,1,0,1,0,0,1,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,69,Capreit
+549,1495,1,1,1,800,,44.6733189,-63.58558004,"Dartmouth, NS B3A 1L1",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Dartmouth,Dartmouth Downtown,False,False,False,78,62,61,Owner
+550,2295,2,2,1,1395,,44.72506432,-63.74789223,"183 Appaloosa Run, Upper Hammonds Plains, NS",0.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Hammonds Plains,False,True,False,13,13,28,Owner
+551,2400,1,1,0,825,,44.6520715,-63.5872933,"Cunard Street, Halifax, NS",1.0,0,1,0,0,0,1,0,0,0,0,0,0,Halifax Peninsula,Downtown,False,True,False,97,70,95,Owner
+552,1675,1,1,1,600,,44.6706936,-63.5639134,"Crichton Ave, Dartmouth, NS, B3A3R3",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Dartmouth,Dartmouth Downtown,False,False,True,59,55,47,Not Given
+553,2100,2,2,0,1352,,44.6811811,-63.53841823,"67 Tacoma Drive, Dartmouth, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Dartmouth,Dartmouth Downtown,False,True,False,78,48,55,Owner
+554,2295,2,2,0,1400,,44.7252049,-63.7483418,"Appaloosa Run, Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+555,1850,1,1,1,750,,44.66397635,-63.64438864,"179 Lacewood Dr, Halifax, NS B3M 2N9",0.0,1,1,0,0,1,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,False,64,54,33,Owner
+556,1550,1,1,1,700,,44.634925,-63.5870201,"Waterloo Street, Halifax, NS",0.0,1,1,0,0,1,0,1,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,88,65,81,Owner
+557,1700,1,1,0,600,,44.66614897,-63.60767821,"Duffus St, Halifax, B3K 2M6",1.0,1,0,0,1,0,1,0,1,1,0,1,0,Halifax Peninsula,NorthEnd,False,True,False,85,51,65,Owner
+558,2795,2,2,0,1039,thegeorgeresidence.com,44.646277,-63.5904728,"6016 Pepperell Street, Halifax, NS, B3H 2N8",1.0,0,0,0,0,0,1,0,1,1,0,1,0,Halifax Peninsula,Downtown,False,False,True,96,68,84,Thegeorgeresidence
+559,2025,1,1,0,484,thegeorgeresidence.com,44.646277,-63.5904728,"6016 Pepperell Street, Halifax, NS, B3H 2N8",1.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,68,84,Thegeorgeresidence
+560,3450,2,2,0,1313,thegeorgeresidence.com,44.646277,-63.5904728,"6016 Pepperell Street, Halifax, NS, B3H 2N8",1.0,0,0,0,0,0,1,0,1,1,1,1,0,Halifax Peninsula,Downtown,False,False,True,96,68,84,Thegeorgeresidence
+561,1600,1,1,1,600,,44.62105705,-63.62158185,"18 Penny Avenue, Halifax, NS",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Mainland Halifax,Armdale,False,False,False,54,41,34,Owner
+562,1900,1,1,1,950,,44.6424558,-63.6306004,"Brook Street, Halifax, NS",0.0,1,0,1,0,1,1,0,0,0,0,1,0,Mainland Halifax,Armdale,True,True,False,43,57,59,Owner
+563,1900,1,1,0,550,,44.6512554,-63.582692,"5510 Falkland St, Halifax, NS B3K 1A3",1.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,True,True,False,95,72,71,Owner
+564,1985,1,1,0,881,www.capreit.ca,44.64878,-63.59128,"2074 Robie Street, Halifax, NS, B3K 5L3",,0,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,69,92,Capreit
+565,1975,1,1,0,881,www.capreit.ca,44.64878,-63.59128,"2074 Robie Street, Halifax, NS, B3K 5L3",,0,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,69,92,Capreit
+566,1695,1,1,0,881,www.capreit.ca,44.6484791,-63.59153454,"2074 Robie Street, Halifax, NS, B3K 5L3",1.0,0,1,0,1,0,0,1,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,69,92,Capreit
+567,1650,1,1,0,600,,44.6417567,-63.5792295,"1471 South Park St, Halifax, NS B3J 2L1",1.0,0,1,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,True,False,10,67,71,Owner
+568,2295,2,2,1,1440,,44.7385029,-63.7835323,"Hammonds Plains, NS B4B",0.0,0,1,0,1,0,1,0,1,1,0,1,0,Bedford,Hammonds Plains,False,True,False,31,13,35,Owner
+569,2050,1,1,0,550,,44.6390609,-63.5718388,"Tobin Street, Halifax, NS",1.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,95,65,54,Owner
+570,1700,2,1,1,900,,44.7734627,-63.6884186,"Lower Sackville, NS B4C 3H3",0.0,0,1,0,0,0,0,1,0,0,0,0,0,Sackville,Lower Sackville,False,False,False,50,31,29,Owner
+571,2500,2,1,1,950,,44.67092649,-63.58696978,"Dartmouth, NS B3A 4L2",0.0,1,1,1,0,0,0,1,0,1,0,0,0,Dartmouth,Dartmouth Downtown,True,False,False,78,62,64,Owner
+572,2240,1,1,0,650,www.metcap.com,44.70012805,-63.66554741,"40 Bedros Lane, Bedford, NS, B3M 4X1",2.0,0,0,0,1,0,0,1,0,1,0,0,0,Bedford,Bedford Basin,False,False,True,43,38,26,Metcap
+573,1250,2,2,0,919,,44.65163615,-63.58075959,"5426 Portland Pl, Halifax, NS B3K 1A1",175.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,Downtown,False,True,False,96,73,66,Owner
+574,1600,2,1,1,600,,44.6530347,-63.5902041,"Agricola St, Halifax, B3K 4C7",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,Downtown,False,False,False,98,66,76,Owner
+575,2360,2,1,0,1350,www.capreit.ca,44.6668671,-63.66081929,"81 Radcliffe Drive, Halifax, NS, B3M 4L4",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,True,70,55,39,Capreit
+576,2495,2,1,0,961,www.capreit.ca,44.6513454,-63.5914571,"5885 Cunard Street, Halifax, NS, B3K 1E3",1.0,1,1,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,NorthEnd,False,False,True,97,70,95,Capreit
+577,2250,3,2,1,1550,,44.6669707,-63.6714279,"Halifax, NS B3S 1K5",0.0,1,1,0,1,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,50,50,29,Owner
+578,1500,2,1,1,950,,44.61711335,-63.61585928,"Halifax, NS B3P 1S9",0.0,1,1,0,1,0,0,1,1,1,0,0,0,Mainland Halifax,Armdale,False,False,True,58,42,30,Not Given
+579,2495,1,1,0,1000,,44.63950371,-63.57804141,"Halifax, NS B3J 2K8",175.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,99,67,67,Not Given
+580,1800,1,1,0,541,www.templetonproperties.ca,44.6520766,-63.65025623,"290 Main Ave., Halifax, NS, B3M 3V3",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,True,63,41,37,Templetonproperties
+581,2600,2,1,0,709,www.templetonproperties.ca,44.63667185,-63.5773907,"1128 South Park St., Halifax, NS, B3H 2W7",1.0,0,0,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,96,65,67,Templetonproperties
+582,1700,2,1,1,800,,44.62761179,-63.61598079,"Halifax, NS B3P 2B6",,1,1,0,1,0,0,1,0,0,0,0,0,Mainland Halifax,Armdale,False,False,False,52,43,38,Owner
+583,1800,2,1,1,800,,44.6275608,-63.615777,"Halifax, NS B3P 2B6",0.0,1,1,0,1,0,0,1,0,0,0,0,0,Mainland Halifax,Armdale,False,False,False,52,43,38,Owner
+584,2295,2,2,0,1399,,44.7252049,-63.7483418,"Appaloosa Run, Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+585,2095,1,1,0,1209,,44.66461392,-63.50595229,"Dartmouth, NS B2W 6R7",1.0,0,1,1,1,0,0,1,1,1,0,0,0,Dartmouth,Cole Harbour,False,False,False,36,46,22,Owner
+586,2400,2,1,1,900,,44.6607592,-63.6315154,"Main Avenue, Halifax, NS",0.0,0,0,1,0,1,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,True,False,81,53,41,Owner
+587,1475,1,1,1,900,,44.65032629,-63.64127542,"Halifax, NS B3N 2H8",0.0,1,1,0,0,0,0,1,0,1,0,0,0,Mainland Halifax,Clayton Park,False,False,True,64,49,41,Not Given
+588,1900,1,1,0,555,,44.6524307,-63.58643955,"Halifax, NS B3K 1C4",1.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,True,False,98,72,89,Owner
+589,2095,2,1,0,850,,44.65103232,-63.63748485,"Halifax, NS B3N 2G5",1.0,0,1,0,0,0,1,0,1,1,0,0,0,Mainland Halifax,Clayton Park,False,True,False,69,55,45,Owner
+590,1600,1,1,0,400,,44.64014605,-63.58491902,"Carlton Street, Halifax, NS",,1,1,1,1,0,0,0,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,93,66,80,Owner
+591,1650,1,1,0,400,,44.64014605,-63.58491902,"Carlton Street, Halifax, NS",1.0,1,1,1,1,0,0,0,0,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,93,66,80,Owner
+592,2595,2,2,0,1443,www.skylineliving.ca,44.7168526,-63.7083598,"200 Broad Street Bedford, Bedford, NS, B4B 0T4",1.0,1,1,0,0,0,0,0,1,0,0,0,0,Bedford,Hammonds Plains,False,True,True,21,30,44,Skylineliving
+593,1795,1,1,1,1200,,44.65776205,-63.63365338,"52 Supreme Ct, Halifax, NS B3N 2L4",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,True,False,87,58,71,Owner
+594,1350,1,1,1,800,,44.63893266,-63.61943531,"Herring Cove, NS B3V 1H8",,1,1,1,1,0,0,0,0,1,0,0,0,Mainland Halifax,Armdale,True,False,False,15,26,21,Owner
+595,2675,2,1,0,1555,www.capreit.ca,44.7157905,-63.71137164,"24 Farringdon Way, Bedford, NS, B4B 1K8",1.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Hammonds Plains,False,True,True,18,28,42,Capreit
+596,1950,1,1,0,572,www.capreit.ca,44.6526576,-63.58008187,"2065 Brunswick Street, Halifax, NS, B3K 5T8",1.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,73,66,Capreit
+597,2745,2,1,0,1459,www.capreit.ca,44.7018924,-63.6913723,"76 Armenia Drive, Bedford, NS, B4A 0J9",1.0,1,1,0,1,0,1,0,1,1,0,1,0,Bedford,Bedford Basin,True,True,True,50,31,49,Capreit
+598,2095,1,1,0,760,www.capreit.ca,44.6513454,-63.5914571,"5885 Cunard Street, Halifax, NS, B3K 1E3",1.0,1,1,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,NorthEnd,False,False,True,97,70,95,Capreit
+599,2050,1,1,0,760,www.capreit.ca,44.65133,-63.59369,"5885 Cunard Street, Halifax, NS, B3K 1E3",,1,1,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,WestEnd,False,False,True,97,70,95,Capreit
+600,2195,1,1,0,708,vertusuites.com,44.6433891,-63.57789967,"1530 Birmingham Street, Halifax, NS, B3J 0B5",180.0,1,1,0,0,0,1,0,1,1,0,1,0,Halifax Peninsula,Downtown,False,False,True,10,72,75,Vertusuites
+601,2350,2,2,0,1025,www.emeraldrentals.ca,44.6856933,-63.58171,"72 Primrose Street, Dartmouth, NS, B3A 4C8",2.0,1,1,0,1,0,1,0,1,1,0,0,0,Dartmouth,Burnside,False,True,True,56,50,42,Emeraldrentals
+602,1500,1,1,1,600,www.broadwayproperties.ca,44.6785126,-63.5487257,"Dartmouth, NS B2Y 3H7",0.0,1,1,0,1,0,0,1,0,1,0,0,0,Dartmouth,Dartmouth Downtown,False,False,True,68,47,45,Broadwayproperties
+603,2200,2,2,0,600,,44.6533805,-63.5909335,"2440 Agricola Street, Halifax, NS",1.0,0,1,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,NorthEnd,False,True,False,97,71,94,Owner
+604,2375,2,1,1,1050,,44.6377342,-63.5974264,"6423 Coburg Rd, Halifax, NS B3H 2A6",0.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,78,61,64,Owner
+605,2295,2,2,0,1280,,44.7252049,-63.7483418,"Appaloosa Run, Hammonds Plains, NS",1.0,1,1,0,1,0,1,0,1,1,0,0,0,Bedford,Hammonds Plains,False,True,False,15,13,28,Owner
+606,1950,1,1,0,900,,44.65400585,-63.62969224,"3411 Joseph Howe Drive, Halifax, NS",1.0,1,0,0,1,0,1,0,1,1,0,0,0,Halifax Peninsula,WestEnd,False,True,False,86,61,77,Owner
+607,2195,2,1,0,736,www.444rent.com,44.6403754,-63.5869067,"5984 Spring Garden Rd, Halifax, NS, B3H 1Y7",1.0,1,1,0,0,0,0,0,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,True,91,66,77,444rent
+608,2695,2,2,0,953,thegeorgeresidence.com,44.646277,-63.5904728,"6016 Pepperell Street, Halifax, NS, B3H 2N8",1.0,0,0,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,False,False,True,96,68,84,Thegeorgeresidence
+609,1708,1,1,1,805,,44.64631502,-63.57353821,"Barrington St, Halifax, NS B3J 0J8",,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,Downtown,True,True,False,93,73,68,Owner
+610,1700,1,1,1,805,,44.6352958,-63.5693392,"Barrington St, Halifax, NS B3J 0J8",0.0,1,1,0,0,0,1,0,1,1,0,0,0,Halifax Peninsula,SouthEnd,True,True,False,93,73,68,Owner
+611,1995,1,1,0,735,www.emeraldrentals.ca,44.6856933,-63.58171,"72 Primrose Street, Dartmouth, NS, B3A 4C8",2.0,1,1,0,1,0,1,0,1,1,0,0,0,Dartmouth,Burnside,False,True,True,56,50,42,Emeraldrentals
+612,1450,1,1,0,700,,44.64235626,-63.59768921,"Halifax, NS B3H 2K5",1.0,1,1,0,0,0,0,1,0,1,0,1,0,Halifax Peninsula,WestEnd,False,False,False,96,64,68,Owner
+613,1075,1,1,1,450,,44.6607592,-63.6315154,"Main Avenue, Halifax, NS",0.0,0,1,0,1,0,0,1,0,1,0,0,0,Mainland Halifax,Clayton Park,False,False,False,81,53,41,Owner
+614,1975,1,1,0,913,www.hazelviewproperties.com,44.67509715,-63.67690408,"634 Parkland Drive, Halifax, NS, B3S 1M8",1.0,1,1,0,0,0,1,1,1,1,0,0,0,Mainland Halifax,Clayton Park,False,False,True,46,39,31,Hazelviewproperties
+615,1675,1,1,1,750,,44.66107,-63.63145,"37 Main Ave, Halifax, NS B3M 1A2",,0,0,0,0,0,0,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,False,82,57,56,Owner
+616,1700,1,1,1,750,,44.66110975,-63.63149186,"37 Main Ave, Halifax, NS B3M 1A2",0.0,0,0,0,0,0,0,0,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,False,82,57,56,Owner
+617,1850,1,1,0,600,,44.6370578,-63.58030258,"1173 Wellington Street, Halifax, NS",1.0,1,1,0,0,0,0,1,0,0,0,0,0,Halifax Peninsula,SouthEnd,False,False,False,92,66,71,Owner
+618,2800,3,1,1,1100,,44.6549292,-63.6428481,"Convoy Ave, Halifax, NS B3N",0.0,0,1,0,1,1,0,1,0,0,0,0,0,Mainland Halifax,Clayton Park,False,False,False,79,49,44,Owner
+619,1675,1,1,0,600,,44.6339127,-63.5961499,"South Street, Halifax, NS",1.0,1,1,0,0,0,0,1,0,1,0,1,0,Halifax Peninsula,SouthEnd,False,False,False,92,66,71,Owner
+620,2200,1,1,0,1000,,44.6422684,-63.5692606,"Morris St, Halifax, NS B3J 1C4",1.0,0,0,0,0,0,0,0,0,0,0,1,0,Halifax Peninsula,SouthEnd,False,False,False,99,67,61,Owner
