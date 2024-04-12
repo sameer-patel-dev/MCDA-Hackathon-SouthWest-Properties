@@ -70,6 +70,7 @@ SW Estate 360 is a centralized platform designed to transform the way rental for
 ![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/64d3a3fd-e883-4ce8-8e1c-6ab931bc4404)
 
 
+![image](https://github.com/sameer-patel-dev/MCDA-Hackathon-SouthWest-Properties/assets/52646890/78c9b45f-380b-4839-a1a4-04cefb2b4f62)
 
 
 
