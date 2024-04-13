@@ -18,7 +18,7 @@ SW Estate 360 is a centralized platform designed to transform the way rental for
      
 ### Real-Time Dashboards
   - Overview Dashboard
-  - <img width="462" alt="image" src="https://github.com/neeyatimehta/southwest-hackathon/assets/80911327/ef136b40-cac7-412f-895c-3e07abb4fd36">
+    !<img width="462" alt="image" src="https://github.com/neeyatimehta/southwest-hackathon/assets/80911327/ef136b40-cac7-412f-895c-3e07abb4fd36">
   - Listings Dashboard
   - <img width="462" alt="image" src="https://github.com/neeyatimehta/southwest-hackathon/assets/80911327/7431f204-00a2-46c9-b44b-e69dfcb54160">
   - Competitor Analysis Dashboard
