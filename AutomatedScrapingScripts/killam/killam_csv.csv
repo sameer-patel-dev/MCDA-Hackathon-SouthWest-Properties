@@ -1,0 +1,46 @@
+Place,Listing_Name,Listing_Address,Price,Bedrooms,Bathrooms,Size,Availability,Common / Social Room,Balcony,Wheelchair Accessible,Dog Friendly,Underground / Parking Garage,EV Charging Stations,Security,Air Conditioning,In-Suite Laundry,Guest Suite,Terrace,Laundry (In Building),Elevator,Cat Friendly,Hot Water Included,Solar Panel,Parking Lot,Fitness Gym,Storage Space,Heat Included
+Halifax,Kent Street,"Kent Street, Halifax B3H 1P6",$795,Room,0,130 Ft2,Mar,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1
+Halifax,Kent Street,"Kent Street, Halifax B3H 1P6",$1815,2,1,651 Ft2,Now,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1
+Halifax,Kent Street,"Kent Street, Halifax B3H 1P6",$1495,1,1,490 Ft2,Apr,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1
+Halifax,Kent Street,"Kent Street, Halifax B3H 1P6",$1925,2,1,651 Ft2,May,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1
+Halifax,Kent Street,"Kent Street, Halifax B3H 1P6",$1295,Bachelor,1,439 Ft2,Jun,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1
+Halifax,Kent Street,"Kent Street, Halifax B3H 1P6",$1295,Bachelor,1,439 Ft2,Jul,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1
+Halifax,Brentwood,"3000, 3001, 3003 Olivet Street, Halifax B3L 3Z9",$1275,1,1,678 Ft2,May,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,1,0,0,1
+Halifax,Brentwood,"3000, 3001, 3003 Olivet Street, Halifax B3L 3Z9",$1750,2,1,840 Ft2,May,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,1,0,0,1
+Halifax,Lakefront Apartments,"10-72 Lakefront Road, Dartmouth B2Y 3C3",$1330,1,1,699 Ft2,May,1,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1
+Halifax,Lakefront Apartments,"10-72 Lakefront Road, Dartmouth B2Y 3C3",$1630,2,1,758 Ft2,May,1,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1
+Halifax,Lakefront Apartments,"10-72 Lakefront Road, Dartmouth B2Y 3C3",$1695,2,1,758 Ft2,May,1,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1
+Halifax,Lakefront Apartments,"10-72 Lakefront Road, Dartmouth B2Y 3C3",$1995,3,1,974 Ft2,Jun,1,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1
+Halifax,Garden Park,"1472 Cathedral Lane, Halifax B3H 4K8",$2495,2,1,0 Ft2,Now,0,0,0,0,1,0,1,0,0,0,1,1,1,1,1,0,0,1,0,1
+Halifax,Garden Park,"1472 Cathedral Lane, Halifax B3H 4K8",$1450,Bachelor,1,300 Ft2,May,0,0,0,0,1,0,1,0,0,0,1,1,1,1,1,0,0,1,0,1
+Halifax,Garden Park,"1472 Cathedral Lane, Halifax B3H 4K8",$1650,1,1,0 Ft2,Jun,0,0,0,0,1,0,1,0,0,0,1,1,1,1,1,0,0,1,0,1
+Halifax,5206 Tobin Street,"5206 Tobin Street, Halifax B3H 1S2",$1545,Bachelor,1,371 Ft2,Jun,0,1,0,0,1,0,1,0,0,0,0,1,0,1,1,0,1,0,0,1
+Halifax,Waterview Place,"12,14,16 Regent Drive, Dartmouth B2Y 3L1",$1595,1,1,686 Ft2,Apr,0,1,0,0,0,0,1,0,1,0,0,1,0,1,1,0,1,0,0,1
+Halifax,Spring Garden Terrace,"5885 Spring Garden Road, Halifax B3H 1Y3",$1695,Bachelor,1,410 Ft2,Mar,0,1,1,0,1,0,1,0,0,0,0,1,1,1,1,0,1,0,0,1
+Halifax,Spring Garden Terrace,"5885 Spring Garden Road, Halifax B3H 1Y3",$1695,Bachelor,1,410 Ft2,May,0,1,1,0,1,0,1,0,0,0,0,1,1,1,1,0,1,0,0,1
+Halifax,7-15 Parker Street,"7-15 Parker Street, Dartmouth B2Y 4A5",$1695,1,1,710 Ft2,Mar,0,1,0,0,1,0,1,0,0,0,0,1,1,1,1,1,1,0,1,1
+Halifax,Maplehurst Apartments,"Esdaile Ave, Newcastle, and Maplehurst Drive, Dartmouth B2Y 3M9",$1695,3,1,890 Ft2,May,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,1,1
+Halifax,3 Dillman Place,"3 Dillman Place, Dartmouth B3A 1A6",$1750,2,1,884 Ft2,Apr,0,1,0,0,1,0,1,0,0,0,0,1,1,1,1,0,1,0,0,1
+Halifax,Linden Lea & Pleasant Street Apartments,"2 Linden Lea, 83, 85-85A and 87 Pleasant St., Dartmouth B2Y 2E2",$1795,2,1,783 Ft2,May,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Halifax,Southport Apartments,"1065 Barrington Street, Halifax B3H 2P8",$1820,1,1,582 Ft2,May,0,0,0,1,0,0,1,1,1,0,0,0,1,1,1,0,0,1,1,1
+Halifax,1 Oak Street,"1 Oak Street, Dartmouth B3A 1Y7",$1995,1,1,660 Ft2,Jun,0,1,0,0,1,0,1,0,0,0,0,1,1,1,1,0,1,0,0,1
+Halifax,The Alexander,"5121 Bishop Street, Halifax B3J 0E5",$2025,1,1,567 Ft2,May,1,1,0,0,1,1,1,1,1,1,1,0,1,1,1,0,0,1,0,1
+Halifax,The Alexander,"5121 Bishop Street, Halifax B3J 0E5",$2695,2,2,849 Ft2,May,1,1,0,0,1,1,1,1,1,1,1,0,1,1,1,0,0,1,0,1
+Halifax,The Alexander,"5121 Bishop Street, Halifax B3J 0E5",$2025,1,1,584 Ft2,Jun,1,1,0,0,1,1,1,1,1,1,1,0,1,1,1,0,0,1,0,1
+Halifax,Quinpool Court,"2155 & 2225 Monastery Lane, Halifax B4C 3W6",$2395,2,1,766 Ft2,May,0,0,0,1,1,0,1,0,0,0,0,1,0,1,1,1,0,0,0,1
+Halifax,The Willow,"300 Royale Blvd, Dartmouth B2W 0K8",$2450,2,2,1231 Ft2,Jun,1,1,0,1,1,0,1,0,1,0,0,0,1,1,1,1,0,1,0,0
+Halifax,Quinpool Tower,"2060 Quingate Place, Halifax B3L 4P7",$2450,2,1,792 Ft2,Now,1,0,0,0,1,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1
+Halifax,Quinpool Tower,"2060 Quingate Place, Halifax B3L 4P7",$2495,2,1,792 Ft2,Jul,1,0,0,0,1,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1
+Halifax,The Killick,"49 Kings Wharf Place, Dartmouth B2Y 0C7",$2800,2,2,1332 Ft2,Apr,1,1,0,1,1,1,1,1,1,0,0,0,1,0,1,0,0,1,1,1
+Dartmouth,Lakefront Apartments,"10-72 Lakefront Road, Dartmouth B2Y 3C3",$1330,1,1,699 Ft2,May,1,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1
+Dartmouth,Lakefront Apartments,"10-72 Lakefront Road, Dartmouth B2Y 3C3",$1630,2,1,758 Ft2,May,1,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1
+Dartmouth,Lakefront Apartments,"10-72 Lakefront Road, Dartmouth B2Y 3C3",$1695,2,1,758 Ft2,May,1,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1
+Dartmouth,Lakefront Apartments,"10-72 Lakefront Road, Dartmouth B2Y 3C3",$1995,3,1,974 Ft2,Jun,1,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1
+Dartmouth,Waterview Place,"12,14,16 Regent Drive, Dartmouth B2Y 3L1",$1595,1,1,686 Ft2,Apr,0,1,0,0,0,0,1,0,1,0,0,1,0,1,1,0,1,0,0,1
+Dartmouth,7-15 Parker Street,"7-15 Parker Street, Dartmouth B2Y 4A5",$1695,1,1,710 Ft2,Mar,0,1,0,0,1,0,1,0,0,0,0,1,1,1,1,1,1,0,1,1
+Dartmouth,Maplehurst Apartments,"Esdaile Ave, Newcastle, and Maplehurst Drive, Dartmouth B2Y 3M9",$1695,3,1,890 Ft2,May,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,1,1
+Dartmouth,3 Dillman Place,"3 Dillman Place, Dartmouth B3A 1A6",$1750,2,1,884 Ft2,Apr,0,1,0,0,1,0,1,0,0,0,0,1,1,1,1,0,1,0,0,1
+Dartmouth,Linden Lea & Pleasant Street Apartments,"2 Linden Lea, 83, 85-85A and 87 Pleasant St., Dartmouth B2Y 2E2",$1795,2,1,783 Ft2,May,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dartmouth,1 Oak Street,"1 Oak Street, Dartmouth B3A 1Y7",$1995,1,1,660 Ft2,Jun,0,1,0,0,1,0,1,0,0,0,0,1,1,1,1,0,1,0,0,1
+Bedford,Shaunslieve Apartments,"38-100 Shaunslieve Drive, Bedford B3M 3N3",$1775,1,1,701 Ft2,Apr,0,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,0,0,1
+Bedford,Shaunslieve Apartments,"38-100 Shaunslieve Drive, Bedford B3M 3N3",$1925,2,1,904 Ft2,May,0,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,0,0,1

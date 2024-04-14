@@ -1,0 +1,120 @@
+[ 2024-03-15 15:45:53,616 ] 169 scrapy.utils.log - INFO - Scrapy 2.11.1 started (bot: housing_webscraping)
+[ 2024-03-15 15:45:53,623 ] 178 scrapy.utils.log - INFO - Versions: lxml 5.1.0.0, libxml2 2.12.3, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 23.10.0, Python 3.11.7 (main, Dec 15 2023, 12:09:56) [Clang 14.0.6 ], pyOpenSSL 24.0.0 (OpenSSL 3.2.1 30 Jan 2024), cryptography 42.0.3, Platform macOS-13.5.2-arm64-arm-64bit
+[ 2024-03-15 15:45:53,625 ] 47 scrapy.addons - INFO - Enabled addons:
+[]
+[ 2024-03-15 15:45:53,625 ] 54 asyncio - DEBUG - Using selector: KqueueSelector
+[ 2024-03-15 15:45:53,626 ] 184 scrapy.utils.log - DEBUG - Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+[ 2024-03-15 15:45:53,626 ] 188 scrapy.utils.log - DEBUG - Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+[ 2024-03-15 15:45:53,633 ] 58 scrapy.extensions.telnet - INFO - Telnet Password: b62b079af35cf1ff
+[ 2024-03-15 15:45:53,652 ] 109 py.warnings - WARNING - /Users/jerrycalebj/anaconda3/envs/venv/lib/python3.11/site-packages/scrapy/extensions/feedexport.py:406: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+[ 2024-03-15 15:45:53,654 ] 78 scrapy.middleware - INFO - Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+[ 2024-03-15 15:45:53,654 ] 138 scrapy.crawler - INFO - Overridden settings:
+{'BOT_NAME': 'housing_webscraping',
+ 'DOWNLOAD_DELAY': 3,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'housing_webscraping.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['housing_webscraping.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+[ 2024-03-15 15:45:53,687 ] 78 scrapy.middleware - INFO - Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[ 2024-03-15 15:45:53,688 ] 78 scrapy.middleware - INFO - Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[ 2024-03-15 15:45:53,688 ] 78 scrapy.middleware - INFO - Enabled item pipelines:
+[]
+[ 2024-03-15 15:45:53,688 ] 359 scrapy.core.engine - INFO - Spider opened
+[ 2024-03-15 15:45:53,690 ] 54 scrapy.extensions.logstats - INFO - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[ 2024-03-15 15:45:53,691 ] 70 scrapy.extensions.telnet - INFO - Telnet console listening on 127.0.0.1:6024
+[ 2024-03-15 15:45:53,920 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://pagepm.ca/robots.txt> (referer: None)
+[ 2024-03-15 15:45:57,679 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://pagepm.ca/residential-properties> (referer: None)
+[ 2024-03-15 15:45:57,799 ] 29 root - INFO - Current URL : https://pagepm.ca/residential-properties
+[ 2024-03-15 15:45:57,800 ] 138 scrapy.dupefilters - DEBUG - Filtered duplicate request: <GET https://pagepm.ca/barrington-gate> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+[ 2024-03-15 15:46:01,278 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://pagepm.ca/harbour-house> (referer: https://pagepm.ca/residential-properties)
+[ 2024-03-15 15:46:01,389 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/harbour-house>
+{'description': '1 Bedroom + 1 Bathroom          ', 'rent': None, 'sq_ft': '880', 'availability': 'No Units Currently Available.          ', 'amenities': 'Balcony, Coin-Operated Laundry, Dishwasher, Elevator, Heat, Hot Water, Indoor Parking (additional cost), Intercom, Live-In Resident Managers, Public Transit, Refrigerator, Stove, Video Surveillance, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:01,391 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/harbour-house>
+{'description': '2 Bedroom + 2 Bathrooms          ', 'rent': None, 'sq_ft': '920', 'availability': 'No Units Currently Available.          ', 'amenities': 'Balcony, Coin-Operated Laundry, Dishwasher, Elevator, Heat, Hot Water, Indoor Parking (additional cost), Intercom, Live-In Resident Managers, Public Transit, Refrigerator, Stove, Video Surveillance, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:01,393 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/harbour-house>
+{'description': '2 Bedroom + 2 Bathrooms (Corner)          ', 'rent': None, 'sq_ft': '1260', 'availability': 'No Units Currently Available.          ', 'amenities': 'Balcony, Coin-Operated Laundry, Dishwasher, Elevator, Heat, Hot Water, Indoor Parking (additional cost), Intercom, Live-In Resident Managers, Public Transit, Refrigerator, Stove, Video Surveillance, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:01,394 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/harbour-house>
+{'description': '2 Bedroom + 2 Bathrooms (Shared)          ', 'rent': None, 'sq_ft': '1240', 'availability': 'No Units Currently Available.          ', 'amenities': 'Balcony, Coin-Operated Laundry, Dishwasher, Elevator, Heat, Hot Water, Indoor Parking (additional cost), Intercom, Live-In Resident Managers, Public Transit, Refrigerator, Stove, Video Surveillance, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:04,517 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://pagepm.ca/gainsborough-place> (referer: https://pagepm.ca/residential-properties)
+[ 2024-03-15 15:46:04,625 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/gainsborough-place>
+{'description': 'Hogarth          ', 'rent': None, 'sq_ft': '1800', 'availability': 'No Units Currently Available.          ', 'amenities': 'Dishwasher, Fireplace, Hot Water, Public Transit, Refrigerator, Storage Unit, Stove, Underground Parking (additional cost), Upper & Lower Balconies, Washer & Dryer', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:04,627 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/gainsborough-place>
+{'description': 'Constable          ', 'rent': None, 'sq_ft': '1800', 'availability': 'No Units Currently Available.          ', 'amenities': 'Dishwasher, Fireplace, Hot Water, Public Transit, Refrigerator, Storage Unit, Stove, Underground Parking (additional cost), Upper & Lower Balconies, Washer & Dryer', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:07,437 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://pagepm.ca/colby-drive> (referer: https://pagepm.ca/residential-properties)
+[ 2024-03-15 15:46:07,544 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/colby-drive>
+{'description': '2 Bedroom + 1 Bathroom          ', 'rent': None, 'sq_ft': None, 'availability': 'No Units Currently Available.          ', 'amenities': 'Balcony, Dishwasher, Elevator, Hot Water, Intercom, Outdoor Parking, Public Transit, Refrigerator, Resident Manager, Stove, Washer & Dryer, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:07,545 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/colby-drive>
+{'description': '2 Bedroom + 1.5 Bathrooms          ', 'rent': None, 'sq_ft': None, 'availability': 'No Units Currently Available.          ', 'amenities': 'Balcony, Dishwasher, Elevator, Hot Water, Intercom, Outdoor Parking, Public Transit, Refrigerator, Resident Manager, Stove, Washer & Dryer, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:10,328 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://pagepm.ca/barrington-gate> (referer: https://pagepm.ca/residential-properties)
+[ 2024-03-15 15:46:10,438 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/barrington-gate>
+{'description': 'Studio          ', 'rent': None, 'sq_ft': '560', 'availability': 'No Units Currently Available.          ', 'amenities': 'Dishwasher, Elevator, Heat, Hot Water, Intercom, Laundry Facilities per Floor, Live-In Resident Managers, Public Transit, Refrigerator, Rooftop Patio, Stove, Underground Parking (additional cost), Video Surveillance, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:10,440 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/barrington-gate>
+{'description': '1 Bedroom          ', 'rent': '1800', 'sq_ft': '740', 'availability': 'Available April 1st, 2024.          ', 'amenities': 'Dishwasher, Elevator, Heat, Hot Water, Intercom, Laundry Facilities per Floor, Live-In Resident Managers, Public Transit, Refrigerator, Rooftop Patio, Stove, Underground Parking (additional cost), Video Surveillance, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:10,441 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/barrington-gate>
+{'description': '1 Bedroom + Den          ', 'rent': '1900', 'sq_ft': '820', 'availability': 'Available April 1st, 2024.          ', 'amenities': 'Dishwasher, Elevator, Heat, Hot Water, Intercom, Laundry Facilities per Floor, Live-In Resident Managers, Public Transit, Refrigerator, Rooftop Patio, Stove, Underground Parking (additional cost), Video Surveillance, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:10,442 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/barrington-gate>
+{'description': '2 Bedroom + 1 Bathroom          ', 'rent': None, 'sq_ft': '1025', 'availability': 'No Units Currently Available.          ', 'amenities': 'Dishwasher, Elevator, Heat, Hot Water, Intercom, Laundry Facilities per Floor, Live-In Resident Managers, Public Transit, Refrigerator, Rooftop Patio, Stove, Underground Parking (additional cost), Video Surveillance, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:10,443 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/barrington-gate>
+{'description': '2 Bedroom + 1.5 Bathrooms          ', 'rent': None, 'sq_ft': '930', 'availability': 'No Units Currently Available.          ', 'amenities': 'Dishwasher, Elevator, Heat, Hot Water, Intercom, Laundry Facilities per Floor, Live-In Resident Managers, Public Transit, Refrigerator, Rooftop Patio, Stove, Underground Parking (additional cost), Video Surveillance, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:10,444 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/barrington-gate>
+{'description': '2 Bedrooms + 2 Bathrooms          ', 'rent': None, 'sq_ft': '1020', 'availability': 'No Units Currently Available.          ', 'amenities': 'Dishwasher, Elevator, Heat, Hot Water, Intercom, Laundry Facilities per Floor, Live-In Resident Managers, Public Transit, Refrigerator, Rooftop Patio, Stove, Underground Parking (additional cost), Video Surveillance, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:10,445 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://pagepm.ca/barrington-gate>
+{'description': '2 Bedrooms + 2 Bathrooms          ', 'rent': '2500', 'sq_ft': '1030', 'availability': 'Available April 1st, 2024.          ', 'amenities': 'Dishwasher, Elevator, Heat, Hot Water, Intercom, Laundry Facilities per Floor, Live-In Resident Managers, Public Transit, Refrigerator, Rooftop Patio, Stove, Underground Parking (additional cost), Video Surveillance, Wired for Internet & Cable', 'extraction_date': '2024-03-15'}
+[ 2024-03-15 15:46:10,446 ] 411 scrapy.core.engine - INFO - Closing spider (finished)
+[ 2024-03-15 15:46:10,447 ] 532 scrapy.extensions.feedexport - INFO - Stored csv feed (15 items) in: /Users/jerrycalebj/Documents/Coding/WebScraping - Housing/Housing_WebScraping/housing_webscraping/CSV_FILES/pagepm.csv
+[ 2024-03-15 15:46:10,447 ] 532 scrapy.extensions.feedexport - INFO - Stored csv feed (15 items) in: pagepm.csv
+[ 2024-03-15 15:46:10,447 ] 58 scrapy.statscollectors - INFO - Dumping Scrapy stats:
+{'downloader/request_bytes': 1798,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 193209,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'dupefilter/filtered': 4,
+ 'elapsed_time_seconds': 16.755986,
+ 'feedexport/success_count/FileFeedStorage': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 3, 15, 18, 46, 10, 446698, tzinfo=datetime.timezone.utc),
+ 'item_scraped_count': 15,
+ 'log_count/DEBUG': 25,
+ 'log_count/INFO': 13,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 67174400,
+ 'memusage/startup': 67174400,
+ 'request_depth_max': 1,
+ 'response_received_count': 6,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2024, 3, 15, 18, 45, 53, 690712, tzinfo=datetime.timezone.utc)}
+[ 2024-03-15 15:46:10,447 ] 452 scrapy.core.engine - INFO - Spider closed (finished)

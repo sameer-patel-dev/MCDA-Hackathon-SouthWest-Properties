@@ -1,0 +1,167 @@
+[ 2024-03-28 04:46:15,251 ] 169 scrapy.utils.log - INFO - Scrapy 2.11.1 started (bot: housing_webscraping)
+[ 2024-03-28 04:46:15,458 ] 178 scrapy.utils.log - INFO - Versions: lxml 5.1.0.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.9.0, w3lib 2.1.2, Twisted 24.3.0, Python 3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)], pyOpenSSL 24.1.0 (OpenSSL 3.2.1 30 Jan 2024), cryptography 42.0.5, Platform Windows-2022Server-10.0.20348-SP0
+[ 2024-03-28 04:46:15,458 ] 47 scrapy.addons - INFO - Enabled addons:
+[]
+[ 2024-03-28 04:46:15,458 ] 64 asyncio - DEBUG - Using selector: SelectSelector
+[ 2024-03-28 04:46:15,458 ] 184 scrapy.utils.log - DEBUG - Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+[ 2024-03-28 04:46:15,458 ] 188 scrapy.utils.log - DEBUG - Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+[ 2024-03-28 04:46:15,554 ] 58 scrapy.extensions.telnet - INFO - Telnet Password: c7da7a72c03cb7cd
+[ 2024-03-28 04:46:15,648 ] 110 py.warnings - WARNING - C:\Program Files\Python312\Lib\site-packages\scrapy\extensions\feedexport.py:406: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+[ 2024-03-28 04:46:15,664 ] 78 scrapy.middleware - INFO - Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+[ 2024-03-28 04:46:15,664 ] 138 scrapy.crawler - INFO - Overridden settings:
+{'BOT_NAME': 'housing_webscraping',
+ 'DOWNLOAD_DELAY': 3,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'housing_webscraping.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['housing_webscraping.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+[ 2024-03-28 04:46:15,926 ] 78 scrapy.middleware - INFO - Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[ 2024-03-28 04:46:15,945 ] 78 scrapy.middleware - INFO - Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[ 2024-03-28 04:46:15,945 ] 78 scrapy.middleware - INFO - Enabled item pipelines:
+[]
+[ 2024-03-28 04:46:15,945 ] 359 scrapy.core.engine - INFO - Spider opened
+[ 2024-03-28 04:46:15,958 ] 54 scrapy.extensions.logstats - INFO - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[ 2024-03-28 04:46:15,958 ] 70 scrapy.extensions.telnet - INFO - Telnet console listening on 127.0.0.1:6023
+[ 2024-03-28 04:46:15,990 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/robots.txt> (referer: None)
+[ 2024-03-28 04:46:21,626 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/available-units/> (referer: None)
+[ 2024-03-28 04:46:21,738 ] 29 root - INFO - Current URL : https://www.olympusproperties.ca/available-units/
+[ 2024-03-28 04:46:24,338 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/available-units/page/2/> (referer: https://www.olympusproperties.ca/available-units/)
+[ 2024-03-28 04:46:24,450 ] 29 root - INFO - Current URL : https://www.olympusproperties.ca/available-units/page/2/
+[ 2024-03-28 04:46:28,005 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/stunning-executive-penthouse-elegant-2-bedroom-june-7th-4595-00/> (referer: https://www.olympusproperties.ca/available-units/)
+[ 2024-03-28 04:46:28,148 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/stunning-executive-penthouse-elegant-2-bedroom-june-7th-4595-00/>
+{'address': ' 37789', 'city': 'Halifax', 'area': 'Downtown Halifax', 'state_county': 'Nova Scotia', 'zip_code': 'B3J 2L1', 'country': 'Canada', 'price': 4595, 'property_id': '37789', 'property_size': '1,600 ft', 'rooms': '2', 'bedrooms': '2', 'bathrooms': '2', 'features': 'balcony, laundry, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Close to all Hospitals, Located in the heart of downtown Halifax, On Bus Route, Pharmacy, Restaurants, Banks, Coffee Shops, Over The Range Microwave, Close to Universities and Colleges', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:46:31,559 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/the-crane-2-bedroom-unit-301-june-1st-2795-00/> (referer: https://www.olympusproperties.ca/available-units/)
+[ 2024-03-28 04:46:31,671 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/the-crane-2-bedroom-unit-301-june-1st-2795-00/>
+{'address': ' 36500', 'city': 'Halifax', 'area': 'Downtown Halifax', 'state_county': 'Nova Scotia', 'zip_code': None, 'country': 'Canada', 'price': 2795, 'property_id': '36500', 'property_size': None, 'rooms': '2', 'bedrooms': '2', 'bathrooms': '1', 'features': 'balcony, laundry, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Close to all Hospitals, Located in the heart of downtown Halifax, On Bus Route, Pharmacy, Restaurants, Banks, Coffee Shops, Over The Range Microwave', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:46:35,806 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/23-gristmill-court-unit-104-june-15th-2-bedroom-2-levels-of-living-space/> (referer: https://www.olympusproperties.ca/available-units/)
+[ 2024-03-28 04:46:35,949 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/23-gristmill-court-unit-104-june-15th-2-bedroom-2-levels-of-living-space/>
+{'address': ' 38899', 'city': 'Halifax', 'area': 'Clayton Park', 'state_county': 'Nova Scotia', 'zip_code': 'B3M 3N2', 'country': 'Canada', 'price': 2295, 'property_id': '38899', 'property_size': '1,000 ft', 'rooms': '2', 'bedrooms': '2', 'bathrooms': '1', 'features': 'Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Quiet neighbourhood, Bus Terminal, Pharmacy, Restaurants, Banks, Coffee Shops, Post Office, Over The Range Microwave', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:46:39,175 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/the-crane-unit-704-may-3rd-one-bedroom-2195-00/> (referer: https://www.olympusproperties.ca/available-units/)
+[ 2024-03-28 04:46:39,289 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/the-crane-unit-704-may-3rd-one-bedroom-2195-00/>
+{'address': ' 35754', 'city': 'Halifax', 'area': 'Downtown Halifax', 'state_county': 'Nova Scotia', 'zip_code': 'B3J 2L1', 'country': 'Canada', 'price': 2195, 'property_id': '35754', 'property_size': '644 ft', 'rooms': '1', 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, laundry, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Close to all Hospitals, Located in the heart of downtown Halifax, On Bus Route, Pharmacy, Restaurants, Banks, Coffee Shops, Over The Range Microwave, Close to Universities and Colleges', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:46:41,066 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/223-windmill-road-unit-202-july-1st/> (referer: https://www.olympusproperties.ca/available-units/)
+[ 2024-03-28 04:46:41,195 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/223-windmill-road-unit-202-july-1st/>
+{'address': ' 30660', 'city': 'Dartmouth', 'area': 'Dartmouth', 'state_county': 'Nova Scotia', 'zip_code': 'B3A 4M6', 'country': 'Canada', 'price': 1995, 'property_id': '30660', 'property_size': None, 'rooms': '2', 'bedrooms': '1', 'bathrooms': '1', 'features': 'Fridge & Stove Included, Heat & Hot Water Included, Dishwasher', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:46:43,219 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/132-old-sambro-road-unit-117-2-bedroom-august-1st-1795-00/> (referer: https://www.olympusproperties.ca/available-units/)
+[ 2024-03-28 04:46:43,345 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/132-old-sambro-road-unit-117-2-bedroom-august-1st-1795-00/>
+{'address': ' 42519', 'city': 'Halifax', 'area': 'Mainland South', 'state_county': 'Nova Scotia', 'zip_code': 'B3R 1R3', 'country': 'Canada', 'price': 1795, 'property_id': '42519', 'property_size': None, 'rooms': '2', 'bedrooms': '2', 'bathrooms': '1', 'features': 'Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Over The Range Microwave', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:46:46,259 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/36-lyons-avenue-beautiful-3-bedroom-townhouse-2395-00-september-1st/> (referer: https://www.olympusproperties.ca/available-units/)
+[ 2024-03-28 04:46:46,369 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/36-lyons-avenue-beautiful-3-bedroom-townhouse-2395-00-september-1st/>
+{'address': ' 33281', 'city': 'Halifax', 'area': 'Mainland Southwest', 'state_county': 'Nova Scotia', 'zip_code': 'B3P 1H5', 'country': 'Canada', 'price': 2395, 'property_id': '33281', 'property_size': '2,000 ft', 'rooms': None, 'bedrooms': '3', 'bathrooms': '1.5', 'features': 'deck, Fridge & Stove Included, Dishwasher, Quiet neighbourhood', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:46:50,550 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/room-for-rent-2609-agricola-street-available-may-utilities-included-600-00/> (referer: https://www.olympusproperties.ca/available-units/)
+[ 2024-03-28 04:46:50,677 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/room-for-rent-2609-agricola-street-available-may-utilities-included-600-00/>
+{'address': ' 42892', 'city': 'Halifax', 'area': 'Downtown Halifax', 'state_county': 'Nova Scotia', 'zip_code': None, 'country': 'Canada', 'price': 600, 'property_id': '42892', 'property_size': None, 'rooms': '1', 'bedrooms': '1', 'bathrooms': None, 'features': 'Heat & Hot Water Included, Close to all Hospitals, Located in the heart of downtown Halifax, On Bus Route, Restaurants', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:46:53,450 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/available-units/page/3/> (referer: https://www.olympusproperties.ca/available-units/page/2/)
+[ 2024-03-28 04:46:53,570 ] 29 root - INFO - Current URL : https://www.olympusproperties.ca/available-units/page/3/
+[ 2024-03-28 04:46:57,522 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/5511-charles-street-units-304-306-april-1st-1995-00/> (referer: https://www.olympusproperties.ca/available-units/page/2/)
+[ 2024-03-28 04:46:57,650 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/5511-charles-street-units-304-306-april-1st-1995-00/>
+{'address': ' 38496', 'city': 'Halifax', 'area': 'Peninsular North', 'state_county': 'Nova Scotia', 'zip_code': 'B3K 1K1', 'country': 'Canada', 'price': 1995, 'property_id': '38496', 'property_size': None, 'rooms': '1', 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Located in the heart of downtown Halifax, On Bus Route, Pharmacy, Restaurants, Coffee Shops, Over The Range Microwave', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:01,386 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/249-windmill-road-unit-432-available-now-1795-00/> (referer: https://www.olympusproperties.ca/available-units/page/2/)
+[ 2024-03-28 04:47:01,507 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/249-windmill-road-unit-432-available-now-1795-00/>
+{'address': ' 28299', 'city': 'Dartmouth', 'area': 'Dartmouth', 'state_county': 'Nova Scotia', 'zip_code': None, 'country': 'Canada', 'price': 1795, 'property_id': '28299', 'property_size': None, 'rooms': None, 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:05,211 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/3232-isleville-street-unit-101-one-bedroom-available-april-1st-1795-00/> (referer: https://www.olympusproperties.ca/available-units/page/2/)
+[ 2024-03-28 04:47:05,336 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/3232-isleville-street-unit-101-one-bedroom-available-april-1st-1795-00/>
+{'address': ' 36535', 'city': 'Halifax', 'area': 'Mainland North', 'state_county': 'Nova Scotia', 'zip_code': 'B3K 3V5', 'country': 'Canada', 'price': 1795, 'property_id': '36535', 'property_size': '700 ft', 'rooms': None, 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Heat & Hot Water Included, Quiet neighbourhood', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:07,425 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/96-north-street-unit-208-3-bedroom-in-beautiful-bridgewater-available-now/> (referer: https://www.olympusproperties.ca/available-units/page/2/)
+[ 2024-03-28 04:47:07,538 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/96-north-street-unit-208-3-bedroom-in-beautiful-bridgewater-available-now/>
+{'address': ' 41167', 'city': 'Bridgewater', 'area': 'Bridgewater', 'state_county': 'Nova Scotia', 'zip_code': 'B4V 2V6', 'country': 'Canada', 'price': 1795, 'property_id': '41167', 'property_size': '750 ft', 'rooms': '3', 'bedrooms': '3', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Heat & Hot Water Included, Close to all Hospitals, Quiet neighbourhood, Close to Universities and Colleges', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:11,622 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/1471-south-park-street-unit-501-available-august-1st-2795-00/> (referer: https://www.olympusproperties.ca/available-units/page/2/)
+[ 2024-03-28 04:47:11,733 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/1471-south-park-street-unit-501-available-august-1st-2795-00/>
+{'address': ' 37791', 'city': 'Halifax', 'area': 'Downtown Halifax', 'state_county': 'Nova Scotia', 'zip_code': 'B3J 2L1', 'country': 'Canada', 'price': 2795, 'property_id': '37791', 'property_size': None, 'rooms': '2', 'bedrooms': '2', 'bathrooms': '1', 'features': 'balcony, laundry, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Close to all Hospitals, Located in the heart of downtown Halifax, On Bus Route, Pharmacy, Restaurants, Banks, Coffee Shops, Over The Range Microwave, Close to Universities and Colleges', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:15,055 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/7-mandaville-court-unit-7-available-march-15th-1795-00/> (referer: https://www.olympusproperties.ca/available-units/page/2/)
+[ 2024-03-28 04:47:15,199 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/7-mandaville-court-unit-7-available-march-15th-1795-00/>
+{'address': ' 40468', 'city': 'Halifax', 'area': 'Fairview', 'state_county': 'Nova Scotia', 'zip_code': 'B3M 3H5', 'country': 'Canada', 'price': 1795, 'property_id': '40468', 'property_size': None, 'rooms': '1', 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Quiet neighbourhood, On Bus Route, Over The Range Microwave', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:15,960 ] 54 scrapy.extensions.logstats - INFO - Crawled 18 pages (at 18 pages/min), scraped 14 items (at 14 items/min)
+[ 2024-03-28 04:47:19,018 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/7137-quinpool-road-unit-107-april-1st-1-bedroom-1795-00/> (referer: https://www.olympusproperties.ca/available-units/page/2/)
+[ 2024-03-28 04:47:19,146 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/7137-quinpool-road-unit-107-april-1st-1-bedroom-1795-00/>
+{'address': ' 32964', 'city': 'Halifax', 'area': 'Mainland Southwest', 'state_county': 'Nova Scotia', 'zip_code': 'B3L 1C7', 'country': 'Canada', 'price': 1795, 'property_id': '32964', 'property_size': '900 ft', 'rooms': None, 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, On Bus Route, Restaurants, Over The Range Microwave, Close to Universities and Colleges', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:23,188 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/5511-charles-street-unit-209-july-15th-2295-00/> (referer: https://www.olympusproperties.ca/available-units/page/2/)
+[ 2024-03-28 04:47:23,320 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/5511-charles-street-unit-209-july-15th-2295-00/>
+{'address': ' 37646', 'city': 'Halifax', 'area': 'Peninsular North', 'state_county': 'Nova Scotia', 'zip_code': 'B3K 1K1', 'country': 'Canada', 'price': 2295, 'property_id': '37646', 'property_size': None, 'rooms': '2', 'bedrooms': '2', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Close to all Hospitals, On Bus Route, Restaurants, Over The Range Microwave, Close to Universities and Colleges', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:27,038 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/7137-quinpool-road-unit-204-available-april-1st-1895-00/> (referer: https://www.olympusproperties.ca/available-units/page/3/)
+[ 2024-03-28 04:47:27,181 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/7137-quinpool-road-unit-204-available-april-1st-1895-00/>
+{'address': ' 42701', 'city': 'Halifax', 'area': 'Mainland Southwest', 'state_county': 'Nova Scotia', 'zip_code': 'B3L 1C7', 'country': 'Canada', 'price': 1895, 'property_id': '42701', 'property_size': '700 ft', 'rooms': '1', 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Close to all Hospitals, Over The Range Microwave', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:31,710 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/available-units/page/4/> (referer: https://www.olympusproperties.ca/available-units/page/3/)
+[ 2024-03-28 04:47:31,821 ] 29 root - INFO - Current URL : https://www.olympusproperties.ca/available-units/page/4/
+[ 2024-03-28 04:47:31,821 ] 138 scrapy.dupefilters - DEBUG - Filtered duplicate request: <GET https://www.olympusproperties.ca/available-units/page/4/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+[ 2024-03-28 04:47:34,859 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/223-windmill-road-unit-212-1-bedroom-january-15th-ground-floor-unit/> (referer: https://www.olympusproperties.ca/available-units/page/3/)
+[ 2024-03-28 04:47:34,987 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/223-windmill-road-unit-212-1-bedroom-january-15th-ground-floor-unit/>
+{'address': ' 40004', 'city': 'Dartmouth', 'area': 'Dartmouth', 'state_county': 'Nova Scotia', 'zip_code': 'B3A 4M6', 'country': 'Canada', 'price': 1795, 'property_id': '40004', 'property_size': '750 ft', 'rooms': '1', 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Over The Range Microwave', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:38,358 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/5620-south-street-1-bedroom-available-now-1995-00-unit-804/> (referer: https://www.olympusproperties.ca/available-units/page/3/)
+[ 2024-03-28 04:47:38,486 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/5620-south-street-1-bedroom-available-now-1995-00-unit-804/>
+{'address': ' 41776', 'city': 'Halifax', 'area': 'Downtown Halifax', 'state_county': 'Nova Scotia', 'zip_code': None, 'country': 'Canada', 'price': 1995, 'property_id': '41776', 'property_size': None, 'rooms': '2', 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, laundry, Fridge & Stove Included, Dishwasher, Close to all Hospitals, Located in the heart of downtown Halifax, On Bus Route, Pharmacy, Restaurants, Banks, Coffee Shops, Post Office, Over The Range Microwave, Close to Universities and Colleges', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:41,977 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/5511-charles-street-unit-303-may-1st-1-bedroom-1995-00/> (referer: https://www.olympusproperties.ca/available-units/page/3/)
+[ 2024-03-28 04:47:42,105 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/5511-charles-street-unit-303-may-1st-1-bedroom-1995-00/>
+{'address': ' 39293', 'city': 'Halifax', 'area': 'Peninsular North', 'state_county': 'Nova Scotia', 'zip_code': 'B3K 1K1', 'country': 'Canada', 'price': 1995, 'property_id': '39293', 'property_size': None, 'rooms': '1', 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Heat & Hot Water Included, Close to all Hospitals, Located in the heart of downtown Halifax, On Bus Route, Bus Terminal, Pharmacy, Restaurants, Banks, Coffee Shops', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:46,442 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/2-sybyl-court-unit-1-march-15th-1795-00-ground-floor/> (referer: https://www.olympusproperties.ca/available-units/page/3/)
+[ 2024-03-28 04:47:46,586 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/2-sybyl-court-unit-1-march-15th-1795-00-ground-floor/>
+{'address': ' 36579', 'city': 'Halifax', 'area': 'Clayton Park', 'state_county': 'Nova Scotia', 'zip_code': 'B3M 1G8', 'country': 'Canada', 'price': 1750, 'property_id': '36579', 'property_size': '750 ft', 'rooms': '1', 'bedrooms': '1', 'bathrooms': '1', 'features': 'Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Over The Range Microwave', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:50,207 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/5620-south-street-1-bedroom-available-may-1st-1995-00/> (referer: https://www.olympusproperties.ca/available-units/page/3/)
+[ 2024-03-28 04:47:50,320 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/5620-south-street-1-bedroom-available-may-1st-1995-00/>
+{'address': ' 42450', 'city': 'Halifax', 'area': 'Downtown Halifax', 'state_county': 'Nova Scotia', 'zip_code': None, 'country': 'Canada', 'price': 1995, 'property_id': '42450', 'property_size': None, 'rooms': '1', 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Dishwasher, Close to all Hospitals, Located in the heart of downtown Halifax, On Bus Route, Pharmacy, Restaurants, Banks, Coffee Shops, Post Office, Over The Range Microwave, Close to Universities and Colleges', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:54,357 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/5620-south-street-unit-301-june-1st-2595-00-2/> (referer: https://www.olympusproperties.ca/available-units/page/3/)
+[ 2024-03-28 04:47:54,483 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/5620-south-street-unit-301-june-1st-2595-00-2/>
+{'address': ' 42567', 'city': 'Halifax', 'area': 'Downtown Halifax', 'state_county': 'Nova Scotia', 'zip_code': None, 'country': 'Canada', 'price': 2595, 'property_id': '42567', 'property_size': None, 'rooms': '2', 'bedrooms': '2', 'bathrooms': '1', 'features': 'balcony, laundry, Fridge & Stove Included, Dishwasher, Close to all Hospitals, Located in the heart of downtown Halifax, On Bus Route, Bus Terminal, Pharmacy, Restaurants, Banks, Coffee Shops, Post Office, Over The Range Microwave, Close to Universities and Colleges', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:47:58,023 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/56-old-sambro-road-unit-305-fantastic-one-bedroom-1695-00-april-15th/> (referer: https://www.olympusproperties.ca/available-units/page/3/)
+[ 2024-03-28 04:47:58,163 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/56-old-sambro-road-unit-305-fantastic-one-bedroom-1695-00-april-15th/>
+{'address': ' 40810', 'city': 'Halifax', 'area': 'Mainland South', 'state_county': 'Nova Scotia', 'zip_code': 'B3R 1R1', 'country': 'Canada', 'price': 1695, 'property_id': '40810', 'property_size': '750 ft', 'rooms': '1', 'bedrooms': '1', 'bathrooms': '1', 'features': 'Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Over The Range Microwave', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:48:01,101 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/223-windmill-road-unit-419-1-bedroom-available-now-1795-00/> (referer: https://www.olympusproperties.ca/available-units/page/4/)
+[ 2024-03-28 04:48:01,226 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/223-windmill-road-unit-419-1-bedroom-available-now-1795-00/>
+{'address': ' 39716', 'city': 'Dartmouth', 'area': 'Dartmouth', 'state_county': 'Nova Scotia', 'zip_code': 'B3A 4M6', 'country': 'Canada', 'price': 1795, 'property_id': '39716', 'property_size': '750 ft', 'rooms': '1', 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, Fridge & Stove Included, Heat & Hot Water Included, Dishwasher, Quiet neighbourhood, On Bus Route', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:48:05,539 ] 331 scrapy.core.engine - DEBUG - Crawled (200) <GET https://www.olympusproperties.ca/properties/5620-south-street-1-bedroom-available-now-1995-00-unit-809/> (referer: https://www.olympusproperties.ca/available-units/page/4/)
+[ 2024-03-28 04:48:05,663 ] 389 scrapy.core.scraper - DEBUG - Scraped from <200 https://www.olympusproperties.ca/properties/5620-south-street-1-bedroom-available-now-1995-00-unit-809/>
+{'address': ' 40722', 'city': 'Halifax', 'area': 'Downtown Halifax', 'state_county': 'Nova Scotia', 'zip_code': None, 'country': 'Canada', 'price': 1995, 'property_id': '40722', 'property_size': None, 'rooms': '1', 'bedrooms': '1', 'bathrooms': '1', 'features': 'balcony, laundry, Fridge & Stove Included, Dishwasher, Close to all Hospitals, Located in the heart of downtown Halifax, On Bus Route, Pharmacy, Restaurants, Banks, Coffee Shops, Post Office, Over The Range Microwave, Close to Universities and Colleges', 'extraction_date': '2024-03-28'}
+[ 2024-03-28 04:48:05,665 ] 411 scrapy.core.engine - INFO - Closing spider (finished)
+[ 2024-03-28 04:48:05,665 ] 532 scrapy.extensions.feedexport - INFO - Stored csv feed (26 items) in: C:/Users/Administrator/Desktop/ScrapingScripts/jerry/CSV_FILES/olympus.csv
+[ 2024-03-28 04:48:05,665 ] 58 scrapy.statscollectors - INFO - Dumping Scrapy stats:
+{'downloader/request_bytes': 12216,
+ 'downloader/request_count': 31,
+ 'downloader/request_method_count/GET': 31,
+ 'downloader/response_bytes': 5084211,
+ 'downloader/response_count': 31,
+ 'downloader/response_status_count/200': 31,
+ 'dupefilter/filtered': 1,
+ 'elapsed_time_seconds': 109.707746,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 3, 28, 4, 48, 5, 665965, tzinfo=datetime.timezone.utc),
+ 'item_scraped_count': 26,
+ 'log_count/DEBUG': 61,
+ 'log_count/INFO': 16,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 4,
+ 'response_received_count': 31,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 30,
+ 'scheduler/dequeued/memory': 30,
+ 'scheduler/enqueued': 30,
+ 'scheduler/enqueued/memory': 30,
+ 'start_time': datetime.datetime(2024, 3, 28, 4, 46, 15, 958219, tzinfo=datetime.timezone.utc)}
+[ 2024-03-28 04:48:05,665 ] 452 scrapy.core.engine - INFO - Spider closed (finished)

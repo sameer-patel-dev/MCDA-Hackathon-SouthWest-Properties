@@ -1,0 +1,31 @@
+title,price,apartment_details,address,available_month,extraction_date
+2,2399,"Two Bed, One Bath","6056 South Street - 2 ,Halifax ,NS","August 1, 2024",2024-03-16
+3,1999,"One Bed, One Bath","6056 South Street - 3 ,Halifax ,NS","May 1, 2024",2024-03-16
+9,2399,"Two Bed, One Bath","6056 South Street - 9 ,Halifax ,NS","August 1, 2024",2024-03-16
+1A,1549,"Studio , One Bath","6056 South Street - 1A ,Halifax ,NS","August 1, 2024",2024-03-16
+103,1599,"Studio , One Bath","5713 Victoria Road - 103 ,Halifax ,NS","August 1, 2023",2024-03-16
+502,2379,"Two Bed, One Bath","5713 Victoria Road - 502 ,Halifax ,NS","August 1, 2024",2024-03-16
+606,2509,"Two Bed, One Bath","5713 Victoria Road - 606 ,Halifax ,NS","May 1, 2024",2024-03-16
+607,1949,"One Bed, One Bath","5713 Victoria Road - 607 ,Halifax ,NS","May 1, 2024",2024-03-16
+707,1599,"One Bed, One Bath","5713 Victoria Road - 707 ,Halifax ,NS",Now,2024-03-16
+201,2199,"One Bed, One Bath","5726 Inglis Street - 201 ,Halifax ,NS","July 1, 2024",2024-03-16
+401,2199,"One Bed, One Bath","5726 Inglis Street - 401 ,Halifax ,NS","May 1, 2024",2024-03-16
+2,2199,"One Bed, One Bath","1029 South Park Street - 2 ,Halifax ,NS","May 1, 2024",2024-03-16
+Apartment 16,2999,"Two Bed, Two Bathroom","1027 South Park St, Halifax, NS B3H 2W2","March 1, 2024",2024-03-16
+201,1829,"One Bed, One Bath","6140 Lady Hammond Road, Halifax, NS B3K 2R5","April 1, 2024",2024-03-16
+202,1829,"One Bed, One Bath","6140 Lady Hammond Road, Halifax, NS B3K 2R5","April 1, 2024",2024-03-16
+301,1849,"One Bed, One Bath","6140 Lady Hammond Road, Halifax, NS B3K 2R5","April 1, 2024",2024-03-16
+302,1849,"One Bed, One Bath","6140 Lady Hammond Road, Halifax, NS B3K 2R5","April 1, 2024",2024-03-16
+304,1849,"One Bed, One Bath","6140 Lady Hammond Road, Halifax, NS B3K 2R5","April 1, 2024",2024-03-16
+306,1869,"One Bed, One Bath","6140 Lady Hammond Road, Halifax, NS B3K 2R5","April 1, 2024",2024-03-16
+14,1499,"Studio , One Bath","3536 Connaught Aveunue - 14 ,Halifax ,NS","April 1, 2024",2024-03-16
+2100,2599,"Two Bed, One Bath","2100 Poplar Street ,Halifax ,NS","April 1, 2024",2024-03-16
+6,2099,"Two Bed, One Bath","3699 Windsor Street - 6 ,Halifax ,NS","August 1, 2024",2024-03-16
+2,1529,"Studio , One Bath","5375 Rector Street - 2 ,Halifax ,NS","August 1, 2024",2024-03-16
+1,1549,"One Bed, One Bath","3103 Connaught Avenue - 1 ,Halifax ,NS","May 1, 2024",2024-03-16
+9,2149,"One Bed, One Bath","6060 South Street - 9 ,Halifax ,NS","August 1, 2024",2024-03-16
+10,2099,"One Bed, One Bath","6060 South Street - 10 ,Halifax ,NS","August 1, 2024",2024-03-16
+12,1549,"Studio , One Bath","6060 South Street - 12 ,Halifax ,NS","August 1, 2024",2024-03-16
+4,1599,"One Bed, One Bath","5710 South Street - 4 ,Halifax ,NS","August 1, 2024",2024-03-16
+2,1949,"One Bed, One Bath","5670 Inglis Street - 2 ,Halifax ,NS","August 1, 2024",2024-03-16
+6,1949,"One Bed, One Bath","5670 Inglis Street - 6 ,Halifax ,NS","May 1, 2024",2024-03-16

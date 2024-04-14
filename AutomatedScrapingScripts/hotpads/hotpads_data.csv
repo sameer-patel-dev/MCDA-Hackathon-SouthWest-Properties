@@ -1,0 +1,26 @@
+propertyType,lat,lon,listingType,street,city,state,zip,numBeds,lowPrice,highPrice,minBeds,maxBeds,title,highlightedAmenities
+condo,44.65240403733803,-63.58619302511215,rental,5560 Cunard St,Halifax,NS,B3K1C4,1,2300.0,2300.0,1,1,5560 Cunard St #401,"Pets, Laundry, HVAC, Appliances"
+large,44.69915792542065,-63.66643935441971,rental,22 Bedros Ln,Bedford,NS,B3M4W9,2,2533.0,2646.0,2,2,22 Bedros Ln,Laundry
+condo,44.60253213156051,-63.60544055700302,rental,29 McIntosh St,Halifax,NS,B3R1G9,1,2250.0,2250.0,1,1,29 McIntosh St #2,
+condo,44.60282240819111,-63.605223298072815,rental,33 McIntosh St,Halifax,NS,B3R1G9,3,2600.0,2600.0,3,3,33 McIntosh St #1,
+large,44.699916723561316,-63.66560518741608,rental,40 Bedros Ln,Bedford,NS,B3M4X1,1,2239.0,2239.0,1,2,40 Bedros Ln,Laundry
+condo,44.63804777992816,-63.575415909290314,rental,5633 Fenwick St,Halifax,NS,B3H1R2,1,2450.0,2450.0,1,1,5633 Fenwick St #101,
+condo,44.63804777992816,-63.575415909290314,rental,5633 Fenwick St,Halifax,NS,B3H1R2,0,1995.0,1995.0,0,0,5633 Fenwick St #2604,
+condo,44.63804777992816,-63.575415909290314,rental,5633 Fenwick St,Halifax,NS,B3H1R2,2,2900.0,2900.0,2,2,5633 Fenwick St #2403,
+condo,44.63804777992816,-63.575415909290314,rental,5633 Fenwick St,Halifax,NS,B3H1R2,2,2600.0,2600.0,2,2,5633 Fenwick St #901,
+medium,44.76531898060894,-63.676634430885315,rental,7 Pinehill Dr,Lower Sackville,NS,B4C1N4,0,2800.0,2800.0,0,0,7 Pinehill Dr,"Laundry, Gym"
+condo,44.766577749301135,-63.684890270233154,rental,24 Sackville Cross Rd,Lower Sackville,NS,B4C0E2,2,2100.0,2100.0,2,2,24 Sackville Cross Rd #404,"Laundry, HVAC, Gym, Appliances"
+condo,44.63875966531611,-63.59681189060211,rental,1585 Oxford St,Halifax,NS,B3H3Z3,1,1995.0,1995.0,1,1,1585 Oxford St #404,
+condo,44.65283335360317,-63.53342592716217,rental,58 Holtwood Ct,Dartmouth,NS,B2W0L2,2,2749.0,2749.0,2,2,58 Holtwood Ct,Pets
+condo,44.64200025571131,-63.576907217502594,rental,5515 Clyde St,Halifax,NS,B3J0K2,1,3000.0,3000.0,1,1,5515 Clyde St #0,"Pets, Laundry, HVAC, Gym, Appliances"
+condo,44.63836650717364,-63.596626818180084,rental,1545 Oxford St,Halifax,NS,B3H3Z3,1,1850.0,1850.0,1,1,1545 Oxford St #36,
+condo,44.65686304735284,-63.64881992340088,rental,221 Glenforest Dr,Halifax,NS,B3M1J3,2,2549.0,2549.0,2,2,221 Glenforest Dr #211,"Pets, Laundry"
+large,44.64954948037963,-63.655917048454285,rental,16 Bently Dr,Halifax,NS,B3S0G9,2,2210.0,2300.0,2,2,16 Bently Dr,Pets
+large,44.66457439827189,-63.59484851360321,rental,3075 Devonshire Ave,Halifax,NS,B3K0H5,1,2505.0,2505.0,1,2,3075 Devonshire Ave,"Pets, Laundry"
+large,44.664833842021224,-63.67411583662033,rental,26 Carrington Pl,Halifax,NS,B3S1J8,1,1935.0,1935.0,1,1,26 Carrington Pl,"Pets, Laundry"
+condo,44.66141710372415,-63.67392271757126,rental,76 Fairfax Dr,Halifax,NS,B3S1M8,1,1785.0,1785.0,1,1,76 Fairfax Dr #101,"Pets, Appliances"
+condo,44.652268563545825,-63.6701300740242,rental,109 Greenpark Close,Halifax,NS,B3S1R6,1,2150.0,2150.0,1,1,109 Greenpark Close #314,"Pets, Laundry, Appliances"
+divided,44.65099394955506,-63.59379172325134,rental,2735 Clifton St,Halifax,NS,B3K4V1,2,2655.0,2655.0,2,2,2735 Clifton St,
+condo,44.675208732538216,-63.677001893520355,rental,634 Parkland Dr,Halifax,NS,B3S1N3,1,1975.0,1975.0,1,1,634 Parkland Dr #206,"Pets, Laundry, Appliances"
+medium,44.64616428222343,-63.57335865497589,rental,1595 Barrington St,Halifax,NS,B3J1Z7,1,3450.0,3450.0,1,2,1595 Barrington St,"Pets, Laundry"
+condo,44.63246881535803,-63.62001299858093,rental,41 Cowie Hill Rd,Halifax,NS,B3P2M7,2,2050.0,2050.0,2,2,41 Cowie Hill Rd #1101,"Pets, Laundry, Appliances"

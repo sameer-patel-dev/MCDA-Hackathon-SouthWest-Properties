@@ -1,0 +1,2 @@
+[ 2024-04-12 03:01:01,731 ] 169 scrapy.utils.log - INFO - Scrapy 2.11.1 started (bot: housing_webscraping)
+[ 2024-04-12 03:01:01,858 ] 178 scrapy.utils.log - INFO - Versions: lxml 5.1.0.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.9.0, w3lib 2.1.2, Twisted 24.3.0, Python 3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)], pyOpenSSL 24.1.0 (OpenSSL 3.2.1 30 Jan 2024), cryptography 42.0.5, Platform Windows-2022Server-10.0.20348-SP0

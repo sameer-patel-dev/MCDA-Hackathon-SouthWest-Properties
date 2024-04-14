@@ -1,0 +1,57 @@
+[ 2024-04-12 03:01:44,525 ] 169 scrapy.utils.log - INFO - Scrapy 2.11.1 started (bot: housing_webscraping)
+[ 2024-04-12 03:01:44,619 ] 178 scrapy.utils.log - INFO - Versions: lxml 5.1.0.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.9.0, w3lib 2.1.2, Twisted 24.3.0, Python 3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)], pyOpenSSL 24.1.0 (OpenSSL 3.2.1 30 Jan 2024), cryptography 42.0.5, Platform Windows-2022Server-10.0.20348-SP0
+[ 2024-04-12 03:01:44,619 ] 47 scrapy.addons - INFO - Enabled addons:
+[]
+[ 2024-04-12 03:01:44,619 ] 64 asyncio - DEBUG - Using selector: SelectSelector
+[ 2024-04-12 03:01:44,619 ] 184 scrapy.utils.log - DEBUG - Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+[ 2024-04-12 03:01:44,619 ] 188 scrapy.utils.log - DEBUG - Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+[ 2024-04-12 03:01:44,713 ] 58 scrapy.extensions.telnet - INFO - Telnet Password: bba727ee01a6e5af
+[ 2024-04-12 03:01:45,509 ] 110 py.warnings - WARNING - C:\Program Files\Python312\Lib\site-packages\scrapy\extensions\feedexport.py:406: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+[ 2024-04-12 03:01:45,540 ] 78 scrapy.middleware - INFO - Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+[ 2024-04-12 03:01:45,540 ] 138 scrapy.crawler - INFO - Overridden settings:
+{'BOT_NAME': 'housing_webscraping',
+ 'DOWNLOAD_DELAY': 15,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'housing_webscraping.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['housing_webscraping.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+[ 2024-04-12 03:01:45,940 ] 78 scrapy.middleware - INFO - Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[ 2024-04-12 03:01:45,972 ] 78 scrapy.middleware - INFO - Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[ 2024-04-12 03:01:45,972 ] 78 scrapy.middleware - INFO - Enabled item pipelines:
+[]
+[ 2024-04-12 03:01:45,972 ] 359 scrapy.core.engine - INFO - Spider opened
+[ 2024-04-12 03:01:46,036 ] 54 scrapy.extensions.logstats - INFO - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[ 2024-04-12 03:01:46,036 ] 70 scrapy.extensions.telnet - INFO - Telnet console listening on 127.0.0.1:6023
+[ 2024-04-12 03:01:46,259 ] 1019 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): publicsuffix.org:443
+[ 2024-04-12 03:01:46,733 ] 474 urllib3.connectionpool - DEBUG - https://publicsuffix.org:443 "GET /list/public_suffix_list.dat HTTP/1.1" 200 85918
+[ 2024-04-12 03:01:46,807 ] 331 scrapy.core.engine - DEBUG - Crawled (403) <GET https://www.kijiji.ca/robots.txt> (referer: None)
+[ 2024-04-12 03:01:46,807 ] 403 protego - DEBUG - Rule at line 1 without any user agent to enforce it on.
+[ 2024-04-12 03:01:46,813 ] 403 protego - DEBUG - Rule at line 7 without any user agent to enforce it on.
+[ 2024-04-12 03:01:51,038 ] 367 scrapy.crawler - INFO - Received SIGINT, shutting down gracefully. Send again to force 
+[ 2024-04-12 03:01:51,275 ] 411 scrapy.core.engine - INFO - Closing spider (shutdown)
+[ 2024-04-12 03:01:56,045 ] 378 scrapy.crawler - INFO - Received SIGINT twice, forcing unclean shutdown
