@@ -24,11 +24,11 @@ CORS(app)
 
 db = SQLAlchemy()
 
-SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://admin:mcdaPassword@mcdahackathondb.cp0g6cm4mpmv.ca-central-1.rds.amazonaws.com/MCDAHackathon'
+SQLALCHEMY_DATABASE_URI = ''
 SQLALCHEMY_TRACK_MODIFICATIONS = False
-S3_ACCESS_ID='AKIAU6GD24KAGUDG56MR'
-S3_ACCESS_KEY='JceVyihBaW221jDF0qZRp2eeFVfiPBrFTdflmvN5'
-S3_BUCKET_NAME='mcda-hackathon-s3-bucket'
+S3_ACCESS_ID=''
+S3_ACCESS_KEY=''
+S3_BUCKET_NAME=''
 
 # Expected columns (excluding 'listingAddress' and 'listingRent')
 expected_columns = ['listingMajorRegion', 'listingMinorRegion', 'listingType',
