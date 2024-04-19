@@ -52,7 +52,7 @@ def assignCoordinates(street_address):
     province = ",+Nova+Scotia,+"
     country = "CA"
     formatted_address = street_address+province+country
-    API_Key="AIzaSyBS9AngpJ44EHDtufErkq0TN-BHDphhofk"
+    API_Key=""
     response = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address='+formatted_address+'&key='+API_Key)
     response_data= response.json()
     latitude = response_data['results'][0]['geometry']['location']['lat']
@@ -100,7 +100,7 @@ def fetchCrimeScore(minor_region):
     return 'Safe'
 
 def find_place_nearby(latitude, longitude, keyword, radius=5000):
-    api_key = "AIzaSyBS9AngpJ44EHDtufErkq0TN-BHDphhofk"
+    api_key = ""
     base_url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
     params = {
     "location": f"{latitude},{longitude}",
@@ -149,7 +149,7 @@ def calculateDistanceScore(distance):
 
 
 def fetchTransitScore(lat,lon):
-    api_key = "AIzaSyBS9AngpJ44EHDtufErkq0TN-BHDphhofk"
+    api_key = ""
     base_url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 
     params = {
@@ -241,7 +241,7 @@ def fetchEmergencyCenterScore(lat,lon):
     return mode_value
 
 def calculateWalkingTime(listingLatitude, listingLongitude, place_lat, place_lon):
-    api_key = "AIzaSyBS9AngpJ44EHDtufErkq0TN-BHDphhofk"
+    api_key = ""
     url = "https://maps.googleapis.com/maps/api/distancematrix/json"
 
     # Parameters should be passed as a dictionary to the `params` argument
@@ -269,7 +269,7 @@ def calculateWalkingTime(listingLatitude, listingLongitude, place_lat, place_lon
             
     return None
 def calculateBikeTime(listingLatitude, listingLongitude, place_lat, place_lon):
-    api_key = "AIzaSyBS9AngpJ44EHDtufErkq0TN-BHDphhofk"
+    api_key = ""
     url = "https://maps.googleapis.com/maps/api/distancematrix/json"
 
     # Parameters should be passed as a dictionary to the `params` argument
@@ -374,7 +374,7 @@ print(os.getenv('S3_ACCESS_ID'))
 print(os.getenv('S3_ACCESS_KEY'))
 
 # Read from s3 instead of local
-bucket_name = 'mcda-hackathon-s3-bucket'
+bucket_name = ''
 # file_key = 'newListingCSVInput/dummy_listing_data.csv'
 
 folder = 'modelCSVInput/'
