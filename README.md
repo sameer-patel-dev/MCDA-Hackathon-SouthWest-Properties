@@ -1,5 +1,7 @@
-# Southwest Hackathon
+# SW Estate 360 | Hackathon Submission for SouthWest Properties
 SW Estate 360 is a centralized platform designed to transform the way rental forecasts and property insights are managed. It features automated scrapers and crawlers for real-time data collection, coupled with a dynamic dashboard that provides immediate insights. The platform also includes a sophisticated rental forecasting model, along with alerts for upcoming projects, making it an essential tool for investors and property managers. We also have Inhouse developed APIs which will help you calculate walk, transit and bike scores of properties.
+
+**Explore our platform:** [SW Estate 360](https://estate360.netlify.app/)
 
 ## Technology Stack
 - ReactJS
