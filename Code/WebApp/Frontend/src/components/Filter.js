@@ -51,14 +51,13 @@ const Filter = ({ handleFilter, clearAll, className, allData }) => {
 
     // Parse the input value to a float
     const parsedValue = parseFloat(value);
-
     setSelectedFilter((selectedFilter) => ({
       ...selectedFilter,
       listingRent: {
-        // If minVal input is empty, set it to 0
-        minVal: name === "minVal" && !isNaN(parsedValue) ? parsedValue : 0,
-        // If maxVal input is empty, set it to 30000
-        maxVal: name === "maxVal" && !isNaN(parsedValue) ? parsedValue : 30000,
+        // Spread the existing listingRent object
+        ...selectedFilter.listingRent,
+        // Update minVal or maxVal based on the input name
+        [name]: parsedValue,
       },
     }));
   };
@@ -107,7 +106,7 @@ const Filter = ({ handleFilter, clearAll, className, allData }) => {
                   class="form-control "
                   id="maxVal"
                   name="maxVal"
-                  placeholder="2000"
+                  placeholder="3000"
                   onChange={onPriceChange}
                   value={selectedFilter?.listingRent?.maxVal || ""}
                 />

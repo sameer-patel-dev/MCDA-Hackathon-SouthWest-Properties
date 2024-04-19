@@ -5,6 +5,7 @@ import Listing from "./Listing";
 import Dropdown from "../common/Dropdown";
 import { MdClose } from "react-icons/md";
 import { instance } from "../config/config";
+import Loading from "./Loading";
 
 const Properties = () => {
   // const initialData = jsonData;
@@ -14,14 +15,21 @@ const Properties = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [filters, setFilters] = useState({});
   const [sortBy, setSortBy] = useState(""); // State for sorting
+  const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [dataLoading, setDataLoading] = useState(false);
 
   useEffect(() => {
+    setDataLoading(true);
     instance
       .get("api/listings")
       .then((res) => {
+        setDataLoading(false);
         setInitialData(res?.data);
       })
       .catch((err) => {
+        setDataLoading(false);
+        setMessage("Sorry, no listing found");
         console.log(err);
       });
   }, []);
@@ -39,14 +47,17 @@ const Properties = () => {
   }, [searchTerm]);
 
   useEffect(() => {
+    setLoading(true);
     filters && Object.keys(filters)?.length > 0
       ? instance
           .post("api/listings/filter", filters)
           .then((res) => {
             setFilteredData(res?.data);
-            console.log(res);
+            // console.log(res);
+            setLoading(false);
           })
           .catch((err) => {
+            setLoading(false);
             console.log(err);
           })
       : setFilteredData(data);
@@ -57,11 +68,17 @@ const Properties = () => {
   };
 
   const handleFilter = (selectedFilter) => {
-    setFilters(selectedFilter);
-  };
-
-  const handleSortChange = (e) => {
-    setSortBy(e.target.value);
+    setFilters((filters) => ({
+      ...selectedFilter,
+      listingRent: {
+        // Spread the existing listingRent object
+        ...filters?.listingRent,
+        // If minVal input is empty, set it to 0 or keep the existing value
+        minVal: selectedFilter?.listingRent?.minVal || 0,
+        // If maxVal input is empty, set it to 30000 or keep the existing value
+        maxVal: selectedFilter?.listingRent?.maxVal || 3000,
+      },
+    }));
   };
 
   const clearAll = () => {
@@ -80,24 +97,14 @@ const Properties = () => {
       return newData;
     });
   };
-
   return (
-    <div className="propertyListing">
-      <div className="container-fluid py-4">
-        <div className="advanceFilter custom-bottom">
-          <div className=" d-flex justify-content-between align-items-center w-100">
+    <>
+      <div className="container py-4">
+        <div className=" custom-bottom">
+          <div className=" d-flex justify-content-between align-items-center w-100 py-4">
             <Search searchTerm={searchTerm} handleSearch={handleSearch} />
 
             <div className="d-flex">
-              <div>
-                <Dropdown
-                  options={["price_low_to_high", "price_high_to_low"]}
-                  title="Sort Type"
-                  name="sort_type"
-                  value={sortBy || ""}
-                  onChange={handleSortChange}
-                />
-              </div>
               <button
                 className=" px-2 py-2 bg-primary-color border-0  ms-2 fs-9"
                 type="button"
@@ -161,11 +168,21 @@ const Properties = () => {
                   </span>
                 );
               })}
+
+            {!loading && filteredData?.length == 0 && (
+              <p className="fs-9 mb-0 pt-3">Sorry, no listing found</p>
+            )}
           </div>
         </div>
-        <Listing filteredItems={filteredData} />
       </div>
-    </div>
+      {!dataLoading ? (
+        <Listing filteredItems={filteredData} message={message} />
+      ) : (
+        <div className="w-100 h-100 d-flex justify-content-center align-items-center">
+          <Loading />
+        </div>
+      )}
+    </>
   );
 };
 

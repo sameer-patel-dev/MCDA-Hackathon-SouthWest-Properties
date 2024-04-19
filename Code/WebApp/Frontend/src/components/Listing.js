@@ -31,10 +31,10 @@ const Listing = ({ filteredItems }) => {
 
   return (
     <>
-      <div className="container-fluid pt-5 mt-5">
+      <div className="container">
         <div className="row">
-          <div className="col-lg-12 col-md-12 col-sm-12 px-5">
-            <div className="d-flex justify-content-between align-items-center py-4 px-5 mx-1 mx-auto">
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <div className="d-flex justify-content-between align-items-center pb-4 mx-1 mx-auto">
               <div
                 className="text-decoration-underline cursor-pointer"
                 onClick={(e) => navigate("/listings/create")}
@@ -82,7 +82,7 @@ const Listing = ({ filteredItems }) => {
                       handleMouseEvent={handleMouseEvent}
                     />
                   </div>
-                  <div className="col-lg-8 col-md-8 col-sm-8 pt-2 px-4">
+                  <div className="col-lg-8 col-md-8 col-sm-8 pt-2">
                     <MapView
                       filteredItems={filteredItems}
                       itemToshow={itemToshow}
@@ -148,57 +148,57 @@ export function Items({ currentItems }) {
 
   return (
     <div className="container p-0">
-      <div className="row w-100">
-        {currentItems?.length > 0 ? (
-          currentItems.map((item) => {
-            return (
-              <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
-                <div
-                  class="card property shadow border-0 rounded-0 mb-5 cursor-pointer"
-                  onClick={() => handleRedirect(item)}
-                >
-                  <img
-                    src={
-                      item?.imageLink?.match(/\.(jpeg|jpg|gif|png)$/) !== null
-                        ? item?.imageLink
-                        : noImg
-                    }
-                    class="propertyImage"
-                    alt={item?.listingAddress}
-                  />
+      <div className="row">
+        {currentItems?.length > 0
+          ? currentItems.map((item) => {
+              return (
+                <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
                   <div
-                    className="tags position-absolute end-0 pe-3"
-                    style={{ bottom: "22%" }}
+                    class="card property shadow border-0 rounded-0 mb-5 cursor-pointer"
+                    onClick={() => handleRedirect(item)}
                   >
-                    <span className="bg-primary-color rounded-pill p-1 px-3 fs-8">
-                      {item.listingPropertyType}
-                    </span>
-                  </div>
-                  <div class="card-body  ">
-                    <p className="text-secondary-color fw-bold mb-1">
-                      ${item?.listingRent}
-                    </p>
-                    <p className="mb-0 fs-8 text-secondary fw-bold">
-                      {item?.listingAddress}
-                    </p>
-                  </div>
-                  <div class="overlay">
-                    <Button
-                      className=" px-2 py-2 bg-primary-color border-0 rounded-0  ms-2 fs-9"
-                      onClick={() => handleRedirect(item)}
+                    <img
+                      src={
+                        item?.imageLink?.match(/\.(jpeg|jpg|gif|png)$/) !== null
+                          ? item?.imageLink
+                          : noImg
+                      }
+                      class="propertyImage"
+                      alt={item?.listingAddress}
+                    />
+                    <div
+                      className="tags position-absolute end-0 pe-3"
+                      style={{ bottom: "22%" }}
                     >
-                      Show More
-                    </Button>
+                      <span className="bg-primary-color rounded-pill p-1 px-3 fs-8">
+                        {item.listingPropertyType}
+                      </span>
+                    </div>
+                    <div class="card-body  ">
+                      <p className="text-secondary-color fw-bold mb-1">
+                        ${item?.listingRent}
+                      </p>
+                      <p className="mb-0 fs-8 text-secondary fw-bold">
+                        {item?.listingAddress}
+                      </p>
+                    </div>
+                    <div class="overlay">
+                      <Button
+                        className=" px-2 py-2 bg-primary-color border-0 rounded-0  ms-2 fs-9"
+                        onClick={() => handleRedirect(item)}
+                      >
+                        Show More
+                      </Button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            );
-          })
-        ) : (
-          <div className="w-100 h-100 d-flex justify-content-center align-items-center">
-            <Loading />
-          </div>
-        )}
+              );
+            })
+          : ""
+            // <div className="w-100 h-100 d-flex justify-content-center align-items-center">
+            //   <Loading />
+            // </div>
+        }
       </div>
     </div>
   );

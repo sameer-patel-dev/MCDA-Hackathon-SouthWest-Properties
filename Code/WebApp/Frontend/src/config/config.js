@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const base_url = "http://127.0.0.1:5000/";
+export const base_url = "https://southwest-properties-5b91f978d0cd.herokuapp.com";
 
 export const instance = axios.create({
   // Configuration

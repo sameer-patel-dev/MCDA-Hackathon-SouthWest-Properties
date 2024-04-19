@@ -4,7 +4,6 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
 const MapView = ({ filteredItems, itemToshow }) => {
-  // console.log(itemToshow);
   const mapRef = useRef();
 
   const [markers, setMarkers] = useState([]);
@@ -18,34 +17,44 @@ const MapView = ({ filteredItems, itemToshow }) => {
   });
 
   const getAllMarkers = () => {
+    // console.log("@filteredItems", filteredItems);
     const uniqueMarkerPositions = new Set();
 
     // Filter out duplicate markers and update markers state
     setMarkers(
-      filteredItems.flatMap((item) => {
-        const position = `${item?.listingAddress}`;
-        // Check if the position is already in the Set
-        if (!uniqueMarkerPositions.has(position)) {
-          // If not, add it to the Set and return the marker object
-          uniqueMarkerPositions.add(position);
-          return [
-            {
-              position: [item?.listingLatitude, item?.listingLongitude],
-              name: item?.listingAddress,
-              description: item?.listingMajorRegion,
-              property_type: item?.listingPropertyType,
-              rent_range: item?.listingRent,
-            },
-          ];
-        }
-        return []; // Return an empty array for duplicate markers
-      })
+      filteredItems
+        ?.filter(
+          (item) =>
+            item?.listingLatitude !== null && item?.listingLongitude !== null
+        )
+        ?.flatMap((item) => {
+          const position = `${item?.listingAddress}`;
+          // Check if the position is already in the Set
+          if (!uniqueMarkerPositions.has(position)) {
+            // If not, add it to the Set and return the marker object
+            uniqueMarkerPositions.add(position);
+            return [
+              {
+                position: [item?.listingLatitude, item?.listingLongitude],
+                name: item?.listingAddress,
+                description: item?.listingMajorRegion,
+                property_type: item?.listingPropertyType,
+                rent_range: item?.listingRent,
+              },
+            ];
+          }
+          return []; // Return an empty array for duplicate markers
+        })
     );
   };
 
   useEffect(() => {
-    if (Object?.keys(itemToshow)?.length !== 0) {
-      // console.log("@itemToShow", itemToshow);
+    if (
+      itemToshow &&
+      Object?.keys(itemToshow)?.length !== 0 &&
+      itemToshow?.listingLatitude !== null &&
+      itemToshow?.listingLongitude !== null
+    ) {
       setMarkers([
         {
           position: [itemToshow?.listingLatitude, itemToshow?.listingLongitude],
@@ -58,9 +67,9 @@ const MapView = ({ filteredItems, itemToshow }) => {
       mapRef?.current?.openPopup();
     } else {
       mapRef?.current?.closePopup();
-      // getAllMarkers();
     }
   }, [itemToshow]);
+
   useEffect(() => {
     getAllMarkers();
   }, [filteredItems]);
@@ -71,7 +80,7 @@ const MapView = ({ filteredItems, itemToshow }) => {
         center={[44.6514672, -63.6537874]}
         zoom={13}
         ref={mapRef}
-        style={{ height: "50vh", width: "60vw", left: "12%" }}
+        style={{ height: "50vh", width: "52vw", left: "15%" }}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -106,10 +115,6 @@ const MapView = ({ filteredItems, itemToshow }) => {
 
                   <span className="px-2 py-1 mx-2 rounded-pill bg-primary-color text-capitalize">
                     ${marker?.rent_range}
-                    {/* {marker?.rent_range[0] +
-                      " - " +
-                      "$" +
-                      marker?.rent_range[marker?.rent_range?.length - 1]} */}
                   </span>
                 </p>
                 <p className="fs-9 mt-0">{marker?.description}</p>

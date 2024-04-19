@@ -78,7 +78,7 @@ const Create = () => {
     expectedRows: [
       "townhouse",
       '"106 Dalkeith Drive, Dartmouth, Nova Scotia, B2W 4E8"',
-      "lease",
+      "TownHouse",
       "2000",
       "https://www.google.com/url?house-image.jpg",
       "1",
@@ -534,7 +534,7 @@ export const Basic = ({
           <div className="w-75 autocomplete-address">
             <AddressAutofill
               onRetrieve={handleRetrieve}
-              accessToken={`${process.env.REACT_APP_MAPBOX_TOKEN}`}
+              accessToken={"pk.eyJ1Ijoia3JpdGlrYWtvaXJhbGEiLCJhIjoiY2x0enhmaWRmMDU1eTJrb21hYXliN3ZyOSJ9.QZJhgU5tMeANennF48VcpA"}
             >
               <input
                 className="form-control border-0 border-bottom rounded-0 fs-8 py-1 px-0 w-100 "

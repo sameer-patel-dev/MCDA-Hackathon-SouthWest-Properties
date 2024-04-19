@@ -1,62 +1,34 @@
-from flask import Flask, jsonify, request, Response, current_app
-from filters_and_dtos import ListingFilter, ProjectFilter, ListingDto
-from models import Listing, Project
+from flask import Flask, jsonify, request, Response
 from datetime import datetime, date
-# from flask_sqlalchemy import SQLAlchemy
-# from app import db, Student
-# from flask_mysqldb import MySQL
-from sqlalchemy import create_engine
-from models import db, ListingV1
-from flask_cors import CORS
+from sqlalchemy import create_engine,desc,cast,Numeric
+from flask_cors import CORS, cross_origin
 import boto3
 import botocore
-import os
-from dotenv import load_dotenv
-from werkzeug.utils import secure_filename
-import csv
 import requests
 import pandas as pd
-from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 from shapely.geometry import Point
 import shapely.wkt
-import threading
-from celery import Celery   
 import json
 import pickle
+from sqlalchemy import create_engine, Column, Integer, String
+from flask_sqlalchemy import SQLAlchemy
+from io import StringIO
+import threading
 
-
-def make_celery(app):
-    celery = Celery(app.import_name, broker=app.config['CELERY_BROKER_URL'])
-    celery.conf.update(app.config)
-    
-    class ContextTask(celery.Task):
-        def __call__(self, *args, **kwargs):
-            with app.app_context():
-                return self.run(*args, **kwargs)
-    
-    celery.Task = ContextTask
-    return celery
 
 app = Flask(__name__)
-app.config.update(
-    CELERY_BROKER_URL='redis://localhost:6379/0',
-    CELERY_RESULT_BACKEND='redis://localhost:6379/0'
-)
-celery = make_celery(app)
-
-#enable the cors
 CORS(app)
 
 
 
-#model stuff
-# Load your preprocessor and model
-with open('preprocessor.pkl', 'rb') as file:
-    preprocessor = pickle.load(file)
+db = SQLAlchemy()
 
-with open('best_xgb_model.pkl', 'rb') as file:
-    model = pickle.load(file)
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://admin:mcdaPassword@mcdahackathondb.cp0g6cm4mpmv.ca-central-1.rds.amazonaws.com/MCDAHackathon'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+S3_ACCESS_ID='AKIAU6GD24KAGUDG56MR'
+S3_ACCESS_KEY='JceVyihBaW221jDF0qZRp2eeFVfiPBrFTdflmvN5'
+S3_BUCKET_NAME='mcda-hackathon-s3-bucket'
 
 # Expected columns (excluding 'listingAddress' and 'listingRent')
 expected_columns = ['listingMajorRegion', 'listingMinorRegion', 'listingType',
@@ -70,90 +42,106 @@ expected_columns = ['listingMajorRegion', 'listingMinorRegion', 'listingType',
 
 
 
-load_dotenv()
 
 #database connection
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('SQLALCHEMY_DATABASE_URI')
-print(os.getenv('SQLALCHEMY_DATABASE_URI'))
-
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:mcdaPassword@mcdahackathondb.cp0g6cm4mpmv.ca-central-1.rds.amazonaws.com/MCDAHackathon'
-# print('mysql+pymysql://admin:mcdaPassword@mcdahackathondb.cp0g6cm4mpmv.ca-central-1.rds.amazonaws.com/MCDAHackathon')
-
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = os.getenv('SQLALCHEMY_TRACK_MODIFICATIONS')
-
+app.config['SQLALCHEMY_DATABASE_URI'] = SQLALCHEMY_DATABASE_URI
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = SQLALCHEMY_TRACK_MODIFICATIONS
 db.init_app(app)
 
 s3 = boto3.client(
     's3',
-    aws_access_key_id=os.getenv('S3_ACCESS_ID'),
-    aws_secret_access_key=os.getenv('S3_ACCESS_KEY'),
+    aws_access_key_id=S3_ACCESS_ID,
+    aws_secret_access_key=S3_ACCESS_KEY,
     region_name='ca-central-1',
     config=boto3.session.Config(signature_version='s3v4')
 
 )
 
-bucket_name = os.getenv('S3_BUCKET_NAME')
+bucket_name = S3_BUCKET_NAME
 
 
-projects = [
-    Project(
-        project_id="1",
-        created_on=datetime.now(),
-        project_name="Project 1",
-        company_name="Company 1",
-        property_type="Apartment",
-        street_address="456 Elm St",
-        neighbourhood="Neighbourhood 2",
-        city="Halifax",
-        province="Nova Scotia",
-        lat=44.6511,
-        lon=-63.5820
-        ),
-    Project(
-        project_id="12",
-        created_on=datetime.now(),
-        project_name="Harbour View Towers",
-        company_name="Real Estate Co.",
-        property_type="Apartment",
-        street_address="888 Pine St",
-        neighbourhood="Waterfront",
-        city="Halifax",
-        province="Nova Scotia",
-        lat=44.6487,
-        lon=-63.5720
-        ),
-    Project(
-        project_id="13",
-        created_on=datetime.now(),
-        project_name="Maplewood Estates",
-        company_name="Prime Realty",
-        property_type="Townhouse",
-        street_address="202 Cedar Rd",
-        neighbourhood="Maplehurst",
-        city="Halifax",
-        province="Nova Scotia",
-        lat=44.6573,
-        lon=-63.5937
-        ),
-   ]
 
 
-@app.route('/', methods=['GET'])
-def connected():
-    return "Connected" 
+
+class ListingV1(db.Model):
+    __tablename__ = 'mainWebAppTable'
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    listingAddress = Column(String(255))
+    listingMajorRegion = Column(String(255))
+    listingMinorRegion = Column(String(255))
+    listingLatitude = Column(String(255))
+    listingLongitude = Column(String(255))
+    listingType = Column(String(255))
+    listingPropertyType = Column(String(255))
+    listingSizeSquareFeet = Column(String(255))
+    bedroomCount = Column(String(255))
+    bathroomCount = Column(String(255))
+    heatUtility = Column(String(255))
+    waterUtility = Column(String(255))
+    hydroUtility = Column(String(255))
+    furnishedUtility = Column(String(255))
+    petPolicy = Column(String(255))
+    smokingPolicy = Column(String(255))
+    gymAmenity = Column(String(255))
+    parkingAmenity = Column(String(255))
+    acAmenity = Column(String(255))
+    applianceAmenity = Column(String(255))
+    storageAmenity = Column(String(255))
+    transitScore = Column(String(255))
+    walkScore = Column(String(255))
+    bikeScore = Column(String(255))
+    crimeScore = Column(String(255))
+    retailGroceryScore = Column(String(255))
+    retailRecreationScore = Column(String(255))
+    educationCenterScore = Column(String(255))
+    emergencyCenterScore = Column(String(255))
+    listingRent = Column(String(255))
+    imageLink = Column(String(255))
+
+
+def read_csv_from_s3(bucket_name, file_key):
+    csv_obj = s3.get_object(Bucket=bucket_name, Key=file_key)
+    body = csv_obj['Body']
+    csv_string = body.read().decode('utf-8')
+    df = pd.read_csv(StringIO(csv_string))
+    return df
+
+
+def read_pkl_from_s3(bucket_name, file_key):
+    response = s3.get_object(Bucket=bucket_name, Key=file_key)
+    body = response['Body']
+    pkl_string = body.read()
+    try:
+        data = pickle.loads(pkl_string)
+    except Exception as e:
+        print(f"Error during unpickling object (Possibly corrupted file): {e}")
+        return None
+    return data
+
+
+#model stuff
+# Load your preprocessor and model
+preprocessor = read_pkl_from_s3('mcda-hackathon-s3-bucket', 'WebApp/preprocessor.pkl')
+
+model = read_pkl_from_s3('mcda-hackathon-s3-bucket', 'WebApp/best_xgb_model.pkl')
+
+
+
+@app.route('/')
+
 
 # Route to get all the listings
 @app.route('/api/listings', methods=['GET'])
+@cross_origin()
 def list_projects():
     all_listings = ListingV1.query.all()
     listings = appendFunc(all_listings)
-    # print(listings)
-    
     response = jsonify(listings) 
     return response
 
 
 @app.route('/api/csv_upload', methods=['POST'])
+@cross_origin()
 def upload_file():
     if 'file' not in request.files:
         return jsonify({'error': 'No file part'}), 404
@@ -163,33 +151,24 @@ def upload_file():
     if file.filename == '':
         return jsonify({'error': 'No selected file'}), 403
     
-    # Handle the file here, you can save it or process it
-    
     # Save file to S3
     try:
         today = date.today()
         today_str = today.strftime("%Y-%m-%d")
-
         now = datetime.now()
         now_str = now.strftime("%Y-%m-%d_%H:%M:%S")
-
         file_name = now_str + ".csv"
-
         s3.upload_fileobj(file, bucket_name, "modelCSVInput/" +today_str + '/' + file_name )
-
-        # s3.upload_fileobj(file, bucket_name, 'modelCSV' + '/' + file.filename)
-        # file_url = f"https://{bucket_name}.s3.amazonaws.com/{file.filename}"
-        # get_csv_file(file.filename)
         return jsonify({'message': 'File uploaded successfully'})
+
     except botocore.exceptions.ClientError as e:
         print(e)
         return jsonify({'error': 'Error uploading file to S3'})
-    # return jsonify({'message': 'File uploaded successfully', 'file_url': f"https://{bucket_name}.s3.amazonaws.com/{file.filename}"})
-    # return jsonify({'message': 'File uploaded successfully uploaded.'})
 
     
 # Route to predict rent forecast
 @app.route('/api/forecast/results', methods=['GET'])
+@cross_origin()
 def list_files():
     try:
         # print(folder_name)
@@ -206,31 +185,21 @@ def list_files():
         print(e)
         return jsonify({'error': 'Error listing files'})
     
-# # Route to predict rent forecast
-# @app.route('/api/rent-forecast', methods=['POST'])
-# def rent_forecast():
-#     json_data = request.json
-#     # listing = ListingDto(**json_data)
-#     # print(json_data)
-
-#     #pass it to model
-
-#     response = jsonify({'message': 'Data Received successfully!'}) 
-#     response.status_code = 200
-
-#     return response
 
 @app.route('/api/rent-forecast', methods=['POST'])
+@cross_origin()
 def rent_forecast():
     # Check for batch predictions (CSV file)
     if 'file' in request.files:
-        print("bye")
         file = request.files['file']
         if file:
             df = pd.read_csv(file)
             # Check if the DataFrame contains all expected columns
             if not all(column in df.columns for column in expected_columns):
                 return jsonify({'message': 'Error: Missing one or more required columns in the CSV file.'}), 400
+
+            if preprocessor is None:
+                raise ValueError("Failed to load preprocessor from S3")
             prepared = preprocessor.transform(df)
             predictions = model.predict(prepared)
             df['PredictedListingRent'] = predictions
@@ -239,12 +208,11 @@ def rent_forecast():
             return jsonify({'message': 'Batch predictions made successfully!', 'data': str(result)}), 200
 
     else:
-        print("hi")
         data = request.json
 
         lat,lon = assignCoordinates(data.get("listingAddress"))
-
-        modelData = pd.read_csv("mainWebAppTable_data.csv")
+        # modelData = pd.read_csv("mainWebAppTable_data.csv")
+        modelData = read_csv_from_s3("mcda-hackathon-s3-bucket", "WebApp/mainWebAppTable_data.csv")
         listing_data = modelData[(modelData['listingLatitude'] == lat) & (modelData['listingLongitude'] == lon)]
         if not listing_data.empty:
 
@@ -324,7 +292,10 @@ def rent_forecast():
         rounded_number = int(round(prediction[0], 0))
         return jsonify({'message': 'Individual prediction made successfully!', 'predictedRent': str(rounded_number)}), 200
 
+
+
 @app.route('/api/download_file', methods=['GET'])
+@cross_origin()
 def download_file():
     file_name = request.args.get('file_name')  # Get the file name from query parameters
     # print(file_name)
@@ -339,8 +310,11 @@ def download_file():
         print(e)
         return jsonify({'error': 'Error generating pre-signed URL'})
 
+
+
 # route to filter the listings
 @app.route('/api/listings/filter', methods=['POST'])
+@cross_origin()
 def all_listings_filter():
     try:
         filters = request.json
@@ -367,16 +341,16 @@ def all_listings_filter():
                         query = query.filter(getattr(ListingV1, attr) == value)
                 else:
                     query = query.filter(getattr(ListingV1, attr) == value)
+            if attr == 'sortBy':
+                print(value)
+                if value == "asc":
+                    query = query.order_by(cast(ListingV1.listingRent, Numeric))
+                elif value == "desc":
+                    query = query.order_by(desc(cast(ListingV1.listingRent, Numeric)))
 
         # Execute the query to get filtered listings
         filtered_listings = query.all()
-
-        # Convert filtered listings to a list of dictionaries
         listings = appendFunc(filtered_listings)
-        
-        
-            # listing_dict = {key: getattr(listing, key) for key in filters.keys()}
-            # listings.append(listing_dict)
 
         return jsonify(listings)
     
@@ -384,8 +358,11 @@ def all_listings_filter():
         error_message = str(e)  
         return jsonify({"error": error_message}), 400
         
+
+
 # route to get a single listing
 @app.route('/api/listing/<int:listing_id>', methods=['GET'])
+@cross_origin()
 def get_listing_by_id(listing_id):
     try:
         # Retrieve parameters from the request args
@@ -428,20 +405,20 @@ def get_listing_by_id(listing_id):
         'emergencyCenterScore': listing.emergencyCenterScore,
         'listingRent': listing.listingRent,
         'imageLink': listing.imageLink
-
-            # Add other attributes as needed
         }
 
         return jsonify(listing_dict)
-
-        # return jsonify(listing_dict)
 
     except Exception as e:
         error_message = str(e)
         return jsonify({"error": error_message}), 400
 
+
+
+
 #CSV to DB  
 @app.route('/api/csv_import', methods=['POST'])
+@cross_origin()
 def import_csv():
     if 'file' not in request.files:
         return jsonify({'error': 'No file part'}), 404
@@ -466,16 +443,18 @@ def import_csv():
         print(e)
         return jsonify({'error': 'Error uploading file to S3'})
 
+
+
+
 #Add a new listing
 @app.route('/api/listings', methods=['POST'])
+@cross_origin()
 def add_listing():
     # Extract JSON data from the request
     data = request.json
     
     # print(data)
     street_address= data.get('street_address')
-    # lat,lon = assignCoordinates(street_address)
-    # minorRegion = fetchMinorRegion(lat,lon)
     
     new_listing = ListingV1(
     listingAddress=str(data.get('street_address')),
@@ -511,59 +490,59 @@ def add_listing():
     imageLink=str(data.get('imageLink'))
     )
 
-    print("\n\n\n\n\n\n")
-    print(new_listing)
-
     
+
     # Add the new listing to the session and commit it to the database
     db.session.add(new_listing)
     db.session.commit()
 
     thread = threading.Thread(target=processing_data, args=(app,new_listing.id,))
     thread.start()
-
     return jsonify({'message': 'Listing added successfully'}), 201
+
 
 
 # Route to get all the listings
 @app.route('/api/builders', methods=['GET'])
+@cross_origin()
 def list_builders():
-    database_uri = os.getenv('SQLALCHEMY_DATABASE_URI')
+    database_uri = SQLALCHEMY_DATABASE_URI
 
     # Create the SQLAlchemy engine
     engine = create_engine(database_uri)
 
     query = f"SELECT * FROM builders"
     df = pd.read_sql(query, engine)
-
-    # Convert the DataFrame to JSON
     json_result = df.to_json(orient='records')
-
     return jsonify(json.loads(json_result))
 
 
 
 #route to calculate transit score
 @app.route('/api/transit-score/<lat>/<lon>', methods=['GET'])
+@cross_origin()
 def transit_score(lat,lon):
     transit_score = fetchTransitScore(float(lat),float(lon))
-    return jsonify({'Address': '1412 Seymour Street, Halifax, NS, B3H0C7', 'score':transit_score}), 200
+    return jsonify({'score':transit_score}), 200
 
 #route to calculate bike score
 @app.route('/api/bike-score/<lat>/<lon>', methods=['GET'])
+@cross_origin()
 def bike_score(lat,lon):
     bike_score = fetchBikeScore(float(lat),float(lon))
-    return jsonify({'Address': '1412 Seymour Street, Halifax, NS, B3H0C7', 'score':bike_score}), 200
+    return jsonify({'score':bike_score}), 200
 
 #route to calculate transit score
 @app.route('/api/walk-score/<lat>/<lon>', methods=['GET'])
+@cross_origin()
 def walk_score(lat,lon):
     walk_score = fetchWalkScore(float(lat),float(lon))
-    return jsonify({'Address': '1412 Seymour Street, Halifax, NS, B3H0C7', 'score':walk_score}), 200
+    return jsonify({'score':walk_score}), 200
 
 
 #route to filter the upcoming projects
 @app.route('/api/upcoming-project/filter', methods=['POST'])
+@cross_origin()
 def upcoming_project_filter():
     # JSON to class
     filter_data = request.json
@@ -583,6 +562,7 @@ def upcoming_project_filter():
 
 #route to get the single upcoming project
 @app.route('/api/upcoming-project/<string:project_id>', methods=['GET'])
+@cross_origin()
 def upcoming_project_detail(project_id):
     selected_project = None
     for project in projects:
@@ -671,8 +651,9 @@ def assignCoordinates(street_address):
 
 def fetchMajorRegion(latitude, longitude):
     # Load the CSV file
-    file_path = 'MajorRegion.csv'
-    df = pd.read_csv(file_path)
+    # file_path = 'MajorRegion.csv'
+    df = read_csv_from_s3("mcda-hackathon-s3-bucket", "WebApp/MajorRegion.csv")
+    # df = pd.read_csv(file_path)
 
     # Convert the WKT column to Shapely geometries
     df['geometry'] = df['WKT'].apply(shapely.wkt.loads)
@@ -686,8 +667,10 @@ def fetchMajorRegion(latitude, longitude):
 
 def fetchMinorRegion(latitude, longitude):
     # Load the CSV file
-    file_path = 'MinorRegion.csv'
-    df = pd.read_csv(file_path)
+    # file_path = 'MinorRegion.csv'
+    # df = pd.read_csv(file_path)
+    df = read_csv_from_s3("mcda-hackathon-s3-bucket", "WebApp/MinorRegion.csv")
+    
 
     # Convert the WKT column to Shapely geometries
     df['geometry'] = df['WKT'].apply(shapely.wkt.loads)
@@ -700,8 +683,9 @@ def fetchMinorRegion(latitude, longitude):
     return 'Not in any region'
 
 def fetchCrimeScore(minor_region):
-    file_path = 'MinorRegion.csv'
-    df = pd.read_csv(file_path)
+    # file_path = 'MinorRegion.csv'
+    # df = pd.read_csv(file_path)
+    df = read_csv_from_s3("mcda-hackathon-s3-bucket", "WebApp/MinorRegion.csv")
     for index, row in df.iterrows():
         if (row['name'] == minor_region):
             return df.at[index,'crimeScoreLabel']
@@ -785,10 +769,11 @@ def fetchTransitScore(lat,lon):
     if transitScore > 99:
         transitScore = 99
 
-    return 96
+    return transitScore
 
 def fetchRetailGroceryScore(lat,lon):
-    nearby_df = pd.read_csv("nearbyPlaces.csv")
+    # nearby_df = pd.read_csv("nearbyPlaces.csv")
+    nearby_df = read_csv_from_s3("mcda-hackathon-s3-bucket", "WebApp/nearbyPlaces.csv")
     filtered_df = nearby_df[nearby_df['type'] == 'Grocery']
     lat_lon_df = pd.DataFrame(columns=['location', 'lat', 'lon'])
     for _, row in filtered_df.iterrows():
@@ -803,7 +788,8 @@ def fetchRetailGroceryScore(lat,lon):
     return mode_value
 
 def fetchRetailRecreationScore(lat,lon):
-    nearby_df = pd.read_csv("nearbyPlaces.csv")
+    # nearby_df = pd.read_csv("nearbyPlaces.csv")
+    nearby_df = read_csv_from_s3("mcda-hackathon-s3-bucket", "WebApp/nearbyPlaces.csv")
     filtered_df = nearby_df[nearby_df['type'] == 'Recreation']
     lat_lon_df = pd.DataFrame(columns=['location', 'lat', 'lon'])
     for _, row in filtered_df.iterrows():
@@ -818,7 +804,8 @@ def fetchRetailRecreationScore(lat,lon):
     return mode_value
 
 def fetchEducationCenterScore(lat,lon):
-    nearby_df = pd.read_csv("nearbyPlaces.csv")
+    # nearby_df = pd.read_csv("nearbyPlaces.csv")
+    nearby_df = read_csv_from_s3("mcda-hackathon-s3-bucket", "WebApp/nearbyPlaces.csv")
     filtered_df = nearby_df[nearby_df['type'] == 'EducationCenter']
     lat_lon_df = pd.DataFrame(columns=['location', 'lat', 'lon'])
     for _, row in filtered_df.iterrows():
@@ -833,7 +820,8 @@ def fetchEducationCenterScore(lat,lon):
     return mode_value
 
 def fetchEmergencyCenterScore(lat,lon):
-    nearby_df = pd.read_csv("nearbyPlaces.csv")
+    # nearby_df = pd.read_csv("nearbyPlaces.csv")
+    nearby_df = read_csv_from_s3("mcda-hackathon-s3-bucket", "WebApp/nearbyPlaces.csv")
     filtered_df = nearby_df[nearby_df['type'] == 'Emergency']
     lat_lon_df = pd.DataFrame(columns=['location', 'lat', 'lon'])
     for _, row in filtered_df.iterrows():
@@ -904,7 +892,8 @@ def calculateBikeTime(listingLatitude, listingLongitude, place_lat, place_lon):
     return None
 
 def fetchWalkScore(lat,lon):
-    nearby_df = pd.read_csv("nearbyPlaces.csv")
+    # nearby_df = pd.read_csv("nearbyPlaces.csv")
+    nearby_df = read_csv_from_s3("mcda-hackathon-s3-bucket", "WebApp/nearbyPlaces.csv")
     types_to_filter = ['Grocery', 'Recreation']
     filtered_df = nearby_df[nearby_df['type'].isin(types_to_filter)]
     lat_lon_df = pd.DataFrame(columns=['location', 'lat', 'lon'])
@@ -930,11 +919,12 @@ def fetchWalkScore(lat,lon):
         # Combine the scores, with more weight on the 25th percentile
         walk_score = (score_p25 * 0.75 + score_p75 * 0.25) / 2
 
-        return 98
+        return walk_score
     return 0  # Default score if data is empty
 
 def fetchBikeScore(lat,lon):
-    nearby_df = pd.read_csv("nearbyPlaces.csv")
+    # nearby_df = pd.read_csv("nearbyPlaces.csv")
+    nearby_df = read_csv_from_s3("mcda-hackathon-s3-bucket", "WebApp/nearbyPlaces.csv")
     types_to_filter = ['Grocery', 'Recreation']
     filtered_df = nearby_df[nearby_df['type'].isin(types_to_filter)]
     lat_lon_df = pd.DataFrame(columns=['location', 'lat', 'lon'])
@@ -960,7 +950,7 @@ def fetchBikeScore(lat,lon):
         # Combine the scores, with more weight on the 25th percentile
         bike_score = (score_p25 * 0.75 + score_p75 * 0.25) / 2
 
-        return 87
+        return bike_score
     return 0  # Default score if data is empty
 
 def processing_data(app,new_listing_id):
@@ -991,38 +981,6 @@ def processing_data(app,new_listing_id):
             except Exception as e:
                 db.session.rollback()  # Roll back in case of error
                 print(f"Error updating listing ID {new_listing_id}: {e}")
-
-@celery.task()
-def process_listing_async(listings):
-    with app.app_context():
-        # local_session = db.create_scoped_session()
-        for listing in listings:
-            # print(f"Doing something with the new listing ID: {new_listing_id}")
-
-            # Assign new values
-            lat, lon = assignCoordinates(listing.listingAddress)
-            listing.listingMajorRegion = str(fetchMajorRegion(lat, lon))
-            listing.listingMinorRegion = str(fetchMinorRegion(lat, lon))
-            listing.listingLatitude = str(lat)
-            listing.listingLongitude = str(lon)
-            listing.transitScore = str(fetchTransitScore(lat, lon))
-            listing.walkScore = str(fetchWalkScore(lat, lon))
-            listing.bikeScore = str(fetchBikeScore(lat, lon))
-            listing.crimeScore = str(fetchCrimeScore(listing.listingMinorRegion))
-            listing.retailGroceryScore = str(fetchRetailGroceryScore(lat, lon))
-            listing.retailRecreationScore = str(fetchRetailRecreationScore(lat, lon))
-            listing.educationCenterScore = str(fetchEducationCenterScore(lat, lon))
-            listing.emergencyCenterScore = str(fetchEmergencyCenterScore(lat, lon))
-
-        # try:
-        #     db.commit()
-        #     print(f"Listings updated successfully.")
-        # except Exception as e:
-        #     db.rollback()
-        #     print(f"Error processing listings: {e}")
-        
-
-
 
 
 

@@ -196,9 +196,9 @@ input::placeholder {
 
 .miniSidebar {
   position: fixed;
-  top: 190px;
+  top: 210px;
   bottom: 0;
-  padding-top: 1em;
+  /* padding-top: 1em; */
   width: 28%;
   height: 70vh;
 

@@ -14,7 +14,7 @@ export default function AutofillCheckoutDemo() {
   const [token, setToken] = useState("");
 
   useEffect(() => {
-    const accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
+    const accessToken = "pk.eyJ1Ijoia3JpdGlrYWtvaXJhbGEiLCJhIjoiY2x0enhmaWRmMDU1eTJrb21hYXliN3ZyOSJ9.QZJhgU5tMeANennF48VcpA";
     setToken(accessToken);
     config.accessToken = accessToken;
   }, []);
