@@ -78,8 +78,8 @@ if __name__ == '__main__':
     import boto3
     from io import StringIO
     session = boto3.Session(
-        aws_access_key_id='AKIAU6GD24KAGUDG56MR',
-        aws_secret_access_key='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'
+        aws_access_key_id='',
+        aws_secret_access_key=''
     )
 
     s3 = session.client('s3')
@@ -88,17 +88,17 @@ if __name__ == '__main__':
         data_frame.to_csv(csv_buffer, index=False)
         s3.put_object(Bucket=bucket_name, Key=file_name, Body=csv_buffer.getvalue())
 
-    bucket_name = 'mcda-hackathon-s3-bucket'
+    bucket_name = ''
     file_name_in_s3 = 'ScrapingInput/Hotspad/hotpads_data.csv'
     upload_file_to_s3(bucket_name, file_name_in_s3, df)
     print(f'File {file_name_in_s3} uploaded to {bucket_name}')
 
     if True:
         config = {
-            'user': 'admin',
-            'password': 'mcdaPassword',
-            'host': 'mcdahackathondb.cp0g6cm4mpmv.ca-central-1.rds.amazonaws.com',
-            'database': 'MCDAHackathon'
+            'user': '',
+            'password': '',
+            'host': '',
+            'database': ''
         }
 
 
