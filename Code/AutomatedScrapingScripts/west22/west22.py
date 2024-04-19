@@ -117,8 +117,8 @@ if __name__ == '__main__':
     import boto3
     from io import StringIO
     session = boto3.Session(
-        aws_access_key_id='AKIAU6GD24KAGUDG56MR',
-        aws_secret_access_key='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'
+        aws_access_key_id='',
+        aws_secret_access_key=''
     )
 
     s3 = session.client('s3')
@@ -134,10 +134,10 @@ if __name__ == '__main__':
 
 
     config = {
-        'user': 'admin',
-        'password': 'mcdaPassword',
-        'host': 'mcdahackathondb.cp0g6cm4mpmv.ca-central-1.rds.amazonaws.com',
-        'database': 'MCDAHackathon'
+        'user': '',
+        'password': '',
+        'host': '',
+        'database': ''
     }
 
 
