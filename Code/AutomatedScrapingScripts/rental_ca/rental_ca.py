@@ -113,10 +113,10 @@ if __name__ == '__main__':
 
 if True:
     config = {
-        'user': 'admin',
-        'password': 'mcdaPassword',
-        'host': 'mcdahackathondb.cp0g6cm4mpmv.ca-central-1.rds.amazonaws.com',
-        'database': 'MCDAHackathon'
+        'user': '',
+        'password': '',
+        'host': '',
+        'database': ''
     }
 
 
